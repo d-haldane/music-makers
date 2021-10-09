@@ -1734,17 +1734,6 @@ F 3 "" H 3800 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Adafruit-Music-Maker-MP3-Shield-eagle-import:ARDUINO_R3_ICSP U$41
-U 1 1 481D817E
-P 8800 9700
-F 0 "U$41" H 8800 9700 50  0001 C CNN
-F 1 "ARDUINO_R3_ICSP" H 8800 9700 50  0001 C CNN
-F 2 "Adafruit-Music-Maker-MP3-Shield:ARDUINOR3_ICSP" H 8800 9700 50  0001 C CNN
-F 3 "" H 8800 9700 50  0001 C CNN
-	1    8800 9700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Adafruit-Music-Maker-MP3-Shield-eagle-import:PINHD-1X8CLEANBIG JP4
 U 1 1 47274FB3
 P 10000 10200

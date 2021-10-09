@@ -1,0 +1,40 @@
+#use-added-syntax(jitx)
+defpackage Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldcrystal-32x25 :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern adafruit-music-maker-mp3-shieldcrystal-32x25-lp :
+  pad p[1] : smd-pad(1.4, 1.2) at loc(-1.1, -0.8, 0.0)
+  pad p[2] : smd-pad(1.4, 1.2) at loc(1.1, 0.8, 0.0)
+  pad GND1 : smd-pad(1.4, 1.2) at loc(-1.1, 0.8, 0.0)
+  pad GND2 : smd-pad(1.4, 1.2) at loc(1.1, -0.8, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(2.05, 1.65), Point(2.05, -1.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(-2.05, 1.65), Point(-2.05, -1.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(-2.05, -1.65), Point(2.05, -1.65) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(-2.05, 1.65), Point(2.05, 1.65) ])
+  ref-label()
+
+public pcb-component adafruit-music-maker-mp3-shieldcrystal-32x25 :
+  pin-properties :
+    [pin:Ref | pads:Ref ...]
+    [p1 | p[1]]
+    [p2 | p[2]]
+    [GND1 | GND1]
+    [GND2 | GND2]
+  
+  make-box-symbol()
+  assign-landpattern(adafruit-music-maker-mp3-shieldcrystal-32x25-lp)
+
+  name = "Adafruit-Music-Maker-MP3-ShieldCRYSTAL_32X25"
+  description = "3.2mm x 2.5mm Thin SMT Crystal"

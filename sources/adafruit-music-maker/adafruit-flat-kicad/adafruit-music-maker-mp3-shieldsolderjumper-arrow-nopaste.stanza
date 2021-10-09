@@ -1,0 +1,35 @@
+#use-added-syntax(jitx)
+defpackage Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldsolderjumper-arrow-nopaste :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern adafruit-music-maker-mp3-shieldsolderjumper-arrow-nopaste-lp :
+  pad p[1] : round-rect-smd-pad(0.762, 1.524, 0.09525) at loc(-1.016, -0.0, 0.0)
+  pad p[2] : round-rect-smd-pad(0.762, 1.524, 0.09525) at loc(1.016, -0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(-1.397, 1.016), Point(1.397, 1.016) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(-1.651, -0.762), Point(-1.651, 0.762) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(1.651, -0.762), Point(1.651, 0.762) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(1.397, -1.016), Point(-1.397, -1.016) ])
+  ref-label()
+
+public pcb-component adafruit-music-maker-mp3-shieldsolderjumper-arrow-nopaste :
+  pin-properties :
+    [pin:Ref | pads:Int ...]
+    [p1 | 1]
+    [p2 | 2]
+  
+  make-box-symbol()
+  assign-landpattern(adafruit-music-maker-mp3-shieldsolderjumper-arrow-nopaste-lp)
+
+  name = "Adafruit-Music-Maker-MP3-ShieldSOLDERJUMPER_ARROW_NOPASTE"

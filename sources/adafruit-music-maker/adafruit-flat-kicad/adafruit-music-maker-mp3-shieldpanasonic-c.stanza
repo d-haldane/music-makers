@@ -1,0 +1,40 @@
+#use-added-syntax(jitx)
+defpackage Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldpanasonic-c :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern adafruit-music-maker-mp3-shieldpanasonic-c-lp :
+  pad p+ : smd-pad(2.6, 1.4) at loc(2.05, -0.0, 0.0)
+  pad p- : smd-pad(2.6, 1.4) at loc(-2.05, -0.0, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(-2.6, -2.6), Point(-2.6, -0.95) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(1.25, -2.6), Point(-2.6, -2.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(2.6, -1.25), Point(1.25, -2.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(2.6, -0.95), Point(2.6, -1.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(2.6, 1.25), Point(2.6, 0.95) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(1.25, 2.6), Point(2.6, 1.25) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(-2.6, 2.6), Point(1.25, 2.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1016, [ Point(-2.6, 0.95), Point(-2.6, 2.6) ])
+  ref-label()
+
+public pcb-component adafruit-music-maker-mp3-shieldpanasonic-c :
+  pin-properties :
+    [pin:Ref | pads:Ref ...]
+    [p+ | p+]
+    [p- | p-]
+  
+  make-box-symbol()
+  assign-landpattern(adafruit-music-maker-mp3-shieldpanasonic-c-lp)
+
+  name = "Adafruit-Music-Maker-MP3-ShieldPANASONIC_C"
+  description = "<b>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C</b>"

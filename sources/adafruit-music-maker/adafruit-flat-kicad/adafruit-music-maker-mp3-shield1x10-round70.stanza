@@ -1,0 +1,48 @@
+#use-added-syntax(jitx)
+defpackage Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield1x10-round70 :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern adafruit-music-maker-mp3-shield1x10-round70-lp :
+  pad p[1] : rect-pth-pad(1.0, 1.778, 1.778) at loc(-11.43, -0.0, 90.0)
+  pad p[2] : pth-pad(0.5, 0.889) at loc(-8.89, -0.0, 90.0)
+  pad p[3] : pth-pad(0.5, 0.889) at loc(-6.35, -0.0, 90.0)
+  pad p[4] : pth-pad(0.5, 0.889) at loc(-3.81, -0.0, 90.0)
+  pad p[5] : pth-pad(0.5, 0.889) at loc(-1.27, -0.0, 90.0)
+  pad p[6] : pth-pad(0.5, 0.889) at loc(1.27, -0.0, 90.0)
+  pad p[7] : pth-pad(0.5, 0.889) at loc(3.81, -0.0, 90.0)
+  pad p[8] : pth-pad(0.5, 0.889) at loc(6.35, -0.0, 90.0)
+  pad p[9] : pth-pad(0.5, 0.889) at loc(8.89, -0.0, 90.0)
+  pad p[10] : pth-pad(0.5, 0.889) at loc(11.43, -0.0, 90.0)
+
+  
+  ref-label()
+
+public pcb-component adafruit-music-maker-mp3-shield1x10-round70 :
+  pin-properties :
+    [pin:Ref | pads:Int ...]
+    [p1 | 1]
+    [p2 | 2]
+    [p3 | 3]
+    [p4 | 4]
+    [p5 | 5]
+    [p6 | 6]
+    [p7 | 7]
+    [p8 | 8]
+    [p9 | 9]
+    [p10 | 10]
+  
+  make-box-symbol()
+  assign-landpattern(adafruit-music-maker-mp3-shield1x10-round70-lp)
+
+  name = "Adafruit-Music-Maker-MP3-Shield1X10_ROUND70"

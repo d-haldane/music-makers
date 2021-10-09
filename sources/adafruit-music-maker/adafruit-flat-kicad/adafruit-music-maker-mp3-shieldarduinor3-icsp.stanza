@@ -1,0 +1,104 @@
+#use-added-syntax(jitx)
+defpackage Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldarduinor3-icsp :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern adafruit-music-maker-mp3-shieldarduinor3-icsp-lp :
+  pad p3V : pth-pad(0.5, 0.8382) at loc(35.56, 2.54, 0.0)
+  pad p5V : pth-pad(0.5, 0.8382) at loc(38.1, 2.54, 0.0)
+  pad A0 : pth-pad(0.5, 0.8382) at loc(50.8, 2.54, 0.0)
+  pad A1 : pth-pad(0.5, 0.8382) at loc(53.34, 2.54, 0.0)
+  pad A2 : pth-pad(0.5, 0.8382) at loc(55.88, 2.54, 0.0)
+  pad A3 : pth-pad(0.5, 0.8382) at loc(58.42, 2.54, 0.0)
+  pad A4 : pth-pad(0.5, 0.8382) at loc(60.96, 2.54, 0.0)
+  pad A5 : pth-pad(0.5, 0.8382) at loc(63.5, 2.54, 0.0)
+  pad D0 : pth-pad(0.5, 0.8382) at loc(63.5, 50.8, 0.0)
+  pad D1 : pth-pad(0.5, 0.8382) at loc(60.96, 50.8, 0.0)
+  pad D2 : pth-pad(0.5, 0.8382) at loc(58.42, 50.8, 0.0)
+  pad D3 : pth-pad(0.5, 0.8382) at loc(55.88, 50.8, 0.0)
+  pad D4 : pth-pad(0.5, 0.8382) at loc(53.34, 50.8, 0.0)
+  pad D5 : pth-pad(0.5, 0.8382) at loc(50.8, 50.8, 0.0)
+  pad D6 : pth-pad(0.5, 0.8382) at loc(48.26, 50.8, 0.0)
+  pad D7 : pth-pad(0.5, 0.8382) at loc(45.72, 50.8, 0.0)
+  pad D8 : pth-pad(0.5, 0.8382) at loc(41.656, 50.8, 0.0)
+  pad D9 : pth-pad(0.5, 0.8382) at loc(39.116, 50.8, 0.0)
+  pad D10 : pth-pad(0.5, 0.8382) at loc(36.576, 50.8, 0.0)
+  pad D11 : pth-pad(0.5, 0.8382) at loc(34.036, 50.8, 0.0)
+  pad D12 : pth-pad(0.5, 0.8382) at loc(31.496, 50.8, 0.0)
+  pad D13 : pth-pad(0.5, 0.8382) at loc(28.956, 50.8, 0.0)
+  pad GND : pth-pad(0.5, 0.8382) at loc(26.416, 50.8, 0.0)
+  pad SCK : pth-pad(0.5, 0.889) at loc(63.627, 27.94, 0.0)
+  pad SCL : pth-pad(0.5, 0.8382) at loc(18.796, 50.8, 0.0)
+  pad SDA : pth-pad(0.5, 0.8382) at loc(21.336, 50.8, 0.0)
+  pad VIN : pth-pad(0.5, 0.8382) at loc(45.72, 2.54, 0.0)
+  pad AREF : pth-pad(0.5, 0.8382) at loc(23.876, 50.8, 0.0)
+  pad MISO : rect-pth-pad(1.0, 1.778, 1.778) at loc(63.627, 30.48, 0.0)
+  pad MOSI : pth-pad(0.5, 0.889) at loc(66.167, 27.94, 0.0)
+  pad GND@1 : pth-pad(0.5, 0.8382) at loc(43.18, 2.54, 0.0)
+  pad GND@2 : pth-pad(0.5, 0.8382) at loc(40.64, 2.54, 0.0)
+  pad GND@3 : pth-pad(0.5, 0.889) at loc(66.167, 25.4, 0.0)
+  pad IOREF : pth-pad(0.5, 0.8382) at loc(30.48, 2.54, 0.0)
+  pad RESET : pth-pad(0.5, 0.8382) at loc(33.02, 2.54, 0.0)
+  pad p5V_ICSP : pth-pad(0.5, 0.889) at loc(66.167, 30.48, 0.0)
+  pad RESERVED : pth-pad(0.5, 0.8382) at loc(27.94, 2.54, 0.0)
+  pad RESET_ICSP : pth-pad(0.5, 0.889) at loc(63.627, 25.4, 0.0)
+
+  
+  ref-label()
+
+public pcb-component adafruit-music-maker-mp3-shieldarduinor3-icsp :
+  pin-properties :
+    [pin:Ref | pads:Ref ...]
+    [A0 | A0]
+    [A1 | A1]
+    [A2 | A2]
+    [A3 | A3]
+    [A4 | A4]
+    [A5 | A5]
+    [D0 | D0]
+    [D1 | D1]
+    [D2 | D2]
+    [D3 | D3]
+    [D4 | D4]
+    [D5 | D5]
+    [D6 | D6]
+    [D7 | D7]
+    [D8 | D8]
+    [D9 | D9]
+    [D10 | D10]
+    [D11 | D11]
+    [D12 | D12]
+    [D13 | D13]
+    [GND | GND]
+    [SCK | SCK]
+    [SCL | SCL]
+    [SDA | SDA]
+    [VIN | VIN]
+    [p3V | p3V]
+    [p5V | p5V]
+    [AREF | AREF]
+    [MISO | MISO]
+    [MOSI | MOSI]
+    [GND@1 | GND@1]
+    [GND@2 | GND@2]
+    [GND@3 | GND@3]
+    [IOREF | IOREF]
+    [RESET | RESET]
+    [RESERVED | RESERVED]
+    [p5V_ICSP | p5V_ICSP]
+    [RESET_ICSP | RESET_ICSP]
+  
+  make-box-symbol()
+  assign-landpattern(adafruit-music-maker-mp3-shieldarduinor3-icsp-lp)
+
+  name = "Adafruit-Music-Maker-MP3-ShieldARDUINOR3_ICSP"

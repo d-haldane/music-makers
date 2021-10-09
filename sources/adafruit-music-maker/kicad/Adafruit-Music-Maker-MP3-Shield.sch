@@ -1,0 +1,2804 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 27480 11711
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3200 7300 4000 7300
+Wire Wire Line
+	4000 7300 4000 7200
+Wire Wire Line
+	4000 7300 4000 7500
+Connection ~ 4000 7300
+Text Label 3200 7300 0    10   ~ 0
+1.8V
+Wire Wire Line
+	9400 2200 9200 2200
+Wire Wire Line
+	9400 2400 9200 2400
+Wire Wire Line
+	9200 2400 9200 2200
+Connection ~ 9200 2200
+Text Label 9400 2200 0    10   ~ 0
+1.8V
+Wire Wire Line
+	9400 4200 8700 4200
+Text Label 9400 4200 0    10   ~ 0
+1.8V
+Wire Wire Line
+	11700 3600 12500 3600
+Text Label 11700 3600 0    10   ~ 0
+1.8V
+Wire Wire Line
+	3200 7400 3600 7400
+Wire Wire Line
+	3600 7400 3600 7200
+Wire Wire Line
+	3600 7400 3600 7500
+Connection ~ 3600 7400
+Text Label 3200 7400 0    10   ~ 0
+3.3V
+Wire Wire Line
+	9400 3200 8700 3200
+Wire Wire Line
+	9400 3700 8700 3700
+Wire Wire Line
+	8700 3700 8700 3200
+Connection ~ 8700 3200
+Text Label 9400 3200 0    10   ~ 0
+3.3V
+Wire Wire Line
+	9400 2300 8700 2300
+Text Label 9400 2300 0    10   ~ 0
+3.3V
+Wire Wire Line
+	1900 9400 2100 9400
+Text Label 1900 9400 0    10   ~ 0
+3.3V
+Wire Wire Line
+	11700 3500 12300 3500
+Text Label 11700 3500 0    10   ~ 0
+3.3V
+Wire Wire Line
+	14300 8100 13700 8100
+Wire Wire Line
+	13700 8100 13700 8200
+Connection ~ 13700 8100
+Text Label 14300 8100 0    10   ~ 0
+3.3V
+Wire Wire Line
+	5400 7600 5400 8400
+Text Label 5400 7600 0    10   ~ 0
+3.3V
+Wire Wire Line
+	5600 8200 5600 8400
+Text Label 5600 8200 0    10   ~ 0
+3.3V
+Wire Wire Line
+	5900 9400 5900 9300
+Text Label 5900 9400 0    10   ~ 0
+3.3V
+Wire Wire Line
+	14100 3200 14100 3100
+Wire Wire Line
+	14100 3100 14100 3000
+Wire Wire Line
+	14100 3000 14100 2900
+Wire Wire Line
+	14100 2900 14100 2800
+Wire Wire Line
+	14100 2800 14100 2700
+Wire Wire Line
+	14100 2700 14100 2600
+Wire Wire Line
+	14100 2600 14100 2200
+Connection ~ 14100 2600
+Connection ~ 14100 2700
+Connection ~ 14100 2800
+Connection ~ 14100 3000
+Connection ~ 14100 2900
+Connection ~ 14100 3100
+Text Label 14100 3200 0    10   ~ 0
+3.3V
+Wire Wire Line
+	5600 7000 5400 7000
+Text Label 5600 7000 0    10   ~ 0
+3.3V
+Wire Wire Line
+	5200 6400 5100 6400
+Text Label 5200 6400 0    10   ~ 0
+3.3V
+Wire Wire Line
+	3200 7500 3300 7500
+Wire Wire Line
+	3300 7500 3300 8000
+Text Label 3200 7500 0    10   ~ 0
+GND
+Wire Wire Line
+	9400 4000 8500 4000
+Wire Wire Line
+	8500 4000 8500 4300
+Wire Wire Line
+	9400 3900 8500 3900
+Wire Wire Line
+	8500 3900 8500 4000
+Wire Wire Line
+	9400 3800 8500 3800
+Wire Wire Line
+	8500 3800 8500 3900
+Wire Wire Line
+	9400 3400 8500 3400
+Wire Wire Line
+	8500 3400 8500 3800
+Connection ~ 8500 4000
+Connection ~ 8500 3900
+Connection ~ 8500 3800
+Text Label 9400 4000 0    10   ~ 0
+GND
+Wire Wire Line
+	9400 2100 8900 2100
+Text Label 9400 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	11700 3200 12700 3200
+Wire Wire Line
+	12700 3200 12700 3300
+Text Label 11700 3200 0    10   ~ 0
+GND
+Wire Wire Line
+	2800 9300 2800 9200
+Wire Wire Line
+	2800 9200 3000 9200
+Text Label 2800 9300 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 4500 7400 4600
+Text Label 7400 4500 0    10   ~ 0
+GND
+Wire Wire Line
+	7800 4500 7800 4600
+Text Label 7800 4500 0    10   ~ 0
+GND
+Wire Wire Line
+	4000 7800 4000 8000
+Text Label 4000 7800 0    10   ~ 0
+GND
+Wire Wire Line
+	3600 7800 3600 8000
+Text Label 3600 7800 0    10   ~ 0
+GND
+Wire Wire Line
+	13700 8500 13700 8600
+Text Label 13700 8500 0    10   ~ 0
+GND
+Wire Wire Line
+	14300 8500 14100 8500
+Wire Wire Line
+	14100 8500 14100 8600
+Wire Wire Line
+	14300 8400 14100 8400
+Wire Wire Line
+	14100 8400 14100 8500
+Wire Wire Line
+	14300 8200 14100 8200
+Wire Wire Line
+	14100 8200 14100 8400
+Connection ~ 14100 8500
+Connection ~ 14100 8400
+Text Label 14300 8500 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 7900 1900 8000
+Text Label 1900 7900 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 8900 5200 9000
+Text Label 5200 8900 0    10   ~ 0
+GND
+Wire Wire Line
+	15700 2100 15700 2300
+Wire Wire Line
+	15700 2300 15700 2500
+Wire Wire Line
+	15700 2500 15700 2700
+Wire Wire Line
+	15700 2700 15700 2900
+Wire Wire Line
+	15700 2900 15700 3100
+Wire Wire Line
+	15700 3100 15700 3300
+Wire Wire Line
+	15700 3300 15700 3500
+Wire Wire Line
+	15700 3500 15700 3600
+Wire Wire Line
+	15500 2100 15700 2100
+Wire Wire Line
+	15700 2300 15500 2300
+Wire Wire Line
+	15700 2500 15500 2500
+Wire Wire Line
+	15700 2700 15500 2700
+Wire Wire Line
+	15700 2900 15500 2900
+Wire Wire Line
+	15700 3100 15500 3100
+Wire Wire Line
+	15700 3300 15500 3300
+Wire Wire Line
+	15700 3500 15500 3500
+Connection ~ 15700 2300
+Connection ~ 15700 2500
+Connection ~ 15700 2700
+Connection ~ 15700 2900
+Connection ~ 15700 3100
+Connection ~ 15700 3300
+Connection ~ 15700 3500
+Text Label 15700 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	10200 10100 10200 9900
+Wire Wire Line
+	10200 10100 10200 10400
+Wire Wire Line
+	10100 10100 10100 9900
+Wire Wire Line
+	10100 10100 10200 10100
+Connection ~ 10200 10100
+Connection ~ 10100 10100
+Text Label 10200 10100 0    10   ~ 0
+GND
+Wire Wire Line
+	9400 7200 9400 7500
+Text Label 9400 7500 1    70   ~ 0
+GND
+Wire Wire Line
+	21900 8300 21600 8300
+Wire Wire Line
+	21600 8300 21600 8500
+Wire Wire Line
+	21900 8200 21600 8200
+Wire Wire Line
+	21600 8200 21600 8300
+Wire Wire Line
+	21900 7900 21600 7900
+Wire Wire Line
+	21600 7900 21600 8200
+Connection ~ 21600 8300
+Connection ~ 21600 8200
+Text Label 21900 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	19400 8400 19200 8400
+Wire Wire Line
+	19200 8400 19000 8400
+Wire Wire Line
+	19000 8400 19000 8500
+Wire Wire Line
+	19200 8400 19200 8500
+Connection ~ 19200 8400
+Text Label 19400 8400 0    10   ~ 0
+GND
+Wire Wire Line
+	19000 6600 19000 6700
+Text Label 19000 6600 0    10   ~ 0
+GND
+Wire Wire Line
+	8800 10200 8800 10300
+Connection ~ 8800 10300
+Text Label 8800 10200 0    10   ~ 0
+GND
+Wire Wire Line
+	2300 9400 2500 9400
+Text Label 2300 9400 0    10   ~ 0
+AVDD
+Wire Wire Line
+	11700 2100 12700 2100
+Wire Wire Line
+	12700 1800 12700 2100
+Wire Wire Line
+	11700 2300 12700 2300
+Wire Wire Line
+	12700 2100 12700 2300
+Wire Wire Line
+	11700 2800 12700 2800
+Wire Wire Line
+	12700 2300 12700 2800
+Connection ~ 12700 2100
+Connection ~ 12700 2300
+Text Label 11700 2100 0    10   ~ 0
+AVDD
+Wire Wire Line
+	3700 9200 3700 9300
+Text Label 3700 9200 0    10   ~ 0
+AVDD
+Wire Wire Line
+	3200 9200 3400 9200
+Wire Wire Line
+	3400 9200 3400 9300
+Text Label 3200 9200 0    10   ~ 0
+AGND
+Wire Wire Line
+	3700 9600 3700 9800
+Text Label 3700 9600 0    10   ~ 0
+AGND
+Wire Wire Line
+	11700 2900 12500 2900
+Wire Wire Line
+	12500 2900 12500 3000
+Wire Wire Line
+	11700 2600 12500 2600
+Wire Wire Line
+	12500 2600 12500 2900
+Wire Wire Line
+	11700 2500 12500 2500
+Wire Wire Line
+	12500 2500 12500 2600
+Wire Wire Line
+	11700 1900 12500 1900
+Wire Wire Line
+	12500 1900 12500 2200
+Wire Wire Line
+	12500 2200 12500 2500
+Wire Wire Line
+	12100 2200 12500 2200
+Connection ~ 12500 2900
+Connection ~ 12500 2600
+Connection ~ 12500 2500
+Connection ~ 12500 2200
+Text Label 11700 2900 0    10   ~ 0
+AGND
+Wire Wire Line
+	3000 4000 3000 4100
+Text Label 3000 4000 0    10   ~ 0
+AGND
+Wire Wire Line
+	2700 4000 2700 4100
+Text Label 2700 4000 0    10   ~ 0
+AGND
+Wire Wire Line
+	20600 6900 21400 6900
+Text Label 20600 6900 0    70   ~ 0
+AGND
+Wire Wire Line
+	21100 7400 20600 7400
+Text Label 20600 7400 0    70   ~ 0
+AGND
+Wire Wire Line
+	2800 4600 3400 4600
+Text Label 2800 4600 0    10   ~ 0
+AGND
+Wire Wire Line
+	7500 4000 7400 4000
+Wire Wire Line
+	7400 4000 7400 4200
+Wire Wire Line
+	9400 3500 7400 3500
+Wire Wire Line
+	7400 3500 7400 3700
+Wire Wire Line
+	7400 3700 7400 4000
+Connection ~ 7400 4000
+Connection ~ 7400 3700
+Wire Wire Line
+	7700 4000 7800 4000
+Wire Wire Line
+	7800 4000 7800 4200
+Wire Wire Line
+	9400 3600 7800 3600
+Wire Wire Line
+	7800 3600 7800 3700
+Wire Wire Line
+	7800 3700 7800 4000
+Connection ~ 7800 4000
+Connection ~ 7800 3700
+Wire Wire Line
+	14700 3100 15100 3100
+Wire Wire Line
+	14400 3000 14700 3100
+Text Label 14700 3100 0    70   ~ 0
+GPIO5
+Wire Wire Line
+	11700 4200 12200 4200
+Text Label 11800 4200 0    70   ~ 0
+GPIO5
+Wire Wire Line
+	11700 3400 12200 3400
+Text Label 11800 3400 0    70   ~ 0
+GPIO0
+Wire Wire Line
+	14700 2100 15100 2100
+Text Label 14700 2100 0    70   ~ 0
+GPIO0
+Wire Wire Line
+	14700 2300 15100 2300
+Wire Wire Line
+	14400 2600 14700 2300
+Text Label 14700 2300 0    70   ~ 0
+GPIO1
+Wire Wire Line
+	11700 3300 12200 3300
+Text Label 11800 3300 0    70   ~ 0
+GPIO1
+Wire Wire Line
+	14400 2900 15100 2900
+Text Label 14700 2900 0    70   ~ 0
+GPIO4
+Wire Wire Line
+	11700 3100 12200 3100
+Text Label 11800 3100 0    70   ~ 0
+GPIO4
+Wire Wire Line
+	15100 2500 14700 2500
+Wire Wire Line
+	14400 2700 14700 2500
+Text Label 14700 2500 0    70   ~ 0
+GPIO2
+Wire Wire Line
+	9400 2600 8900 2600
+Text Label 8900 2600 0    70   ~ 0
+GPIO2
+Wire Wire Line
+	15100 2700 14700 2700
+Wire Wire Line
+	14700 2700 14400 2800
+Text Label 14700 2700 0    70   ~ 0
+GPIO3
+Wire Wire Line
+	9400 2700 8900 2700
+Text Label 8900 2700 0    70   ~ 0
+GPIO3
+Wire Wire Line
+	15100 3300 14700 3300
+Wire Wire Line
+	14400 3100 14700 3300
+Text Label 14700 3300 0    70   ~ 0
+GPIO6
+Wire Wire Line
+	9400 2800 8900 2800
+Text Label 8900 2800 0    70   ~ 0
+GPIO6
+Wire Wire Line
+	15100 3500 14700 3500
+Wire Wire Line
+	14400 3200 14700 3500
+Text Label 14700 3500 0    70   ~ 0
+GPIO7
+Wire Wire Line
+	9400 2900 8900 2900
+Text Label 8900 2900 0    70   ~ 0
+GPIO7
+Wire Wire Line
+	11700 3700 12200 3700
+Text Label 11800 3700 0    70   ~ 0
+MISO
+Wire Wire Line
+	14300 7400 13600 7400
+Text Label 13600 7400 0    70   ~ 0
+MISO
+Wire Wire Line
+	11700 8000 11700 7800
+Text Label 11700 8000 0    70   ~ 0
+MISO
+Wire Wire Line
+	11700 3800 12200 3800
+Text Label 11800 3800 0    70   ~ 0
+MOSI_3V
+Wire Wire Line
+	7200 7600 8000 7600
+Text Label 7300 7600 0    70   ~ 0
+MOSI_3V
+Wire Wire Line
+	14300 7500 13600 7500
+Text Label 13600 7500 0    70   ~ 0
+MOSI_3V
+Wire Wire Line
+	11700 3900 12200 3900
+Text Label 11800 3900 0    70   ~ 0
+SCLK_3V
+Wire Wire Line
+	14300 7600 13600 7600
+Text Label 13600 7600 0    70   ~ 0
+SCLK_3V
+Wire Wire Line
+	7200 7400 7900 7400
+Text Label 7300 7400 0    70   ~ 0
+SCLK_3V
+Wire Wire Line
+	11700 4000 12200 4000
+Text Label 11800 4000 0    70   ~ 0
+TX
+Wire Wire Line
+	13400 4800 12500 4800
+Text Label 12600 4800 0    70   ~ 0
+TX
+Wire Wire Line
+	11700 4100 12200 4100
+Text Label 11800 4100 0    70   ~ 0
+RX
+Wire Wire Line
+	6100 9900 5900 9900
+Wire Wire Line
+	5900 9900 5600 9900
+Wire Wire Line
+	5900 9900 5900 9800
+Text Label 5600 9900 0    70   ~ 0
+RX
+Connection ~ 5900 9900
+Wire Wire Line
+	9400 4100 8900 4100
+Text Label 8900 4100 0    70   ~ 0
+CS_3V
+Wire Wire Line
+	7700 7000 7200 7000
+Text Label 7200 7000 0    70   ~ 0
+CS_3V
+Wire Wire Line
+	14400 1200 13800 1200
+Wire Wire Line
+	9400 1800 7400 1800
+Text Label 8900 1800 0    70   ~ 0
+MICP
+Text Label 13800 1200 0    70   ~ 0
+MICP
+Wire Wire Line
+	14400 1100 13800 1100
+Wire Wire Line
+	9400 1900 7800 1900
+Text Label 8900 1900 0    70   ~ 0
+MICN
+Text Label 13800 1100 0    70   ~ 0
+MICN
+Wire Wire Line
+	9400 2000 8300 2000
+Text Label 8900 2000 0    70   ~ 0
+RST_3V
+Wire Wire Line
+	7200 6800 8200 6800
+Text Label 7300 6800 0    70   ~ 0
+RST_3V
+Wire Wire Line
+	9400 2500 8900 2500
+Text Label 8900 2500 0    70   ~ 0
+DREQ
+Wire Wire Line
+	14400 5300 13800 5300
+Text Label 13800 5300 0    70   ~ 0
+DREQ
+Wire Wire Line
+	10600 6600 10600 6100
+Text Label 10600 6500 1    70   ~ 0
+DREQ
+Wire Wire Line
+	14300 7700 13600 7700
+Text Label 13600 7700 0    70   ~ 0
+SDCS_3V
+Wire Wire Line
+	7200 7800 7700 7800
+Text Label 7300 7800 0    70   ~ 0
+SDCS_3V
+Wire Wire Line
+	9400 3300 8900 3300
+Text Label 8900 3300 0    70   ~ 0
+CLKOUT
+Wire Wire Line
+	3100 3000 3000 3000
+Wire Wire Line
+	3000 3000 3000 3200
+Wire Wire Line
+	3000 3000 2000 3000
+Text Label 3000 3000 2    70   ~ 0
+LEFT
+Connection ~ 3000 3000
+Wire Wire Line
+	11700 2000 12200 2000
+Text Label 11800 2000 0    70   ~ 0
+LEFT
+Wire Wire Line
+	21100 7000 20600 7000
+Text Label 20600 7000 0    70   ~ 0
+LEFT
+Wire Wire Line
+	3100 2500 2700 2500
+Wire Wire Line
+	2700 2500 2700 3200
+Wire Wire Line
+	2700 2500 2000 2500
+Text Label 3000 2500 2    70   ~ 0
+RIGHT
+Connection ~ 2700 2500
+Wire Wire Line
+	11700 2700 12200 2700
+Text Label 11800 2700 0    70   ~ 0
+RIGHT
+Wire Wire Line
+	20600 7600 21400 7600
+Text Label 20600 7600 0    70   ~ 0
+RIGHT
+Wire Wire Line
+	3000 3600 3000 3700
+Wire Wire Line
+	2700 3600 2700 3700
+Wire Wire Line
+	3500 2500 3600 2500
+Wire Wire Line
+	3600 2500 3700 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3500 3000 3600 3000
+Wire Wire Line
+	3600 3000 3700 3000
+Connection ~ 3600 3000
+Wire Wire Line
+	6400 7600 5500 7600
+Text Label 5700 7600 0    70   ~ 0
+MOSI_5V
+Wire Wire Line
+	11700 9200 11700 9400
+Text Label 11700 9400 0    70   ~ 0
+MOSI_5V
+Wire Wire Line
+	6400 7000 6000 7000
+Text Label 6100 7000 0    70   ~ 0
+CS_5V
+Wire Wire Line
+	13400 5100 12500 5100
+Text Label 12600 5100 0    70   ~ 0
+CS_5V
+Wire Wire Line
+	10200 6600 10200 6100
+Text Label 10200 6500 1    70   ~ 0
+CS_5V
+Wire Wire Line
+	6400 7800 5600 7800
+Text Label 5700 7800 0    70   ~ 0
+SDCS_5V
+Wire Wire Line
+	14400 5200 13800 5200
+Text Label 13800 5200 0    70   ~ 0
+SDCS_5V
+Wire Wire Line
+	10500 6600 10500 6100
+Text Label 10500 6500 1    70   ~ 0
+SDCS_5V
+Wire Wire Line
+	14300 7000 13600 7000
+Text Label 13600 7000 0    70   ~ 0
+SD_DETECT
+Wire Wire Line
+	13400 5000 12500 5000
+Text Label 12600 5000 0    70   ~ 0
+SD_DETECT
+Wire Wire Line
+	9400 3100 8900 3100
+Text Label 8900 3100 0    70   ~ 0
+XDCS_3V
+Wire Wire Line
+	7200 7200 7800 7200
+Text Label 7300 7200 0    70   ~ 0
+XDCS_3V
+Wire Wire Line
+	6400 7200 5400 7200
+Text Label 5700 7200 0    70   ~ 0
+XDCS_5V
+Wire Wire Line
+	12500 5200 13400 5200
+Text Label 12600 5200 0    70   ~ 0
+XDCS_5V
+Wire Wire Line
+	10300 6600 10300 6100
+Text Label 10300 6500 1    70   ~ 0
+XDCS_5V
+Wire Wire Line
+	5200 8600 5200 6800
+Wire Wire Line
+	5100 8600 5200 8600
+Wire Wire Line
+	6400 6800 5200 6800
+Text Label 5200 7700 1    70   ~ 0
+RST_5V
+Connection ~ 5200 8600
+Connection ~ 5200 6800
+Text Label 5700 6800 0    70   ~ 0
+RST_5V
+Wire Wire Line
+	13400 4600 12500 4600
+Text Label 12600 4600 0    70   ~ 0
+RST_5V
+Wire Wire Line
+	6400 7400 5600 7400
+Text Label 5700 7400 0    70   ~ 0
+SCLK_5V
+Wire Wire Line
+	12200 8600 12500 8600
+Text Label 12350 8600 1    70   ~ 0
+SCLK_5V
+Wire Wire Line
+	6800 9900 6300 9900
+Text Label 6500 9900 0    70   ~ 0
+RX_5V
+Wire Wire Line
+	13400 4900 12500 4900
+Text Label 12600 4900 0    70   ~ 0
+RX_5V
+Wire Wire Line
+	4000 2500 4700 2500
+Text Label 4700 2500 2    70   ~ 0
+R_LINEOUT
+Wire Wire Line
+	2800 4800 3400 4800
+Wire Wire Line
+	2800 4700 3400 4700
+Wire Wire Line
+	3400 4800 3400 4700
+Text Label 2800 4800 0    70   ~ 0
+R_LINEOUT
+Wire Wire Line
+	4000 3000 4700 3000
+Text Label 4350 3000 2    70   ~ 0
+L_LINEOUT
+Wire Wire Line
+	2800 5000 3400 5000
+Wire Wire Line
+	2800 4900 3400 4900
+Wire Wire Line
+	3400 4900 3400 5000
+Text Label 2800 5000 0    70   ~ 0
+L_LINEOUT
+Wire Wire Line
+	11700 1800 12300 1800
+Wire Wire Line
+	12300 1800 12500 1800
+Wire Wire Line
+	13800 1300 14400 1300
+Wire Wire Line
+	12300 1700 12300 1800
+Text Label 11800 1800 0    70   ~ 0
+LINE2
+Text Label 13800 1300 0    70   ~ 0
+LINE2
+Connection ~ 12300 1800
+Wire Wire Line
+	10300 10100 10300 9900
+Wire Wire Line
+	9900 10100 9900 9900
+Wire Wire Line
+	9800 10100 9800 9900
+Wire Wire Line
+	9800 10100 9800 10400
+Wire Wire Line
+	9800 10400 9600 10400
+Wire Wire Line
+	9600 10400 9400 10200
+Wire Wire Line
+	9200 10200 9200 10300
+Wire Wire Line
+	9400 10200 9200 10200
+Text Label 9200 10300 1    70   ~ 0
+~RESET
+Connection ~ 9800 10100
+Connection ~ 9200 10200
+Wire Wire Line
+	4900 8600 4500 8600
+Text Label 4900 8600 2    70   ~ 0
+~RESET
+Wire Wire Line
+	9700 10100 9700 9900
+Wire Wire Line
+	9600 10100 9600 9900
+Wire Wire Line
+	9100 7200 9100 7500
+Wire Wire Line
+	9200 7200 9200 7500
+Wire Wire Line
+	9300 7200 9300 7500
+Wire Wire Line
+	10400 7200 10400 7500
+Wire Wire Line
+	10700 7200 10700 7500
+Wire Wire Line
+	10800 7200 10800 7500
+Wire Wire Line
+	10900 7200 10900 7500
+Wire Wire Line
+	11000 10100 11000 9900
+Wire Wire Line
+	10900 10100 10900 9900
+Wire Wire Line
+	10800 10100 10800 9900
+Wire Wire Line
+	10700 10100 10700 9900
+Wire Wire Line
+	10600 10100 10600 9900
+Wire Wire Line
+	10500 10100 10500 9900
+Wire Wire Line
+	2000 7300 1900 7300
+Wire Wire Line
+	1900 7300 1900 7200
+Wire Wire Line
+	2000 7400 1900 7400
+Wire Wire Line
+	1900 7400 1900 7300
+Wire Wire Line
+	2000 7500 1900 7500
+Wire Wire Line
+	1900 7500 1900 7400
+Wire Wire Line
+	1900 7500 1900 7600
+Connection ~ 1900 7300
+Connection ~ 1900 7400
+Connection ~ 1900 7500
+Text Label 2000 7300 0    10   ~ 0
++5V
+Wire Wire Line
+	10000 10100 10000 9900
+Wire Wire Line
+	10000 10100 10000 10300
+Connection ~ 10000 10100
+Text Label 10000 10100 0    10   ~ 0
++5V
+Wire Wire Line
+	21900 6500 21700 6500
+Wire Wire Line
+	21700 6500 21700 5600
+Wire Wire Line
+	21700 5600 21100 5600
+Wire Wire Line
+	21100 5600 20800 5600
+Wire Wire Line
+	21900 6600 21700 6600
+Wire Wire Line
+	21700 6600 21700 6500
+Connection ~ 21700 6500
+Connection ~ 20800 5600
+Connection ~ 21100 5600
+Text Label 21900 6500 0    10   ~ 0
++5V
+Wire Wire Line
+	25000 7400 25000 7300
+Text Label 25000 7400 0    10   ~ 0
++5V
+Wire Wire Line
+	19000 6200 19200 6200
+Wire Wire Line
+	19000 6200 19000 6300
+Connection ~ 19000 6200
+Text Label 19000 6200 0    10   ~ 0
++5V
+Wire Wire Line
+	25400 7300 25400 7400
+Text Label 25400 7300 0    10   ~ 0
++5V
+Wire Wire Line
+	25000 7900 25000 7800
+Wire Wire Line
+	23300 7900 25000 7900
+Text Label 23400 7900 0    70   ~ 0
+GAIN0
+Wire Wire Line
+	21900 7600 21900 7800
+Wire Wire Line
+	21900 7800 20400 7800
+Wire Wire Line
+	21900 7200 20400 7200
+Wire Wire Line
+	20400 7200 20400 7000
+Wire Wire Line
+	20400 7800 20400 7200
+Connection ~ 20400 7200
+Text Label 20600 7200 0    70   ~ 0
+SHUTDOWN
+Wire Wire Line
+	13400 4700 12500 4700
+Text Label 12600 4700 0    70   ~ 0
+SHUTDOWN
+Wire Wire Line
+	23300 7000 24000 7000
+Text Label 23400 7000 0    70   ~ 0
+OUT-L-N
+Wire Wire Line
+	23300 7100 24000 7100
+Text Label 23400 7100 0    70   ~ 0
+OUT-L-P
+Wire Wire Line
+	23300 7400 24000 7400
+Text Label 23400 7400 0    70   ~ 0
+OUT-R-N
+Wire Wire Line
+	23300 7500 24000 7500
+Text Label 23400 7500 0    70   ~ 0
+OUT-R-P
+Wire Wire Line
+	21400 7000 21400 7100
+Wire Wire Line
+	21400 7100 21900 7100
+Wire Wire Line
+	21900 7000 21700 7000
+Wire Wire Line
+	21700 7000 21700 6900
+Wire Wire Line
+	21400 7400 21900 7400
+Wire Wire Line
+	21700 7600 21700 7500
+Wire Wire Line
+	21700 7500 21900 7500
+Wire Wire Line
+	19400 6200 19800 6200
+Wire Wire Line
+	21900 6700 21600 6700
+Wire Wire Line
+	21600 6700 21600 6200
+Wire Wire Line
+	21600 6200 19800 6200
+Connection ~ 19800 6200
+Wire Wire Line
+	19600 8400 19800 8400
+Wire Wire Line
+	19800 8400 19800 8900
+Wire Wire Line
+	19200 8800 19200 8900
+Wire Wire Line
+	19200 8900 19800 8900
+Wire Wire Line
+	19800 8900 21800 8900
+Wire Wire Line
+	21900 8400 21800 8400
+Wire Wire Line
+	21800 8900 21800 8400
+Wire Wire Line
+	19800 6500 19800 8400
+Connection ~ 19800 8900
+Connection ~ 19800 8400
+Wire Wire Line
+	11200 8700 11600 8700
+Wire Wire Line
+	11600 8700 11700 8800
+Wire Wire Line
+	10800 8600 11800 8600
+Wire Wire Line
+	10800 8400 11700 8400
+Wire Wire Line
+	12500 9000 12500 9600
+Text Label 12500 9000 3    70   ~ 0
+D13
+Wire Wire Line
+	9500 7500 9500 7200
+Text Label 9500 7500 1    70   ~ 0
+D13
+Wire Wire Line
+	11700 9800 11700 10100
+Text Label 11700 9800 3    70   ~ 0
+D11
+Wire Wire Line
+	9700 7500 9700 7200
+Text Label 9700 7500 1    70   ~ 0
+D11
+Wire Wire Line
+	11700 7400 11700 7100
+Text Label 11700 7100 3    70   ~ 0
+D12
+Wire Wire Line
+	9600 7200 9600 7500
+Text Label 9600 7500 1    70   ~ 0
+D12
+Wire Wire Line
+	9800 7200 9800 7500
+Text Label 9800 7500 1    70   ~ 0
+D10
+Wire Wire Line
+	9900 7500 9900 7200
+Text Label 9900 7500 1    70   ~ 0
+D9
+Wire Wire Line
+	10000 7200 10000 7500
+Text Label 10000 7500 1    70   ~ 0
+D8
+Wire Wire Line
+	10200 7000 10200 7200
+Wire Wire Line
+	10200 7200 10200 7500
+Connection ~ 10200 7200
+Wire Wire Line
+	10300 7500 10300 7200
+Wire Wire Line
+	10300 7200 10300 7000
+Connection ~ 10300 7200
+Wire Wire Line
+	10600 7000 10600 7200
+Wire Wire Line
+	10600 7200 10600 7500
+Connection ~ 10600 7200
+Wire Wire Line
+	10500 7500 10500 7200
+Wire Wire Line
+	10500 7200 10500 7000
+Connection ~ 10500 7200
+Wire Wire Line
+	23300 8000 25400 8000
+Wire Wire Line
+	25400 8000 25400 7800
+Wire Wire Line
+	11800 2200 11700 2200
+Wire Wire Line
+	5000 3900 5000 3700
+Wire Wire Line
+	5000 3700 4200 3700
+Text Label 4300 3700 0    70   ~ 0
+GBUF
+Wire Wire Line
+	11700 2400 12400 2400
+Text Label 11800 2400 0    70   ~ 0
+GBUF
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FRAME_A3_ADAFRUIT #U$1
+U 1 1 BABD3B23
+P 1100 10800
+F 0 "#U$1" H 1100 10800 50  0001 C CNN
+F 1 "FRAME_A3_ADAFRUIT" H 1100 10800 50  0001 C CNN
+F 2 "" H 1100 10800 50  0001 C CNN
+F 3 "" H 1100 10800 50  0001 C CNN
+	1    1100 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:VS1053B U1
+U 1 1 285B198C
+P 10500 3000
+F 0 "U1" H 9500 4700 59  0000 L BNN
+F 1 "VS1053B" H 9500 1200 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:LQFP48" H 10500 3000 50  0001 C CNN
+F 3 "" H 10500 3000 50  0001 C CNN
+	1    10500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:VREG_SOT23-6_DUALAP7312 U2
+U 1 1 79DD4ECD
+P 2600 7400
+F 0 "U2" H 2200 7640 42  0000 L BNN
+F 1 "AP7312-1833W6-7" H 2200 7100 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOT23-6" H 2600 7400 50  0001 C CNN
+F 3 "" H 2600 7400 50  0001 C CNN
+	1    2600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:1.8V #U$02
+U 1 1 A8B04D1A
+P 4000 7100
+F 0 "#U$02" H 4000 7100 50  0001 C CNN
+F 1 "1.8V" H 3940 7140 42  0000 L BNN
+F 2 "" H 4000 7100 50  0001 C CNN
+F 3 "" H 4000 7100 50  0001 C CNN
+	1    4000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$03
+U 1 1 54307519
+P 3600 7100
+F 0 "#U$03" H 3600 7100 50  0001 C CNN
+F 1 "3.3V" H 3540 7140 42  0000 L BNN
+F 2 "" H 3600 7100 50  0001 C CNN
+F 3 "" H 3600 7100 50  0001 C CNN
+	1    3600 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$06
+U 1 1 371C5F19
+P 3300 8100
+F 0 "#U$06" H 3300 8100 50  0001 C CNN
+F 1 "GND" H 3240 8000 42  0000 L BNN
+F 2 "" H 3300 8100 50  0001 C CNN
+F 3 "" H 3300 8100 50  0001 C CNN
+	1    3300 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$08
+U 1 1 E90442EA
+P 8700 3100
+F 0 "#U$08" H 8700 3100 50  0001 C CNN
+F 1 "3.3V" H 8640 3140 42  0000 L BNN
+F 2 "" H 8700 3100 50  0001 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$010
+U 1 1 9B2F7804
+P 8700 2200
+F 0 "#U$010" H 8700 2200 50  0001 C CNN
+F 1 "3.3V" H 8640 2240 42  0000 L BNN
+F 2 "" H 8700 2200 50  0001 C CNN
+F 3 "" H 8700 2200 50  0001 C CNN
+	1    8700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:1.8V #U$011
+U 1 1 283E49E7
+P 9100 2200
+F 0 "#U$011" H 9100 2200 50  0001 C CNN
+F 1 "1.8V" H 9040 2240 42  0000 L BNN
+F 2 "" H 9100 2200 50  0001 C CNN
+F 3 "" H 9100 2200 50  0001 C CNN
+	1    9100 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:1.8V #U$012
+U 1 1 CB8F9854
+P 8700 4100
+F 0 "#U$012" H 8700 4100 50  0001 C CNN
+F 1 "1.8V" H 8640 4140 42  0000 L BNN
+F 2 "" H 8700 4100 50  0001 C CNN
+F 3 "" H 8700 4100 50  0001 C CNN
+	1    8700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:1.8V #U$013
+U 1 1 777B985C
+P 12500 3500
+F 0 "#U$013" H 12500 3500 50  0001 C CNN
+F 1 "1.8V" H 12440 3540 42  0000 L BNN
+F 2 "" H 12500 3500 50  0001 C CNN
+F 3 "" H 12500 3500 50  0001 C CNN
+	1    12500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$017
+U 1 1 48FA5267
+P 12500 3100
+F 0 "#U$017" H 12500 3100 50  0001 C CNN
+F 1 "AGND" H 12440 3000 42  0000 L BNN
+F 2 "" H 12500 3100 50  0001 C CNN
+F 3 "" H 12500 3100 50  0001 C CNN
+	1    12500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$09
+U 1 1 9B8BA149
+P 8500 4400
+F 0 "#U$09" H 8500 4400 50  0001 C CNN
+F 1 "GND" H 8440 4300 42  0000 L BNN
+F 2 "" H 8500 4400 50  0001 C CNN
+F 3 "" H 8500 4400 50  0001 C CNN
+	1    8500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$014
+U 1 1 491AF09A
+P 8900 2200
+F 0 "#U$014" H 8900 2200 50  0001 C CNN
+F 1 "GND" H 8840 2100 42  0000 L BNN
+F 2 "" H 8900 2200 50  0001 C CNN
+F 3 "" H 8900 2200 50  0001 C CNN
+	1    8900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$018
+U 1 1 205CF6AB
+P 12700 3400
+F 0 "#U$018" H 12700 3400 50  0001 C CNN
+F 1 "GND" H 12640 3300 42  0000 L BNN
+F 2 "" H 12700 3400 50  0001 C CNN
+F 3 "" H 12700 3400 50  0001 C CNN
+	1    12700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:MICROSD CN1
+U 1 1 0428BF97
+P 14900 7700
+F 0 "CN1" H 14400 8590 42  0000 L BNN
+F 1 "2908-05WB-M6" H 14400 8520 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:MICROSD" H 14900 7700 50  0001 C CNN
+F 3 "" H 14900 7700 50  0001 C CNN
+	1    14900 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FERRITE_0805MP FB1
+U 1 1 A88A9B46
+P 2200 9400
+F 0 "FB1" H 2150 9475 42  0000 L BNN
+F 1 "FERITTE" H 2150 9275 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 2200 9400 50  0001 C CNN
+F 3 "" H 2200 9400 50  0001 C CNN
+	1    2200 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AVDD #U$04
+U 1 1 84E86E02
+P 2500 9300
+F 0 "#U$04" H 2500 9300 50  0001 C CNN
+F 1 "AVDD" H 2440 9340 42  0000 L BNN
+F 2 "" H 2500 9300 50  0001 C CNN
+F 3 "" H 2500 9300 50  0001 C CNN
+	1    2500 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$019
+U 1 1 E246D3EE
+P 3400 9400
+F 0 "#U$019" H 3400 9400 50  0001 C CNN
+F 1 "AGND" H 3340 9300 42  0000 L BNN
+F 2 "" H 3400 9400 50  0001 C CNN
+F 3 "" H 3400 9400 50  0001 C CNN
+	1    3400 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$020
+U 1 1 F3FE4F2D
+P 2800 9400
+F 0 "#U$020" H 2800 9400 50  0001 C CNN
+F 1 "GND" H 2740 9300 42  0000 L BNN
+F 2 "" H 2800 9400 50  0001 C CNN
+F 3 "" H 2800 9400 50  0001 C CNN
+	1    2800 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FERRITE_0805MP FB2
+U 1 1 C48FA0E3
+P 3100 9200
+F 0 "FB2" H 3050 9275 42  0000 L BNN
+F 1 "FERITTE" H 3050 9075 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 3100 9200 50  0001 C CNN
+F 3 "" H 3100 9200 50  0001 C CNN
+	1    3100 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$024
+U 1 1 21CD9165
+P 1900 9300
+F 0 "#U$024" H 1900 9300 50  0001 C CNN
+F 1 "3.3V" H 1840 9340 42  0000 L BNN
+F 2 "" H 1900 9300 50  0001 C CNN
+F 3 "" H 1900 9300 50  0001 C CNN
+	1    1900 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CRYSTAL3.2X2.5 Y1
+U 1 1 6726B0DC
+P 7600 4000
+F 0 "Y1" H 7500 4100 42  0000 L BNN
+F 1 "ABM8G-12.288MHZ-4Y-T3" H 7500 3850 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:CRYSTAL_3.2X2.5" H 7600 4000 50  0001 C CNN
+F 3 "" H 7600 4000 50  0001 C CNN
+	1    7600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C4
+U 1 1 7AAD091F
+P 7800 4400
+F 0 "C4" V 7710 4449 50  0000 C CNN
+F 1 "15pF" V 7890 4449 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 7800 4400 50  0001 C CNN
+F 3 "" H 7800 4400 50  0001 C CNN
+	1    7800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C5
+U 1 1 ABF323BA
+P 7400 4400
+F 0 "C5" V 7310 4449 50  0000 C CNN
+F 1 "15pF" V 7490 4449 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 7400 4400 50  0001 C CNN
+F 3 "" H 7400 4400 50  0001 C CNN
+	1    7400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$021
+U 1 1 5EE50C33
+P 7800 4700
+F 0 "#U$021" H 7800 4700 50  0001 C CNN
+F 1 "GND" H 7740 4600 42  0000 L BNN
+F 2 "" H 7800 4700 50  0001 C CNN
+F 3 "" H 7800 4700 50  0001 C CNN
+	1    7800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$025
+U 1 1 6A38334C
+P 7400 4700
+F 0 "#U$025" H 7400 4700 50  0001 C CNN
+F 1 "GND" H 7340 4600 42  0000 L BNN
+F 2 "" H 7400 4700 50  0001 C CNN
+F 3 "" H 7400 4700 50  0001 C CNN
+	1    7400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R1
+U 1 1 64FD0967
+P 7600 3700
+F 0 "R1" H 7600 3800 50  0000 C CNN
+F 1 "1M" H 7600 3700 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 7600 3700 50  0001 C CNN
+F 3 "" H 7600 3700 50  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C6
+U 1 1 D44B93C6
+P 4000 7700
+F 0 "C6" V 3910 7749 50  0000 C CNN
+F 1 "10µF" V 4090 7749 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 4000 7700 50  0001 C CNN
+F 3 "" H 4000 7700 50  0001 C CNN
+	1    4000 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C7
+U 1 1 93CF8511
+P 3600 7700
+F 0 "C7" V 3510 7749 50  0000 C CNN
+F 1 "10µF" V 3690 7749 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 3600 7700 50  0001 C CNN
+F 3 "" H 3600 7700 50  0001 C CNN
+	1    3600 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$016
+U 1 1 41A0958E
+P 4000 8100
+F 0 "#U$016" H 4000 8100 50  0001 C CNN
+F 1 "GND" H 3940 8000 42  0000 L BNN
+F 2 "" H 4000 8100 50  0001 C CNN
+F 3 "" H 4000 8100 50  0001 C CNN
+	1    4000 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$026
+U 1 1 3C6A4320
+P 3600 8100
+F 0 "#U$026" H 3600 8100 50  0001 C CNN
+F 1 "GND" H 3540 8000 42  0000 L BNN
+F 2 "" H 3600 8100 50  0001 C CNN
+F 3 "" H 3600 8100 50  0001 C CNN
+	1    3600 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AVDD #U$015
+U 1 1 D0458224
+P 12700 1700
+F 0 "#U$015" H 12700 1700 50  0001 C CNN
+F 1 "AVDD" H 12640 1740 42  0000 L BNN
+F 2 "" H 12700 1700 50  0001 C CNN
+F 3 "" H 12700 1700 50  0001 C CNN
+	1    12700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC_0805MP C8
+U 1 1 D08B0EC4
+P 3700 9500
+F 0 "C8" V 3610 9549 50  0000 C CNN
+F 1 "0.1µF" V 3790 9549 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 3700 9500 50  0001 C CNN
+F 3 "" H 3700 9500 50  0001 C CNN
+	1    3700 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AVDD #U$027
+U 1 1 370DE473
+P 3700 9100
+F 0 "#U$027" H 3700 9100 50  0001 C CNN
+F 1 "AVDD" H 3640 9140 42  0000 L BNN
+F 2 "" H 3700 9100 50  0001 C CNN
+F 3 "" H 3700 9100 50  0001 C CNN
+	1    3700 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$028
+U 1 1 73AD1A2B
+P 3700 9900
+F 0 "#U$028" H 3700 9900 50  0001 C CNN
+F 1 "AGND" H 3640 9800 42  0000 L BNN
+F 2 "" H 3700 9900 50  0001 C CNN
+F 3 "" H 3700 9900 50  0001 C CNN
+	1    3700 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$029
+U 1 1 2E06033A
+P 12300 3400
+F 0 "#U$029" H 12300 3400 50  0001 C CNN
+F 1 "3.3V" H 12240 3440 42  0000 L BNN
+F 2 "" H 12300 3400 50  0001 C CNN
+F 3 "" H 12300 3400 50  0001 C CNN
+	1    12300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$033
+U 1 1 930AC143
+P 13700 8000
+F 0 "#U$033" H 13700 8000 50  0001 C CNN
+F 1 "3.3V" H 13640 8040 42  0000 L BNN
+F 2 "" H 13700 8000 50  0001 C CNN
+F 3 "" H 13700 8000 50  0001 C CNN
+	1    13700 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$034
+U 1 1 5ECB812F
+P 13700 8700
+F 0 "#U$034" H 13700 8700 50  0001 C CNN
+F 1 "GND" H 13640 8600 42  0000 L BNN
+F 2 "" H 13700 8700 50  0001 C CNN
+F 3 "" H 13700 8700 50  0001 C CNN
+	1    13700 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC_0805MP C19
+U 1 1 77A78F70
+P 13700 8400
+F 0 "C19" V 13610 8449 50  0000 C CNN
+F 1 "10µF" V 13790 8449 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 13700 8400 50  0001 C CNN
+F 3 "" H 13700 8400 50  0001 C CNN
+	1    13700 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$035
+U 1 1 B6DE689A
+P 14100 8700
+F 0 "#U$035" H 14100 8700 50  0001 C CNN
+F 1 "GND" H 14040 8600 42  0000 L BNN
+F 2 "" H 14100 8700 50  0001 C CNN
+F 3 "" H 14100 8700 50  0001 C CNN
+	1    14100 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C20
+U 1 1 37547D18
+P 1900 7800
+F 0 "C20" V 1810 7849 50  0000 C CNN
+F 1 "10µF" V 1990 7849 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 1900 7800 50  0001 C CNN
+F 3 "" H 1900 7800 50  0001 C CNN
+	1    1900 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$039
+U 1 1 29AB07D6
+P 1900 8100
+F 0 "#U$039" H 1900 8100 50  0001 C CNN
+F 1 "GND" H 1840 8000 42  0000 L BNN
+F 2 "" H 1900 8100 50  0001 C CNN
+F 3 "" H 1900 8100 50  0001 C CNN
+	1    1900 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$037
+U 1 1 3C951A8B
+P 6400 8100
+F 0 "#U$037" H 6400 8100 50  0001 C CNN
+F 1 "GND" H 6340 8000 42  0000 L BNN
+F 2 "" H 6400 8100 50  0001 C CNN
+F 3 "" H 6400 8100 50  0001 C CNN
+	1    6400 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R3
+U 1 1 03DCF3C3
+P 3000 3400
+F 0 "R3" H 3000 3500 50  0000 C CNN
+F 1 "22" H 3000 3400 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 3000 3400 50  0001 C CNN
+F 3 "" H 3000 3400 50  0001 C CNN
+	1    3000 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR_0805MP R4
+U 1 1 BD02F01A
+P 2700 3400
+F 0 "R4" H 2700 3500 50  0000 C CNN
+F 1 "22" H 2700 3400 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 2700 3400 50  0001 C CNN
+F 3 "" H 2700 3400 50  0001 C CNN
+	1    2700 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C21
+U 1 1 7AC953F0
+P 3000 3900
+F 0 "C21" V 2910 3949 50  0000 C CNN
+F 1 "0.01uF" V 3090 3949 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 3000 3900 50  0001 C CNN
+F 3 "" H 3000 3900 50  0001 C CNN
+	1    3000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC_0805MP C22
+U 1 1 15F11C68
+P 2700 3900
+F 0 "C22" V 2610 3949 50  0000 C CNN
+F 1 "0.01uF" V 2790 3949 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 2700 3900 50  0001 C CNN
+F 3 "" H 2700 3900 50  0001 C CNN
+	1    2700 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$038
+U 1 1 45192A07
+P 2700 4200
+F 0 "#U$038" H 2700 4200 50  0001 C CNN
+F 1 "AGND" H 2640 4100 42  0000 L BNN
+F 2 "" H 2700 4200 50  0001 C CNN
+F 3 "" H 2700 4200 50  0001 C CNN
+	1    2700 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$040
+U 1 1 D0DCE66E
+P 3000 4200
+F 0 "#U$040" H 3000 4200 50  0001 C CNN
+F 1 "AGND" H 2940 4100 42  0000 L BNN
+F 2 "" H 3000 4200 50  0001 C CNN
+F 3 "" H 3000 4200 50  0001 C CNN
+	1    3000 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$046
+U 1 1 2F9BBE74
+P 5200 9100
+F 0 "#U$046" H 5200 9100 50  0001 C CNN
+F 1 "GND" H 5140 9000 42  0000 L BNN
+F 2 "" H 5200 9100 50  0001 C CNN
+F 3 "" H 5200 9100 50  0001 C CNN
+	1    5200 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC_0805MP C26
+U 1 1 9995B2E2
+P 5200 8800
+F 0 "C26" V 5110 8849 50  0000 C CNN
+F 1 "0.1µF" V 5290 8849 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 5200 8800 50  0001 C CNN
+F 3 "" H 5200 8800 50  0001 C CNN
+	1    5200 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR_0805MP R6
+U 1 1 ACB3C639
+P 3300 2500
+F 0 "R6" H 3300 2600 50  0000 C CNN
+F 1 "100" H 3300 2500 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 3300 2500 50  0001 C CNN
+F 3 "" H 3300 2500 50  0001 C CNN
+	1    3300 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R7
+U 1 1 565508BC
+P 3300 3000
+F 0 "R7" H 3300 3100 50  0000 C CNN
+F 1 "100" H 3300 3000 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 3300 3000 50  0001 C CNN
+F 3 "" H 3300 3000 50  0001 C CNN
+	1    3300 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$049
+U 1 1 801A36ED
+P 15700 3700
+F 0 "#U$049" H 15700 3700 50  0001 C CNN
+F 1 "GND" H 15640 3600 42  0000 L BNN
+F 2 "" H 15700 3700 50  0001 C CNN
+F 3 "" H 15700 3700 50  0001 C CNN
+	1    15700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$022
+U 1 1 D872CB34
+P 5400 6900
+F 0 "#U$022" H 5400 6900 50  0001 C CNN
+F 1 "3.3V" H 5340 6940 42  0000 L BNN
+F 2 "" H 5400 6900 50  0001 C CNN
+F 3 "" H 5400 6900 50  0001 C CNN
+	1    5400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$023
+U 1 1 026FD684
+P 5400 8500
+F 0 "#U$023" H 5400 8500 50  0001 C CNN
+F 1 "3.3V" H 5340 8540 42  0000 L BNN
+F 2 "" H 5400 8500 50  0001 C CNN
+F 3 "" H 5400 8500 50  0001 C CNN
+	1    5400 8500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$054
+U 1 1 75B514E6
+P 5600 8500
+F 0 "#U$054" H 5600 8500 50  0001 C CNN
+F 1 "3.3V" H 5540 8540 42  0000 L BNN
+F 2 "" H 5600 8500 50  0001 C CNN
+F 3 "" H 5600 8500 50  0001 C CNN
+	1    5600 8500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:DIODESOD-323 D1
+U 1 1 8A755ED4
+P 6200 9900
+F 0 "D1" H 6200 10000 42  0000 C CNN
+F 1 "1N4148" H 6200 9802 42  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOD-323" H 6200 9900 50  0001 C CNN
+F 3 "" H 6200 9900 50  0001 C CNN
+	1    6200 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$056
+U 1 1 85CD0F6A
+P 5900 9200
+F 0 "#U$056" H 5900 9200 50  0001 C CNN
+F 1 "3.3V" H 5840 9240 42  0000 L BNN
+F 2 "" H 5900 9200 50  0001 C CNN
+F 3 "" H 5900 9200 50  0001 C CNN
+	1    5900 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR_0805MP R10
+U 1 1 FF346B35
+P 5900 9600
+F 0 "R10" H 5900 9700 50  0000 C CNN
+F 1 "10K" H 5900 9600 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 5900 9600 50  0001 C CNN
+F 3 "" H 5900 9600 50  0001 C CNN
+	1    5900 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CPOL-USC C1
+U 1 1 ECE6558E
+P 3800 2500
+F 0 "C1" H 3840 2525 59  0000 L BNN
+F 1 "220uF" H 3840 2335 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:PANASONIC_C" H 3800 2500 50  0001 C CNN
+F 3 "" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CPOL-USC C2
+U 1 1 A4636BAD
+P 3800 3000
+F 0 "C2" H 3840 3025 59  0000 L BNN
+F 1 "220uF" H 3840 2835 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:PANASONIC_C" H 3800 3000 50  0001 C CNN
+F 3 "" H 3800 3000 50  0001 C CNN
+	1    3800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:PINHD-1X8CLEANBIG JP4
+U 1 1 47274FB3
+P 10000 10200
+F 0 "JP4" H 9750 10625 59  0000 L BNN
+F 1 "PINHD-1X8CLEANBIG" H 9750 9600 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:1X08-CLEANBIG" H 10000 10200 50  0001 C CNN
+F 3 "" H 10000 10200 50  0001 C CNN
+	1    10000 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:HEADER-1X1070MIL JP6
+U 1 1 7F37E81D
+P 9500 7100
+F 0 "JP6" H 9250 7625 59  0000 L BNN
+F 1 "HEADER-1X1070MIL" H 9250 6400 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:1X10_ROUND70" H 9500 7100 50  0001 C CNN
+F 3 "" H 9500 7100 50  0001 C CNN
+	1    9500 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:PINHD-1X8CLEANBIG JP1
+U 1 1 2F430EF2
+P 10500 7100
+F 0 "JP1" H 10250 7525 59  0000 L BNN
+F 1 "PINHD-1X8CLEANBIG" H 10250 6500 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:1X08-CLEANBIG" H 10500 7100 50  0001 C CNN
+F 3 "" H 10500 7100 50  0001 C CNN
+	1    10500 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:PINHD-1X6CB JP8
+U 1 1 A6258458
+P 10700 10200
+F 0 "JP8" H 10450 10625 59  0000 L BNN
+F 1 "PINHD-1X6CB" H 10450 9800 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:1X06-CLEANBIG" H 10700 10200 50  0001 C CNN
+F 3 "" H 10700 10200 50  0001 C CNN
+	1    10700 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:+5V #SUPPLY01
+U 1 1 E46721A6
+P 1900 7100
+F 0 "#SUPPLY01" H 1900 7100 50  0001 C CNN
+F 1 "+5V" H 1825 7225 59  0000 L BNN
+F 2 "" H 1900 7100 50  0001 C CNN
+F 3 "" H 1900 7100 50  0001 C CNN
+	1    1900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:+5V #SUPPLY02
+U 1 1 33EFDB7C
+P 10000 10400
+F 0 "#SUPPLY02" H 10000 10400 50  0001 C CNN
+F 1 "+5V" H 9925 10525 59  0000 L BNN
+F 2 "" H 10000 10400 50  0001 C CNN
+F 3 "" H 10000 10400 50  0001 C CNN
+	1    10000 10400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$07
+U 1 1 BE1960E8
+P 10200 10500
+F 0 "#U$07" H 10200 10500 50  0001 C CNN
+F 1 "GND" H 10140 10400 42  0000 L BNN
+F 2 "" H 10200 10500 50  0001 C CNN
+F 3 "" H 10200 10500 50  0001 C CNN
+	1    10200 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:HEADER-2X7_ROUND_70MIL MP3GPIO1
+U 1 1 DD4FA43A
+P 14200 2900
+F 0 "MP3GPIO1" H 13950 3325 59  0000 L BNN
+F 1 "HEADER-2X7_ROUND_70MIL" H 13950 2400 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:2X07_ROUND_70MIL" H 14200 2900 50  0001 C CNN
+F 3 "" H 14200 2900 50  0001 C CNN
+	1    14200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$042
+U 1 1 35628252
+P 14100 2100
+F 0 "#U$042" H 14100 2100 50  0001 C CNN
+F 1 "3.3V" H 14040 2140 42  0000 L BNN
+F 2 "" H 14100 2100 50  0001 C CNN
+F 3 "" H 14100 2100 50  0001 C CNN
+	1    14100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AUDIOAMP_TPA2012D2 U4
+U 1 1 44B18D2D
+P 22600 7300
+F 0 "U4" H 22000 8600 42  0000 L BNN
+F 1 "TS2012" H 22000 5700 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:WQFN20" H 22600 7300 50  0001 C CNN
+F 3 "" H 22600 7300 50  0001 C CNN
+	1    22600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$052
+U 1 1 373CF13A
+P 21600 8600
+F 0 "#U$052" H 21600 8600 50  0001 C CNN
+F 1 "GND" H 21540 8500 42  0000 L BNN
+F 2 "" H 21600 8600 50  0001 C CNN
+F 3 "" H 21600 8600 50  0001 C CNN
+	1    21600 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FERRITE_0805MP FB3
+U 1 1 967347C9
+P 19300 6200
+F 0 "FB3" H 19250 6275 42  0000 L BNN
+F 1 "ferrite" H 19250 6075 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 19300 6200 50  0001 C CNN
+F 3 "" H 19300 6200 50  0001 C CNN
+	1    19300 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FERRITE_0805MP FB4
+U 1 1 72578BFC
+P 19500 8400
+F 0 "FB4" H 19450 8475 42  0000 L BNN
+F 1 "ferrite" H 19450 8275 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 19500 8400 50  0001 C CNN
+F 3 "" H 19500 8400 50  0001 C CNN
+	1    19500 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$053
+U 1 1 CBF1CD49
+P 19000 8600
+F 0 "#U$053" H 19000 8600 50  0001 C CNN
+F 1 "GND" H 18940 8500 42  0000 L BNN
+F 2 "" H 19000 8600 50  0001 C CNN
+F 3 "" H 19000 8600 50  0001 C CNN
+	1    19000 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 1 20C94E77
+P 20800 5800
+F 0 "C3" V 20710 5849 50  0000 C CNN
+F 1 "10µF" V 20890 5849 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 20800 5800 50  0001 C CNN
+F 3 "" H 20800 5800 50  0001 C CNN
+	1    20800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$061
+U 1 1 74FEC6B2
+P 20800 6000
+F 0 "#U$061" H 20800 6000 50  0001 C CNN
+F 1 "GND" H 20740 5900 42  0000 L BNN
+F 2 "" H 20800 6000 50  0001 C CNN
+F 3 "" H 20800 6000 50  0001 C CNN
+	1    20800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR_0805MP R12
+U 1 1 CDC7D98C
+P 20400 6800
+F 0 "R12" H 20400 6900 50  0000 C CNN
+F 1 "100K" H 20400 6800 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 20400 6800 50  0001 C CNN
+F 3 "" H 20400 6800 50  0001 C CNN
+	1    20400 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C9
+U 1 1 957C5D10
+P 19800 6400
+F 0 "C9" V 19710 6449 50  0000 C CNN
+F 1 "0.1µF" V 19890 6449 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 19800 6400 50  0001 C CNN
+F 3 "" H 19800 6400 50  0001 C CNN
+	1    19800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C10
+U 1 1 0D0FD81F
+P 19200 8700
+F 0 "C10" V 19110 8749 50  0000 C CNN
+F 1 "0.1µF" V 19290 8749 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 19200 8700 50  0001 C CNN
+F 3 "" H 19200 8700 50  0001 C CNN
+	1    19200 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C11
+U 1 1 EBF1078C
+P 19000 6500
+F 0 "C11" V 18910 6549 50  0000 C CNN
+F 1 "0.1µF" V 19090 6549 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 19000 6500 50  0001 C CNN
+F 3 "" H 19000 6500 50  0001 C CNN
+	1    19000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$067
+U 1 1 9F198081
+P 19000 6800
+F 0 "#U$067" H 19000 6800 50  0001 C CNN
+F 1 "GND" H 18940 6700 42  0000 L BNN
+F 2 "" H 19000 6800 50  0001 C CNN
+F 3 "" H 19000 6800 50  0001 C CNN
+	1    19000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:TERMBLOCK_1X2 LEFTSPK1
+U 1 1 F7B34B79
+P 24200 7100
+F 0 "LEFTSPK1" H 24100 7400 42  0000 L BNN
+F 1 "3.5mm Term" H 24100 6900 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:TERMBLOCK_1X2-3.5MM" H 24200 7100 50  0001 C CNN
+F 3 "" H 24200 7100 50  0001 C CNN
+	1    24200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:TERMBLOCK_1X2 RIGHTSPK1
+U 1 1 10C12AE1
+P 24200 7400
+F 0 "RIGHTSPK1" H 24100 7700 42  0000 L BNN
+F 1 "3.5mm Term" H 24100 7200 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:TERMBLOCK_1X2-3.5MM" H 24200 7400 50  0001 C CNN
+F 3 "" H 24200 7400 50  0001 C CNN
+	1    24200 7400
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C12
+U 1 1 6327F2A3
+P 21600 6900
+F 0 "C12" V 21510 6949 50  0000 C CNN
+F 1 "1µF" V 21690 6949 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 21600 6900 50  0001 C CNN
+F 3 "" H 21600 6900 50  0001 C CNN
+	1    21600 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C13
+U 1 1 ABF9EEB4
+P 21300 7000
+F 0 "C13" V 21210 7049 50  0000 C CNN
+F 1 "1µF" V 21390 7049 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 21300 7000 50  0001 C CNN
+F 3 "" H 21300 7000 50  0001 C CNN
+	1    21300 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C14
+U 1 1 4F2C2C58
+P 21600 7600
+F 0 "C14" V 21510 7649 50  0000 C CNN
+F 1 "1µF" V 21690 7649 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 21600 7600 50  0001 C CNN
+F 3 "" H 21600 7600 50  0001 C CNN
+	1    21600 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C15
+U 1 1 ACED4C1E
+P 21300 7400
+F 0 "C15" V 21210 7449 50  0000 C CNN
+F 1 "1µF" V 21390 7449 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 21300 7400 50  0001 C CNN
+F 3 "" H 21300 7400 50  0001 C CNN
+	1    21300 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:+5V #SUPPLY04
+U 1 1 6DF68C43
+P 20400 6500
+F 0 "#SUPPLY04" H 20400 6500 50  0001 C CNN
+F 1 "+5V" H 20325 6625 59  0000 L BNN
+F 2 "" H 20400 6500 50  0001 C CNN
+F 3 "" H 20400 6500 50  0001 C CNN
+	1    20400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:+5V #SUPPLY05
+U 1 1 FD320F9F
+P 20800 5500
+F 0 "#SUPPLY05" H 20800 5500 50  0001 C CNN
+F 1 "+5V" H 20725 5625 59  0000 L BNN
+F 2 "" H 20800 5500 50  0001 C CNN
+F 3 "" H 20800 5500 50  0001 C CNN
+	1    20800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:+5V #SUPPLY06
+U 1 1 C21E2EB3
+P 25000 7200
+F 0 "#SUPPLY06" H 25000 7200 50  0001 C CNN
+F 1 "+5V" H 24925 7325 59  0000 L BNN
+F 2 "" H 25000 7200 50  0001 C CNN
+F 3 "" H 25000 7200 50  0001 C CNN
+	1    25000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:+5V #SUPPLY07
+U 1 1 70B0FDB1
+P 19000 6100
+F 0 "#SUPPLY07" H 19000 6100 50  0001 C CNN
+F 1 "+5V" H 18925 6225 59  0000 L BNN
+F 2 "" H 19000 6100 50  0001 C CNN
+F 3 "" H 19000 6100 50  0001 C CNN
+	1    19000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AUDIO_3.5MMJACK X1
+U 1 1 00AA8098
+P 2500 4800
+F 0 "X1" H 2300 5100 42  0000 L BNN
+F 1 "19621" H 2300 4500 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:4UCONN_19269" H 2500 4800 50  0001 C CNN
+F 3 "" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$047
+U 1 1 57EA3968
+P 3500 4600
+F 0 "#U$047" H 3500 4600 50  0001 C CNN
+F 1 "AGND" H 3440 4500 42  0000 L BNN
+F 2 "" H 3500 4600 50  0001 C CNN
+F 3 "" H 3500 4600 50  0001 C CNN
+	1    3500 4600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:PINHD-1X3CB JP2
+U 1 1 FA93C76E
+P 14500 1200
+F 0 "JP2" H 14250 1425 59  0000 L BNN
+F 1 "PINHD-1X3CB" H 14250 900 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:1X03-CLEANBIG" H 14500 1200 50  0001 C CNN
+F 3 "" H 14500 1200 50  0001 C CNN
+	1    14500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERREFLOW_NOPASTE SJ2
+U 1 1 BAD2C17D
+P 11700 8200
+F 0 "SJ2" H 11600 8300 59  0000 L BNN
+F 1 "ICSP_MISO" H 11600 8050 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_REFLOW_NOPASTE" H 11700 8200 50  0001 C CNN
+F 3 "" H 11700 8200 50  0001 C CNN
+	1    11700 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERREFLOW_NOPASTE SJ3
+U 1 1 93ACD3B3
+P 12000 8600
+F 0 "SJ3" H 11900 8700 59  0000 L BNN
+F 1 "ISCP_SCLK" H 11900 8450 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_REFLOW_NOPASTE" H 12000 8600 50  0001 C CNN
+F 3 "" H 12000 8600 50  0001 C CNN
+	1    12000 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERREFLOW_NOPASTE SJ4
+U 1 1 508A3F32
+P 11700 9000
+F 0 "SJ4" H 11600 9100 59  0000 L BNN
+F 1 "ICSP_MOSI" H 11600 8850 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_REFLOW_NOPASTE" H 11700 9000 50  0001 C CNN
+F 3 "" H 11700 9000 50  0001 C CNN
+	1    11700 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$044
+U 1 1 D914EF6F
+P 11200 9000
+F 0 "#U$044" H 11200 9000 50  0001 C CNN
+F 1 "GND" H 11140 8900 42  0000 L BNN
+F 2 "" H 11200 9000 50  0001 C CNN
+F 3 "" H 11200 9000 50  0001 C CNN
+	1    11200 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERCLOSED SJ5
+U 1 1 7FABD447
+P 11700 7600
+F 0 "SJ5" H 11600 7700 59  0000 L BNN
+F 1 "D12_MISO" H 11600 7450 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_CLOSEDWIRE" H 11700 7600 50  0001 C CNN
+F 3 "" H 11700 7600 50  0001 C CNN
+	1    11700 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERCLOSED SJ6
+U 1 1 215B7E1F
+P 12500 8800
+F 0 "SJ6" H 12400 8900 59  0000 L BNN
+F 1 "D13_SCLK" H 12400 8650 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_CLOSEDWIRE" H 12500 8800 50  0001 C CNN
+F 3 "" H 12500 8800 50  0001 C CNN
+	1    12500 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERCLOSED SJ7
+U 1 1 A9CCD40D
+P 11700 9600
+F 0 "SJ7" H 11600 9700 59  0000 L BNN
+F 1 "D11_MOSI" H 11600 9450 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_CLOSEDWIRE" H 11700 9600 50  0001 C CNN
+F 3 "" H 11700 9600 50  0001 C CNN
+	1    11700 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C16
+U 1 1 C8289A19
+P 21100 5800
+F 0 "C16" V 21010 5849 50  0000 C CNN
+F 1 "10µF" V 21190 5849 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 21100 5800 50  0001 C CNN
+F 3 "" H 21100 5800 50  0001 C CNN
+	1    21100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$045
+U 1 1 DFC81F40
+P 21100 6000
+F 0 "#U$045" H 21100 6000 50  0001 C CNN
+F 1 "GND" H 21040 5900 42  0000 L BNN
+F 2 "" H 21100 6000 50  0001 C CNN
+F 3 "" H 21100 6000 50  0001 C CNN
+	1    21100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 1 42F611F0
+P 15300 2100
+F 0 "R2" H 15300 2200 50  0000 C CNN
+F 1 "100K" H 15300 2100 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 2100 50  0001 C CNN
+F 3 "" H 15300 2100 50  0001 C CNN
+	1    15300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R8
+U 1 1 829AA7FA
+P 15300 2300
+F 0 "R8" H 15300 2400 50  0000 C CNN
+F 1 "100K" H 15300 2300 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 2300 50  0001 C CNN
+F 3 "" H 15300 2300 50  0001 C CNN
+	1    15300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R13
+U 1 1 1DA9A3E0
+P 15300 2500
+F 0 "R13" H 15300 2600 50  0000 C CNN
+F 1 "100K" H 15300 2500 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 2500 50  0001 C CNN
+F 3 "" H 15300 2500 50  0001 C CNN
+	1    15300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R14
+U 1 1 E6E6EDA0
+P 15300 2700
+F 0 "R14" H 15300 2800 50  0000 C CNN
+F 1 "100K" H 15300 2700 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 2700 50  0001 C CNN
+F 3 "" H 15300 2700 50  0001 C CNN
+	1    15300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R15
+U 1 1 424E3AB1
+P 15300 2900
+F 0 "R15" H 15300 3000 50  0000 C CNN
+F 1 "100K" H 15300 2900 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 2900 50  0001 C CNN
+F 3 "" H 15300 2900 50  0001 C CNN
+	1    15300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R16
+U 1 1 16EF5ED2
+P 15300 3100
+F 0 "R16" H 15300 3200 50  0000 C CNN
+F 1 "100K" H 15300 3100 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 3100 50  0001 C CNN
+F 3 "" H 15300 3100 50  0001 C CNN
+	1    15300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R17
+U 1 1 18336C03
+P 15300 3300
+F 0 "R17" H 15300 3400 50  0000 C CNN
+F 1 "100K" H 15300 3300 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 3300 50  0001 C CNN
+F 3 "" H 15300 3300 50  0001 C CNN
+	1    15300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R18
+U 1 1 A94DD75E
+P 15300 3500
+F 0 "R18" H 15300 3600 50  0000 C CNN
+F 1 "100K" H 15300 3500 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 15300 3500 50  0001 C CNN
+F 3 "" H 15300 3500 50  0001 C CNN
+	1    15300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R19
+U 1 1 9C66D1E1
+P 5400 7400
+F 0 "R19" H 5400 7500 50  0000 C CNN
+F 1 "10K" H 5400 7400 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 5400 7400 50  0001 C CNN
+F 3 "" H 5400 7400 50  0001 C CNN
+	1    5400 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R20
+U 1 1 50DCEFAC
+P 5600 8000
+F 0 "R20" H 5600 8100 50  0000 C CNN
+F 1 "10K" H 5600 8000 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 5600 8000 50  0001 C CNN
+F 3 "" H 5600 8000 50  0001 C CNN
+	1    5600 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R21
+U 1 1 68E6282E
+P 5800 7000
+F 0 "R21" H 5800 7100 50  0000 C CNN
+F 1 "10K" H 5800 7000 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 5800 7000 50  0001 C CNN
+F 3 "" H 5800 7000 50  0001 C CNN
+	1    5800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR_0805MP R9
+U 1 1 A8D07F15
+P 5200 6600
+F 0 "R9" H 5200 6700 50  0000 C CNN
+F 1 "10K" H 5200 6600 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:_0805MP" H 5200 6600 50  0001 C CNN
+F 3 "" H 5200 6600 50  0001 C CNN
+	1    5200 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:74HC4050D U5
+U 1 1 83B80122
+P 6800 7300
+F 0 "U5" H 6500 8200 42  0000 L BNN
+F 1 "74HC4050D" H 6500 6400 42  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOIC16" H 6800 7300 50  0001 C CNN
+F 3 "" H 6800 7300 50  0001 C CNN
+	1    6800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$030
+U 1 1 AF68A1D8
+P 6400 6500
+F 0 "#U$030" H 6400 6500 50  0001 C CNN
+F 1 "3.3V" H 6340 6540 42  0000 L BNN
+F 2 "" H 6400 6500 50  0001 C CNN
+F 3 "" H 6400 6500 50  0001 C CNN
+	1    6400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:3.3V #U$05
+U 1 1 6A689A17
+P 5100 6300
+F 0 "#U$05" H 5100 6300 50  0001 C CNN
+F 1 "3.3V" H 5040 6340 42  0000 L BNN
+F 2 "" H 5100 6300 50  0001 C CNN
+F 3 "" H 5100 6300 50  0001 C CNN
+	1    5100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:DIODESOD-323 D2
+U 1 1 2726CE93
+P 5000 8600
+F 0 "D2" H 5000 8700 42  0000 C CNN
+F 1 "1N4148" H 5000 8502 42  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOD-323" H 5000 8600 50  0001 C CNN
+F 3 "" H 5000 8600 50  0001 C CNN
+	1    5000 8600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERCLOSED SJ8
+U 1 1 CD996D72
+P 10200 6800
+F 0 "SJ8" H 10100 6900 59  0000 L BNN
+F 1 "SOLDERJUMPERCLOSED" H 10100 6650 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_CLOSEDWIRE" H 10200 6800 50  0001 C CNN
+F 3 "" H 10200 6800 50  0001 C CNN
+	1    10200 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERCLOSED SJ9
+U 1 1 696A11AD
+P 10300 6800
+F 0 "SJ9" H 10200 6900 59  0000 L BNN
+F 1 "SOLDERJUMPERCLOSED" H 10200 6650 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_CLOSEDWIRE" H 10300 6800 50  0001 C CNN
+F 3 "" H 10300 6800 50  0001 C CNN
+	1    10300 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:HEADER-1X2ROUND JP3
+U 1 1 ACD8E5B6
+P 14500 5300
+F 0 "JP3" H 14250 5525 59  0000 L BNN
+F 1 "HEADER-1X2ROUND" H 14250 5100 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:1X02_ROUND" H 14500 5300 50  0001 C CNN
+F 3 "" H 14500 5300 50  0001 C CNN
+	1    14500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERCLOSED SJ10
+U 1 1 A2304E90
+P 10500 6800
+F 0 "SJ10" H 10400 6900 59  0000 L BNN
+F 1 "SOLDERJUMPERCLOSED" H 10400 6650 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_CLOSEDWIRE" H 10500 6800 50  0001 C CNN
+F 3 "" H 10500 6800 50  0001 C CNN
+	1    10500 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPERCLOSED SJ11
+U 1 1 B61B5109
+P 10600 6800
+F 0 "SJ11" H 10500 6900 59  0000 L BNN
+F 1 "SOLDERJUMPERCLOSED" H 10500 6650 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_CLOSEDWIRE" H 10600 6800 50  0001 C CNN
+F 3 "" H 10600 6800 50  0001 C CNN
+	1    10600 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FIDUCIAL"" FID1
+U 1 1 DB63CB8D
+P 15700 9800
+F 0 "FID1" H 15700 9800 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 15700 9800 50  0001 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:FIDUCIAL_1MM" H 15700 9800 50  0001 C CNN
+F 3 "" H 15700 9800 50  0001 C CNN
+	1    15700 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FIDUCIAL"" FID2
+U 1 1 E067070F
+P 15600 9700
+F 0 "FID2" H 15600 9700 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 15600 9700 50  0001 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:FIDUCIAL_1MM" H 15600 9700 50  0001 C CNN
+F 3 "" H 15600 9700 50  0001 C CNN
+	1    15600 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FIDUCIAL"" FID3
+U 1 1 4801E4DA
+P 15400 9500
+F 0 "FID3" H 15400 9500 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 15400 9500 50  0001 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:FIDUCIAL_1MM" H 15400 9500 50  0001 C CNN
+F 3 "" H 15400 9500 50  0001 C CNN
+	1    15400 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SPST_TACT-EVQQ2 SW2
+U 1 1 49939659
+P 9000 10200
+F 0 "SW2" V 8750 10100 59  0000 L BNN
+F 1 "SPST_TACT-EVQQ2" V 8850 10325 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:EVQ-Q2" H 9000 10200 50  0001 C CNN
+F 3 "" H 9000 10200 50  0001 C CNN
+	1    9000 10200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:GND #U$036
+U 1 1 42BBA38A
+P 8800 10400
+F 0 "#U$036" H 8800 10400 50  0001 C CNN
+F 1 "GND" H 8740 10300 42  0000 L BNN
+F 2 "" H 8800 10400 50  0001 C CNN
+F 3 "" H 8800 10400 50  0001 C CNN
+	1    8800 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPER SJ1
+U 1 1 1FA0912B
+P 25000 7600
+F 0 "SJ1" H 24900 7700 59  0000 L BNN
+F 1 "+6dB" H 24900 7450 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_ARROW_NOPASTE" H 25000 7600 50  0001 C CNN
+F 3 "" H 25000 7600 50  0001 C CNN
+	1    25000 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:SOLDERJUMPER SJ12
+U 1 1 F159A122
+P 25400 7600
+F 0 "SJ12" H 25300 7700 59  0000 L BNN
+F 1 "+12dB" H 25300 7450 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:SOLDERJUMPER_ARROW_NOPASTE" H 25400 7600 50  0001 C CNN
+F 3 "" H 25400 7600 50  0001 C CNN
+F 4 "EXCLUDE" H 25300 7450 59  0001 L BNN "BOM"
+	1    25400 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:+5V #SUPPLY03
+U 1 1 D5692080
+P 25400 7200
+F 0 "#SUPPLY03" H 25400 7200 50  0001 C CNN
+F 1 "+5V" H 25325 7325 59  0000 L BNN
+F 2 "" H 25400 7200 50  0001 C CNN
+F 3 "" H 25400 7200 50  0001 C CNN
+	1    25400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:HEADER-1X770MIL JP7
+U 1 1 600E0B9C
+P 13500 4900
+F 0 "JP7" H 13250 5325 59  0000 L BNN
+F 1 "HEADER-1X770MIL" H 13250 4400 59  0000 L BNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:1X07_ROUND_70" H 13500 4900 50  0001 C CNN
+F 3 "" H 13500 4900 50  0001 C CNN
+	1    13500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:FRAME_A4 #FRAME1
+U 1 1 73DA64CA
+P 16600 10800
+F 0 "#FRAME1" H 16600 10800 50  0001 C CNN
+F 1 "FRAME_A4" H 16600 10800 50  0001 C CNN
+F 2 "" H 16600 10800 50  0001 C CNN
+F 3 "" H 16600 10800 50  0001 C CNN
+	1    16600 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C17
+U 1 1 0930454B
+P 12000 2200
+F 0 "C17" V 11910 2249 50  0000 C CNN
+F 1 "1µF" V 12090 2249 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 12000 2200 50  0001 C CNN
+F 3 "" H 12000 2200 50  0001 C CNN
+	1    12000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:RESISTOR0805_NOOUTLINE R5
+U 1 1 9C90F31C
+P 5000 4100
+F 0 "R5" H 5000 4200 50  0000 C CNN
+F 1 "10" H 5000 4100 40  0000 C CNB
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 5000 4100 50  0001 C CNN
+F 3 "" H 5000 4100 50  0001 C CNN
+	1    5000 4100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C18
+U 1 1 6E14733A
+P 5000 4500
+F 0 "C18" V 4910 4549 50  0000 C CNN
+F 1 "0.047uF" V 5090 4549 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 5000 4500 50  0001 C CNN
+F 3 "" H 5000 4500 50  0001 C CNN
+	1    5000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$031
+U 1 1 F2AE8625
+P 5000 4700
+F 0 "#U$031" H 5000 4700 50  0001 C CNN
+F 1 "AGND" H 4940 4600 42  0000 L BNN
+F 2 "" H 5000 4700 50  0001 C CNN
+F 3 "" H 5000 4700 50  0001 C CNN
+	1    5000 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C23
+U 1 1 A27A081E
+P 7800 2100
+F 0 "C23" V 7710 2149 50  0000 C CNN
+F 1 "0.1uF" V 7890 2149 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 7800 2100 50  0001 C CNN
+F 3 "" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805_10MGAP C24
+U 1 1 15764D60
+P 7400 2000
+F 0 "C24" V 7310 2049 50  0000 C CNN
+F 1 "0.1uF" V 7490 2049 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805_10MGAP" H 7400 2000 50  0001 C CNN
+F 3 "" H 7400 2000 50  0001 C CNN
+	1    7400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C25
+U 1 1 CDF6E240
+P 12300 1500
+F 0 "C25" V 12210 1549 50  0000 C CNN
+F 1 "0.1uF" V 12390 1549 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 12300 1500 50  0001 C CNN
+F 3 "" H 12300 1500 50  0001 C CNN
+	1    12300 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$048
+U 1 1 156076E6
+P 12300 1300
+F 0 "#U$048" H 12300 1300 50  0001 C CNN
+F 1 "AGND" H 12240 1200 42  0000 L BNN
+F 2 "" H 12300 1300 50  0001 C CNN
+F 3 "" H 12300 1300 50  0001 C CNN
+	1    12300 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$032
+U 1 1 708AA1F2
+P 7400 2200
+F 0 "#U$032" H 7400 2200 50  0001 C CNN
+F 1 "AGND" H 7340 2100 42  0000 L BNN
+F 2 "" H 7400 2200 50  0001 C CNN
+F 3 "" H 7400 2200 50  0001 C CNN
+	1    7400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$043
+U 1 1 A1A7B7FC
+P 7800 2300
+F 0 "#U$043" H 7800 2300 50  0001 C CNN
+F 1 "AGND" H 7740 2200 42  0000 L BNN
+F 2 "" H 7800 2300 50  0001 C CNN
+F 3 "" H 7800 2300 50  0001 C CNN
+	1    7800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C27
+U 1 1 5ADB0259
+P 3600 3200
+F 0 "C27" V 3510 3249 50  0000 C CNN
+F 1 "0.01uF" V 3690 3249 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 3600 3200 50  0001 C CNN
+F 3 "" H 3600 3200 50  0001 C CNN
+	1    3600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:CAP_CERAMIC0805-NOOUTLINE C28
+U 1 1 69C9BC1F
+P 3600 2700
+F 0 "C28" V 3510 2749 50  0000 C CNN
+F 1 "0.01uF" V 3690 2749 50  0000 C CNN
+F 2 "Adafruit-Music-Maker-MP3-Shield:0805-NO" H 3600 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0001 C CNN
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$051
+U 1 1 93DB9765
+P 3600 2900
+F 0 "#U$051" H 3600 2900 50  0001 C CNN
+F 1 "AGND" H 3540 2800 42  0000 L BNN
+F 2 "" H 3600 2900 50  0001 C CNN
+F 3 "" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:AGND #U$055
+U 1 1 D1561649
+P 3600 3400
+F 0 "#U$055" H 3600 3400 50  0001 C CNN
+F 1 "AGND" H 3540 3300 42  0000 L BNN
+F 2 "" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	-1   0    0    -1  
+$EndComp
+Text Notes 2400 8600 0    59   ~ 0
+Analog Supply Filtering
+Text Notes 6900 5000 0    59   ~ 0
+C4,C5 = 2*CL - 2*Cstray
+Text Notes 6900 5100 0    59   ~ 0
+C4,C5 = 2*10pF - 2*5pF
+Text Notes 6900 5200 0    59   ~ 0
+C4,C5 = 10pF
+Text Notes 6900 5500 0    59   ~ 0
+VS1053 oscillator requires
+Text Notes 6900 5600 0    59   ~ 0
+1M resistor for DC  bias
+Text Notes 12300 4100 0    59   ~ 0
+Set RX to IOVDD if not used
+Text Notes 6800 2800 0    59   ~ 0
+DREQ high = at least 32 bytes
+Text Notes 2300 6600 0    59   ~ 0
+Power Supply/Decoupling
+Wire Notes Line
+	4500 6000 4500 10600
+Text Notes 6700 1200 0    59   ~ 0
+transients during power up which can
+Text Notes 6700 1300 0    59   ~ 0
+damage the earphones and causes
+Text Notes 6700 1400 0    59   ~ 0
+'clicks' ... this setup should minimize
+Text Notes 6700 1500 0    59   ~ 0
+that.  See section 8 of
+Text Notes 6700 1600 0    59   ~ 0
+http://www.vlsi.fi/uploads/media/vs10XXan.pdf
+Text Notes 6700 1100 0    59   ~ 0
+Enabling the IC too soon can cause
+Text Notes 7600 2900 0    59   ~ 0
+free in FIFO
+Wire Notes Line
+	12800 6000 12800 9400
+Wire Notes Line
+	5700 700  5700 6000
+Text Notes 14100 1900 0    59   ~ 0
+Disable SPI boot with GPIO0 low
+Text Notes 3400 1700 0    59   ~ 0
+1 / (2*π*f*Xc)
+Text Notes 1600 1900 0    59   ~ 0
+16 ohm load at 20Hz cuttoff
+Text Notes 3400 1900 0    59   ~ 0
+1 / (6.2832*20hz*16)
+Text Notes 2600 1700 0    59   ~ 0
+C1, C2 = 
+Text Notes 3400 2000 0    59   ~ 0
+= 497µF
+Text Notes 1600 2100 0    59   ~ 0
+32 ohm load at 20Hz cuttoff
+Text Notes 3400 2100 0    59   ~ 0
+1 / (6.2832*20hz*32)
+Text Notes 3400 2200 0    59   ~ 0
+= 249µF
+Text Notes 2200 2300 0    42   ~ 0
+Caps: UKA0J471MPD1TD
+Text Notes 23600 8700 0    59   ~ 0
+GAIN1 and GAIN0 have\nbuilt-in pull down resistors.\nVS1053 out is 2Vpp so 2V/V\ngain keeps it under 4.5V for\nlow distortion.
+Text Notes 18000 5300 0    59   ~ 0
+Place C1 as close as possible to PVDD.
+Text Notes 18000 5500 0    59   ~ 0
+Any resistance or inductance in the trace 
+Text Notes 18000 5600 0    59   ~ 0
+between the device and the capacitor can
+Text Notes 18000 5700 0    59   ~ 0
+cause a loss in efficiency
+Text Notes 23800 6200 0    59   ~ 0
+Using speakers more resistive than 4-Ω
+Text Notes 23800 6300 0    59   ~ 0
+dramatically increases the thermal performance
+Text Notes 23800 6400 0    59   ~ 0
+by reducing the output current and increasing
+Text Notes 23800 6500 0    59   ~ 0
+the efficiency of the amplifier.
+Text Notes 23800 6000 0    59   ~ 0
+Note on speaker choice (4/8/16/32 ohm, etc.):
+Text Notes 18000 7100 0    59   ~ 0
+The audio input pins (INR+/-
+Text Notes 18000 7200 0    59   ~ 0
+and INL+/-) must run
+Text Notes 18000 7300 0    59   ~ 0
+side-by-side to maximize
+Text Notes 18000 7400 0    59   ~ 0
+common-mode noise cancellation.
+Wire Notes Line
+	1300 6000 16200 6000
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:ARDUINO_R3_ICSP SYM?
+U 1 1 617F0C29
+P 8800 9700
+F 0 "SYM?" H 8800 9700 50  0001 C CNN
+F 1 "ARDUINO_R3_ICSP" H 8800 9700 50  0001 C CNN
+F 2 "" H 8800 9700 50  0001 C CNN
+F 3 "" H 8800 9700 50  0001 C CNN
+	1    8800 9700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

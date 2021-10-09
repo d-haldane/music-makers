@@ -1,0 +1,321 @@
+#use-added-syntax(jitx)
+defpackage Adafruit-Music-Maker-MP3-Shield :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield1x03-cleanbig
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldevq-q2
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldsot23-6
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield2x07-round-70mil
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldwqfn20
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldtermblock-1x2-35mm
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield1x10-round70
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield1x08-cleanbig
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldcrystal-32x25
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldfiducial-1mm
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldmicrosd
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield-0805mp
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield1x02-round
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldpanasonic-c
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield1x06-cleanbig
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldarduinor3-icsp
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldlqfp48
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldsoic16
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldsolderjumper-reflow-nopaste
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldsod-323
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield1x07-round-70
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield0805-10mgap
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shieldsolderjumper-arrow-nopaste
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield0805-no
+  import Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield4uconn-19269
+
+pcb-module Adafruit-Music-Maker-MP3-Shield :
+  inst C1 : adafruit-music-maker-mp3-shieldpanasonic-c
+  inst C10 : adafruit-music-maker-mp3-shield0805-no
+  inst C11 : adafruit-music-maker-mp3-shield0805-no
+  inst C12 : adafruit-music-maker-mp3-shield0805-no
+  inst C13 : adafruit-music-maker-mp3-shield0805-no
+  inst C14 : adafruit-music-maker-mp3-shield0805-no
+  inst C15 : adafruit-music-maker-mp3-shield0805-no
+  inst C16 : adafruit-music-maker-mp3-shield0805-no
+  inst C17 : adafruit-music-maker-mp3-shield0805-no
+  inst C18 : adafruit-music-maker-mp3-shield0805-no
+  inst C19 : adafruit-music-maker-mp3-shield-0805mp
+  inst C2 : adafruit-music-maker-mp3-shieldpanasonic-c
+  inst C20 : adafruit-music-maker-mp3-shield0805-no
+  inst C21 : adafruit-music-maker-mp3-shield0805-no
+  inst C22 : adafruit-music-maker-mp3-shield-0805mp
+  inst C23 : adafruit-music-maker-mp3-shield0805-no
+  inst C24 : adafruit-music-maker-mp3-shield0805-10mgap
+  inst C25 : adafruit-music-maker-mp3-shield0805-no
+  inst C26 : adafruit-music-maker-mp3-shield-0805mp
+  inst C27 : adafruit-music-maker-mp3-shield0805-no
+  inst C28 : adafruit-music-maker-mp3-shield0805-no
+  inst C3 : adafruit-music-maker-mp3-shield0805-no
+  inst C4 : adafruit-music-maker-mp3-shield0805-no
+  inst C5 : adafruit-music-maker-mp3-shield0805-no
+  inst C6 : adafruit-music-maker-mp3-shield0805-no
+  inst C7 : adafruit-music-maker-mp3-shield0805-no
+  inst C8 : adafruit-music-maker-mp3-shield-0805mp
+  inst C9 : adafruit-music-maker-mp3-shield0805-no
+  inst CN1 : adafruit-music-maker-mp3-shieldmicrosd
+  inst D1 : adafruit-music-maker-mp3-shieldsod-323
+  inst D2 : adafruit-music-maker-mp3-shieldsod-323
+  inst FB1 : adafruit-music-maker-mp3-shield-0805mp
+  inst FB2 : adafruit-music-maker-mp3-shield-0805mp
+  inst FB3 : adafruit-music-maker-mp3-shield-0805mp
+  inst FB4 : adafruit-music-maker-mp3-shield-0805mp
+  inst FID1 : adafruit-music-maker-mp3-shieldfiducial-1mm
+  inst FID2 : adafruit-music-maker-mp3-shieldfiducial-1mm
+  inst FID3 : adafruit-music-maker-mp3-shieldfiducial-1mm
+  inst JP1 : adafruit-music-maker-mp3-shield1x08-cleanbig
+  inst JP2 : adafruit-music-maker-mp3-shield1x03-cleanbig
+  inst JP3 : adafruit-music-maker-mp3-shield1x02-round
+  inst JP4 : adafruit-music-maker-mp3-shield1x08-cleanbig
+  inst JP6 : adafruit-music-maker-mp3-shield1x10-round70
+  inst JP7 : adafruit-music-maker-mp3-shield1x07-round-70
+  inst JP8 : adafruit-music-maker-mp3-shield1x06-cleanbig
+  inst LEFTSPK1 : adafruit-music-maker-mp3-shieldtermblock-1x2-35mm
+  inst MP3GPIO1 : adafruit-music-maker-mp3-shield2x07-round-70mil
+  inst R1 : adafruit-music-maker-mp3-shield0805-no
+  inst R10 : adafruit-music-maker-mp3-shield-0805mp
+  inst R12 : adafruit-music-maker-mp3-shield-0805mp
+  inst R13 : adafruit-music-maker-mp3-shield0805-no
+  inst R14 : adafruit-music-maker-mp3-shield0805-no
+  inst R15 : adafruit-music-maker-mp3-shield0805-no
+  inst R16 : adafruit-music-maker-mp3-shield0805-no
+  inst R17 : adafruit-music-maker-mp3-shield0805-no
+  inst R18 : adafruit-music-maker-mp3-shield0805-no
+  inst R19 : adafruit-music-maker-mp3-shield0805-no
+  inst R2 : adafruit-music-maker-mp3-shield0805-no
+  inst R20 : adafruit-music-maker-mp3-shield0805-no
+  inst R21 : adafruit-music-maker-mp3-shield0805-no
+  inst R3 : adafruit-music-maker-mp3-shield0805-no
+  inst R4 : adafruit-music-maker-mp3-shield-0805mp
+  inst R5 : adafruit-music-maker-mp3-shield0805-no
+  inst R6 : adafruit-music-maker-mp3-shield-0805mp
+  inst R7 : adafruit-music-maker-mp3-shield0805-no
+  inst R8 : adafruit-music-maker-mp3-shield0805-no
+  inst R9 : adafruit-music-maker-mp3-shield-0805mp
+  inst RIGHTSPK1 : adafruit-music-maker-mp3-shieldtermblock-1x2-35mm
+  inst SJ1 : adafruit-music-maker-mp3-shieldsolderjumper-arrow-nopaste
+  inst SJ10 : adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  inst SJ11 : adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  inst SJ12 : adafruit-music-maker-mp3-shieldsolderjumper-arrow-nopaste
+  inst SJ2 : adafruit-music-maker-mp3-shieldsolderjumper-reflow-nopaste
+  inst SJ3 : adafruit-music-maker-mp3-shieldsolderjumper-reflow-nopaste
+  inst SJ4 : adafruit-music-maker-mp3-shieldsolderjumper-reflow-nopaste
+  inst SJ5 : adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  inst SJ6 : adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  inst SJ7 : adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  inst SJ8 : adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  inst SJ9 : adafruit-music-maker-mp3-shieldsolderjumper-closedwire
+  inst SW2 : adafruit-music-maker-mp3-shieldevq-q2
+  inst U$41 : adafruit-music-maker-mp3-shieldarduinor3-icsp
+  inst U1 : adafruit-music-maker-mp3-shieldlqfp48
+  inst U2 : adafruit-music-maker-mp3-shieldsot23-6
+  inst U4 : adafruit-music-maker-mp3-shieldwqfn20
+  inst U5 : adafruit-music-maker-mp3-shieldsoic16
+  inst X1 : adafruit-music-maker-mp3-shield4uconn-19269
+  inst Y1 : adafruit-music-maker-mp3-shieldcrystal-32x25
+
+  place(C1) at loc(135.0221, -101.7736, 0.0) on Top
+  place(C10) at loc(133.6281, -123.0086, 180.0) on Top
+  place(C11) at loc(133.6281, -124.7646, 0.0) on Top
+  place(C12) at loc(132.4711, -117.6246, 180.0) on Top
+  place(C13) at loc(132.4711, -115.7976, 180.0) on Top
+  place(C14) at loc(132.4711, -121.2516, 180.0) on Top
+  place(C15) at loc(132.4711, -119.4246, 180.0) on Top
+  place(C16) at loc(124.8791, -123.1646, 180.0) on Top
+  place(C17) at loc(145.7071, -98.6536, 180.0) on Top
+  place(C18) at loc(139.2301, -104.7496, 180.0) on Top
+  place(C19) at loc(131.1911, -99.0416, 270.0) on Top
+  place(C2) at loc(135.0221, -107.3736, 0.0) on Top
+  place(C20) at loc(154.2111, -119.9736, 90.0) on Top
+  place(C21) at loc(141.6111, -110.1166, 0.0) on Top
+  place(C22) at loc(142.2461, -99.2846, 0.0) on Top
+  place(C23) at loc(147.4851, -111.2266, 0.0) on Top
+  place(C24) at loc(143.2941, -115.2906, 180.0) on Top
+  place(C25) at loc(142.7861, -112.7506, 180.0) on Top
+  place(C26) at loc(144.7041, -95.4366, 270.0) on Top
+  place(C27) at loc(138.8491, -110.3376, 270.0) on Top
+  place(C28) at loc(139.4841, -102.0826, 270.0) on Top
+  place(C3) at loc(124.8361, -115.1056, 180.0) on Top
+  place(C4) at loc(162.1111, -102.0736, 0.0) on Top
+  place(C5) at loc(162.1111, -108.2736, 180.0) on Top
+  place(C6) at loc(153.4111, -116.9356, 0.0) on Top
+  place(C7) at loc(147.2111, -119.9736, 270.0) on Top
+  place(C8) at loc(145.3381, -104.5736, 90.0) on Top
+  place(C9) at loc(129.9731, -123.0326, 0.0) on Top
+  place(CN1) at loc(129.9591, -85.7076, 270.0) on Top
+  place(D1) at loc(155.6001, -93.9466, 270.0) on Top
+  place(D2) at loc(146.3421, -95.7326, 90.0) on Top
+  place(FB1) at loc(147.6541, -113.1006, 0.0) on Top
+  place(FB2) at loc(145.6921, -100.3006, 180.0) on Top
+  place(FB3) at loc(129.9731, -126.2856, 180.0) on Top
+  place(FB4) at loc(129.9731, -124.6956, 0.0) on Top
+  place(FID1) at loc(120.1801, -123.1646, 0.0) on Top
+  place(FID2) at loc(180.5051, -125.9586, 0.0) on Top
+  place(FID3) at loc(128.9431, -84.4296, 0.0) on Top
+  place(JP1) at loc(168.8211, -84.6836, 0.0) on Top
+  place(JP2) at loc(138.0111, -127.3336, 90.0) on Top
+  place(JP3) at loc(168.8211, -89.7636, 0.0) on Top
+  place(JP4) at loc(151.0411, -125.3236, 180.0) on Top
+  place(JP6) at loc(144.4371, -84.6836, 0.0) on Top
+  place(JP7) at loc(154.8511, -89.7636, 0.0) on Top
+  place(JP8) at loc(171.3611, -125.3236, 180.0) on Top
+  place(LEFTSPK1) at loc(118.0111, -114.6516, 270.0) on Top
+  place(MP3GPIO1) at loc(170.0911, -112.6236, 90.0) on Top
+  place(R1) at loc(159.1111, -105.0736, 90.0) on Top
+  place(R10) at loc(156.2561, -97.2656, 0.0) on Top
+  place(R12) at loc(130.4241, -110.7086, 0.0) on Top
+  place(R13) at loc(174.6631, -117.3226, 0.0) on Top
+  place(R14) at loc(174.5361, -114.7826, 0.0) on Top
+  place(R15) at loc(174.5361, -112.2426, 0.0) on Top
+  place(R16) at loc(174.5361, -109.7026, 0.0) on Top
+  place(R17) at loc(174.6631, -107.2896, 0.0) on Top
+  place(R18) at loc(174.2821, -104.2416, 270.0) on Top
+  place(R19) at loc(162.4711, -93.8276, 90.0) on Top
+  place(R2) at loc(151.1681, -97.2566, 90.0) on Top
+  place(R20) at loc(164.6301, -93.8276, 90.0) on Top
+  place(R21) at loc(159.9311, -93.8276, 270.0) on Top
+  place(R3) at loc(141.6111, -108.2896, 180.0) on Top
+  place(R4) at loc(142.2461, -100.9846, 180.0) on Top
+  place(R5) at loc(142.7861, -104.7496, 180.0) on Top
+  place(R6) at loc(142.2461, -102.5576, 0.0) on Top
+  place(R7) at loc(141.6111, -106.4626, 0.0) on Top
+  place(R8) at loc(174.6631, -119.9896, 0.0) on Top
+  place(R9) at loc(149.1361, -94.3356, 0.0) on Top
+  place(RIGHTSPK1) at loc(118.0111, -122.7056, 270.0) on Top
+  place(SJ1) at loc(132.4991, -129.3876, 0.0) on Top
+  place(SJ10) at loc(167.5511, -87.2236, 270.0) on Top
+  place(SJ11) at loc(170.0911, -87.2236, 270.0) on Top
+  place(SJ12) at loc(132.3721, -113.7666, 0.0) on Top
+  place(SJ2) at loc(170.9801, -93.3196, 180.0) on Top
+  place(SJ3) at loc(170.9801, -95.8596, 180.0) on Top
+  place(SJ4) at loc(170.9801, -98.3996, 180.0) on Top
+  place(SJ5) at loc(175.6791, -93.3196, 180.0) on Top
+  place(SJ6) at loc(175.6791, -95.8596, 180.0) on Top
+  place(SJ7) at loc(175.6791, -98.3996, 180.0) on Top
+  place(SJ8) at loc(159.9311, -87.2236, 270.0) on Top
+  place(SJ9) at loc(162.4711, -87.2236, 270.0) on Top
+  place(SW2) at loc(120.4341, -81.6356, 0.0) on Top
+  place(U$41) at loc(114.2111, -131.6736, 0.0) on Top
+  place(U1) at loc(152.1111, -104.5736, 90.0) on Top
+  place(U2) at loc(150.7111, -119.9736, 270.0) on Top
+  place(U4) at loc(126.0821, -119.0326, 180.0) on Top
+  place(U5) at loc(135.8011, -92.3036, 90.0) on Top
+  place(X1) at loc(114.8461, -105.5116, 0.0) on Top
+  place(Y1) at loc(162.1111, -105.1736, 90.0) on Top
+
+  net MICN (C23.p1, JP2.p1, U1.p2)
+  net Net-JP6-Pad3 (JP6.p3, U$41.AREF)
+  net MOSI-5V (SJ4.p2, SJ7.p2, U5.p11)
+  net p1-8V (C6.p1, U1.p24, U1.p31, U1.p5, U1.p7, U2.p6)
+  net MICP (C24.p1, JP2.p2, U1.p1)
+  net D13 (JP6.p5, SJ6.p1, U$41.D13)
+  net XDCS-5V (JP7.p7, R19.p2, SJ9.p2, U5.p7)
+  net p3-3V (C19.p1, C7.p1, CN1.p4, FB1.p1, MP3GPIO1.p1, MP3GPIO1.p11, MP3GPIO1.p13, MP3GPIO1.p3, MP3GPIO1.p5, MP3GPIO1.p7, MP3GPIO1.p9, R10.p2, R19.p1, R20.p1, R21.p2, R9.p2, U1.p14, U1.p19, U1.p32, U1.p6, U2.p1, U5.p1)
+  net D12 (JP6.p6, SJ5.p1, U$41.D12)
+  net SDCS-5V (JP3.p1, R20.p2, SJ10.p2, U5.p14)
+  net GND (C10.p1, C11.p2, C16.p2, C19.p2, C20.p2, C26.p2, C3.p2, C4.p2, C5.p2, C6.p2, C7.p2, CN1.MT1, CN1.MT2, CN1.p6, FB2.p1, FB4.p1, JP4.p2, JP4.p3, JP6.p4, R13.p2, R14.p2, R15.p2, R16.p2, R17.p2, R18.p2, R2.p2, R8.p2, SW2.B, U$41.GND, U$41.GND@1, U$41.GND@2, U$41.GND@3, U1.p16, U1.p20, U1.p21, U1.p22, U1.p35, U1.p4, U2.p2, U4.p12, U4.p21, U4.p4, U5.p8)
+  net SDCS-3V (CN1.p2, U5.p15)
+  net D11 (JP6.p7, SJ7.p1, U$41.D11)
+  net CS-5V (JP7.p6, R21.p1, SJ8.p2, U5.p5)
+  net AVDD (C8.p1, FB1.p2, U1.p38, U1.p43, U1.p45)
+  net D10 (JP6.p8, U$41.D10)
+  net Net-C18-Pad1 (C18.p1, R5.p2)
+  net AGND (C12.p1, C15.p1, C17.p2, C18.p2, C21.p2, C22.p2, C23.p2, C24.p2, C25.p2, C27.p2, C28.p2, C8.p2, FB2.p2, U1.p37, U1.p40, U1.p41, U1.p47, X1.p1)
+  net D9 (JP6.p9, U$41.D9)
+  net p+5V (C11.p1, C16.p1, C20.p1, C3.p1, FB3.p1, JP4.p4, R12.p2, SJ1.p2, SJ12.p2, U$41.p5V, U2.p3, U2.p4, U2.p5, U4.p13, U4.p3)
+  net SD-DETECT (CN1.CD1, JP7.p5)
+  net D8 (JP6.p10, U$41.D8)
+  net LINE2 (C25.p1, JP2.p3, U1.p48)
+  net Net-C21-Pad1 (C21.p1, R3.p2)
+  net Net-JP1-Pad1 (JP1.p1, SJ8.p1, U$41.D7)
+  net LEFT (C13.p1, R3.p1, R7.p2, U1.p46)
+  net Net-C22-Pad1 (C22.p1, R4.p2)
+  net Net-JP1-Pad2 (JP1.p2, SJ9.p1, U$41.D6)
+  net Net-C17-Pad1 (C17.p1, U1.p44)
+  net RST-5V (C26.p1, D2.A, JP7.p1, R9.p1, U5.p3)
+  net Net-JP1-Pad3 (JP1.p3, U$41.D5)
+  net GBUF (R5.p1, U1.p42)
+  net Net-C1-Pad+ (C1.p+, C28.p1, R6.p1)
+  net Net-JP1-Pad8 (JP1.p8, U$41.D0)
+  net RIGHT (C14.p1, R4.p1, R6.p2, U1.p39)
+  net Net-C2-Pad+ (C2.p+, C27.p1, R7.p1)
+  net Net-JP1-Pad7 (JP1.p7, U$41.D1)
+  net GPIO4 (MP3GPIO1.p8, R15.p1, U1.p36)
+  net RX-5V (D1.C, JP7.p4)
+  net Net-JP1-Pad6 (JP1.p6, U$41.D2)
+  net GPIO1 (MP3GPIO1.p2, R8.p1, U1.p34)
+  net R-LINEOUT (C1.p-, X1.p3, X1.p5)
+  net Net-JP1-Pad5 (JP1.p5, SJ11.p1, U$41.D3)
+  net GPIO0 (R2.p1, U1.p33)
+  net L-LINEOUT (C2.p-, X1.p2, X1.p4)
+  net Net-JP8-Pad6 (JP8.p6, U$41.A0)
+  net MISO (CN1.p7, SJ2.p2, SJ5.p2, U1.p30)
+  net Net-JP1-Pad4 (JP1.p4, SJ10.p1, U$41.D4)
+  net MOSI-3V (CN1.p3, U1.p29, U5.p12)
+  net GAIN0 (SJ1.p1, U4.p15)
+  net SCLK-3V (CN1.p5, U1.p28, U5.p10)
+  net Net-SJ2-Pad1 (SJ2.p1, U$41.MISO)
+  net OUT-R-P (RIGHTSPK1.p1, U4.p14)
+  net TX (JP7.p3, U1.p27)
+  net Net-SJ3-Pad1 (SJ3.p1, U$41.SCK)
+  net Net-C12-Pad2 (C12.p2, U4.p19)
+  net RX (D1.A, R10.p1, U1.p26)
+  net Net-SJ4-Pad1 (SJ4.p1, U$41.MOSI)
+  net Net-C10-Pad2 (C10.p2, C9.p2, FB4.p2, U4.p18)
+  net GPIO5 (MP3GPIO1.p10, R16.p1, U1.p25)
+  net Net-JP4-Pad8 (JP4.p8, U$41.RESERVED)
+  net Net-C15-Pad2 (C15.p2, U4.p17)
+  net CS-3V (U1.p23, U5.p4)
+  net Net-JP4-Pad7 (JP4.p7, U$41.IOREF)
+  net Net-C14-Pad2 (C14.p2, U4.p16)
+  net Net-C4-Pad1 (C4.p1, R1.p2, U1.p18, Y1.p2)
+  net Net-JP6-Pad1 (JP6.p1, U$41.SCL)
+  net OUT-R-N (RIGHTSPK1.p2, U4.p11)
+  net Net-C5-Pad1 (C5.p1, R1.p1, U1.p17, Y1.p1)
+  net Net-JP6-Pad2 (JP6.p2, U$41.SDA)
+  net p~RESET (D2.C, JP4.p6, SW2.A, U$41.RESET)
+  net Net-C9-Pad1 (C9.p1, FB3.p2, U4.p9)
+  net XDCS-3V (U1.p13, U5.p6)
+  net Net-JP4-Pad5 (JP4.p5, U$41.p3V)
+  net SHUTDOWN (JP7.p2, R12.p1, U4.p7, U4.p8)
+  net GPIO7 (MP3GPIO1.p14, R18.p1, U1.p12)
+  net Net-JP4-Pad1 (JP4.p1, U$41.VIN)
+  net GPIO6 (MP3GPIO1.p12, R17.p1, U1.p11)
+  net Net-JP8-Pad1 (JP8.p1, U$41.A5)
+  net OUT-L-N (LEFTSPK1.p1, U4.p5)
+  net GPIO3 (MP3GPIO1.p6, R14.p1, U1.p10)
+  net Net-JP8-Pad2 (JP8.p2, U$41.A4)
+  net OUT-L-P (LEFTSPK1.p2, U4.p2)
+  net GPIO2 (MP3GPIO1.p4, R13.p1, U1.p9)
+  net Net-JP8-Pad3 (JP8.p3, U$41.A3)
+  net Net-SJ12-Pad1 (SJ12.p1, U4.p1)
+  net DREQ (JP3.p2, SJ11.p2, U1.p8)
+  net Net-JP8-Pad4 (JP8.p4, U$41.A2)
+  net Net-C13-Pad2 (C13.p2, U4.p20)
+  net RST-3V (U1.p3, U5.p2)
+  net Net-JP8-Pad5 (JP8.p5, U$41.A1)
+  net SCLK-5V (SJ3.p2, SJ6.p2, U5.p9)
+
+  symbol(GND) = ground-sym
+
+val main-design = make-default-board(Adafruit-Music-Maker-MP3-Shield, 4, Rectangle(10.0, 10.0))
+
+view-board()
+view-schematic()
+export-cad()

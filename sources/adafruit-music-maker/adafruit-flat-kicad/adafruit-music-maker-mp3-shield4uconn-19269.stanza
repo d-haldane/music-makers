@@ -1,0 +1,47 @@
+#use-added-syntax(jitx)
+defpackage Adafruit-Music-Maker-MP3-Shield/adafruit-music-maker-mp3-shield4uconn-19269 :
+  import core
+  import collections
+  import math
+  import jitx
+  import jitx/commands
+
+  import ocdb/defaults
+  import ocdb/land-patterns
+  import ocdb/symbols
+  import ocdb/symbol-utils
+  import ocdb/generic-components
+  import ocdb/box-symbol
+
+pcb-landpattern adafruit-music-maker-mp3-shield4uconn-19269-lp :
+  pad p[1] : smd-pad(2.0, 2.5) at loc(2.5, -3.5, 0.0)
+  pad p[2] : smd-pad(2.0, 2.5) at loc(11.7, -3.5, 0.0)
+  pad p[3] : smd-pad(2.0, 2.5) at loc(4.3, 3.5, 0.0)
+  pad p[4] : smd-pad(2.0, 2.5) at loc(15.8, 0.75, 90.0)
+  pad p[5] : smd-pad(1.2, 2.5) at loc(1.5, 3.5, 0.0)
+
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(14.5, -3.0), Point(14.5, -0.6) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(14.5, 3.0), Point(14.5, 2.1) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(14.5, -3.0), Point(13.0, -3.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(3.85, -3.0), Point(10.35, -3.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(0.05, -3.0), Point(1.15, -3.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(14.5, 3.0), Point(5.65, 3.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(2.4, 3.0), Point(3.0, 3.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(0.0, 3.0), Point(0.6, 3.0) ])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.2032, [ Point(0.0, 3.0), Point(0.0, -3.0) ])
+  ref-label()
+
+public pcb-component adafruit-music-maker-mp3-shield4uconn-19269 :
+  pin-properties :
+    [pin:Ref | pads:Int ...]
+    [p1 | 1]
+    [p2 | 2]
+    [p3 | 3]
+    [p4 | 4]
+    [p5 | 5]
+  
+  make-box-symbol()
+  assign-landpattern(adafruit-music-maker-mp3-shield4uconn-19269-lp)
+
+  name = "Adafruit-Music-Maker-MP3-Shield4UCONN_19269"
+  description = "<br>\n4UCONN: 19269\n<br>\n4UCONN: 19268\n<br>\n4UCONN: 19267\n<br>\nhttp://www.4uconnector.com/online/Itemadrawing.asp?fldseries=19267&seriesno_a=18"

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Adafruit-Music-Maker-MP3-Shield)(type KiCad)(uri "$(KIPRJMOD)/Adafruit-Music-Maker-MP3-Shield.pretty")(options "")(descr ""))
+)

@@ -2790,4 +2790,15 @@ Text Notes 18000 7400 0    59   ~ 0
 common-mode noise cancellation.
 Wire Notes Line
 	1300 6000 16200 6000
+$Comp
+L Adafruit-Music-Maker-MP3-Shield-eagle-import:ARDUINO_R3_ICSP SYM?
+U 1 1 617F0C29
+P 8800 9700
+F 0 "SYM?" H 8800 9700 50  0001 C CNN
+F 1 "ARDUINO_R3_ICSP" H 8800 9700 50  0001 C CNN
+F 2 "" H 8800 9700 50  0001 C CNN
+F 3 "" H 8800 9700 50  0001 C CNN
+	1    8800 9700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

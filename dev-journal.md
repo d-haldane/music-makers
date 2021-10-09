@@ -15,3 +15,17 @@ FATAL ERROR: Parsing: No match on line 22 while parsing F0.
 ```
 
 Line is `F0 "" 0 0 50 H I C CNN`
+
+Looks to be an issue for imported net symbols (GND, VDD, etc...) thye don't have a reference prefix so the JITX importer chokes.
+
+Find and replace `F0 ""` with `F0 "SYM"`
+
+New error
+```
+Kicad Importer: Parsing sources/adafruit-music-maker/kicad/Adafruit-Music-Maker-MP3-Shield-eagle-import.lib
+FATAL ERROR: Parsing: No match on line 256 while parsing Text Drawing.
+```
+
+Line is `ENDDRAW` - nothing special. Hmm...
+
+Going to try box-symbols - maybe ignore existing symbols will help? Nope.

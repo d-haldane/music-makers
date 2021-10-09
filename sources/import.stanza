@@ -1,0 +1,5 @@
+defpackage my-design :
+  import core
+  import jitx/commands
+
+import-kicad("sources/adafruit-music-maker/kicad", "sources/adafruit-music-maker/adafruit-flat-kicad")

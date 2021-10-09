@@ -1,0 +1,22 @@
+#use-added-syntax(jitx)
+defpackage first-design :
+  import core
+  import jitx
+  import jitx/commands
+  import ocdb/defaults
+  import ocdb/generic-components
+
+pcb-module my-design :
+  public inst r : chip-resistor(1.0e3)
+
+make-default-board(my-design, 4, Rectangle(25.0, 10.0))
+
+; Export CAD with default options
+export-cad()
+
+; Show the Schematic and PCB for the design
+view-board()
+view-schematic()
+
+; Print the MPN of the resistor from the design
+println(mpn?(my-design.r))

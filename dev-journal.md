@@ -1,0 +1,2 @@
+## 2021.10.8
+Started with the Adafruit music maker as it has a circuit for the VL1053, as well as the Class D amp I want to use. Plan to refactor the design - remove superflous headers and configuration components and add an ESP32 to interface with the components.

@@ -7,6 +7,8 @@ defpackage texas-instruments/TPA2012D2RTJR :
   import ocdb/defaults
   import ocdb/symbols
   import ocdb/box-symbol
+  import ocdb/bundles
+  import ocdb/generic-components
 
 pcb-pad rect-smd-pad-1 :
   type = SMD
@@ -99,3 +101,50 @@ public pcb-component component :
     
   assign-landpattern(C7717-9)
   make-box-symbol()
+
+public pcb-module module:
+  port power:power
+  port source : stereo
+  port out-right : btl
+  port out-left : btl
+  port gain : pin[2]
+  pin sdr
+  pin sdl
+
+  inst amp : texas-instruments/TPA2012D2RTJR/component
+  net (amp.PVDD[0] amp.PVDD[1] amp.AVDD power.vdd)
+  net (amp.PGND[0] amp.PGND[1] amp.EP amp.AGND power.gnd source.return)
+  bypass-cap-strap(amp.PVDD[0] amp.PGND[0], 22.0e-6)
+  bypass-cap-strap(amp.PVDD[1] amp.PGND[0], 22.0e-6)
+
+  net (sdr amp.SDR)
+  net (sdl amp.SDL)
+  net (gain[0] amp.G0)
+  net (gain[1] amp.G1)
+
+  inst r : chip-resistor(100.0)[2]
+  net (source.right r[0].p[1])
+  cap-strap(r[0].p[2], amp.INR-, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  cap-strap(r[0].p[2], amp.AGND, ["capacitance" => 47.0e-9 "temperature-coefficient.code" => "C0G"])
+  cap-strap(amp.AGND, amp.INR+, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+
+  net (source.left r[1].p[1])
+  cap-strap(r[1].p[2], amp.INL-, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  cap-strap(r[1].p[2], amp.AGND, ["capacitance" => 47.0e-9 "temperature-coefficient.code" => "C0G"])
+  cap-strap(amp.AGND, amp.INL+, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+
+  inst fb : murata/BLM18KG121TN1D/component[4]
+
+  net (fb[0].p[1] amp.OUTR+)
+  cap-strap(fb[0].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  net (fb[1].p[1] amp.OUTR-)
+  cap-strap(fb[1].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  net (fb[0].p[2] out-right.P)
+  net (fb[1].p[2] out-right.N)
+
+  net (fb[2].p[1] amp.OUTL+)
+  cap-strap(fb[2].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  net (fb[3].p[1] amp.OUTL-)
+  cap-strap(fb[3].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  net (fb[2].p[2] out-left.P)
+  net (fb[3].p[2] out-left.N)

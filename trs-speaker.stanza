@@ -28,14 +28,20 @@ pcb-module usb-connector :
 
 val speaker-shape = RoundedRectangle(100.0, 100.0,0.5)
 pcb-module trs-speaker :
-  ; inst usb : usb-connector
-  ; inst filter : power-filter
-  ; net (usb.power power-filter.in)
-  ; net VBUS (usb.power.vdd)
-  ; net GND (usb.power.gnd)
-  ; symbol(VBUS) = ocdb/symbols/supply-sym 
-  ; symbol(GND) = ocdb/symbols/ground-sym
-  inst r : chip-resistor(1.0e3)
+  inst usb : usb-connector
+  inst filter : power-filter
+  net (usb.power filter.in)
+  net VBUS (usb.power.vdd)
+  net GND (usb.power.gnd)
+  net VIN (filter.out.vdd)
+  symbol(VBUS) = ocdb/symbols/supply-sym 
+  symbol(VIN) = ocdb/symbols/supply-sym 
+  symbol(GND) = ocdb/symbols/ground-sym
+
+  inst amp : texas-instruments/TPA2012D2RTJR/module
+  net (amp.power filter.out)
+
+  inst input : hroparts/PJ-614/component
 
 
 
@@ -46,7 +52,7 @@ defn run-design () :
   set-board(default-board(2, speaker-shape))
   set-rules(ocdb/rules/jlcpcb-rules)
   run-checks("checks.txt")
-  ; view-schematic()
+  view-schematic()
   view-board()
 ; export-cad()
 

@@ -26,30 +26,30 @@ pcb-module usb-connector :
   res-strap(usb.CC1, usb.GND[0], 5.1e3)
   res-strap(usb.CC2, usb.GND[0], 5.1e3) 
 
-val speaker-shape = RoundedRectangle(20.0, 20.0,0.5)
+val speaker-shape = RoundedRectangle(100.0, 100.0,0.5)
 pcb-module trs-speaker :
-  inst usb : usb-connector
-  inst filter : power-filter
+  ; inst usb : usb-connector
+  ; inst filter : power-filter
+  ; net (usb.power power-filter.in)
   ; net VBUS (usb.power.vdd)
   ; net GND (usb.power.gnd)
-  ; net (usb.power power-filter.in)
-  ; symbol(VBUS) = ocdb/symbols/supply-sym ; Kills the schematic
+  ; symbol(VBUS) = ocdb/symbols/supply-sym 
   ; symbol(GND) = ocdb/symbols/ground-sym
-  ; inst r : chip-resistor(1.0e3)
+  inst r : chip-resistor(1.0e3)
 
 
 
 defn run-design () :
 ; Export CAD with default options
   set-design("hardware/trs-speaker")
-  ; Configure design to have a default 4-layer stackup and design rules.
   set-main-module(trs-speaker)
   set-board(default-board(2, speaker-shape))
   set-rules(ocdb/rules/jlcpcb-rules)
   run-checks("checks.txt")
-  view-schematic()
-; view-board()
-run-design()
+  ; view-schematic()
+  view-board()
 ; export-cad()
+
+run-design()
 
 ; Show the Schematic and PCB for the design

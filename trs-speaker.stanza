@@ -1,0 +1,55 @@
+#use-added-syntax(jitx)
+defpackage trs-speaker :
+  import core
+  import jitx
+  import jitx/commands
+  import ocdb/defaults
+  import ocdb/generic-components
+  import ocdb/bundles
+
+pcb-module power-filter :
+  port in:power
+  port out:power
+  inst l : sunlord/ASWPA8050S4R7MT/component[2]
+  inst c : nichion/PCG1A331MCL1GS/component[2]
+  net (in.vdd l[0].p[1])
+  net (c[0].p[1] l[0].p[2] l[1].p[1])
+  net (c[0].p[2] c[1].p[2] in.gnd out.gnd)
+  net (c[1].p[1] l[1].p[2] out.vdd)
+
+pcb-module usb-connector : 
+  port power : power
+  inst usb : kinghelm/KH-TYPE-C-6P/component
+
+  net (power.gnd usb.GND[0] usb.GND[1])
+  net (power.vdd usb.VBUS[0] usb.VBUS[1])
+  res-strap(usb.CC1, usb.GND[0], 5.1e3)
+  res-strap(usb.CC2, usb.GND[0], 5.1e3) 
+
+val speaker-shape = RoundedRectangle(20.0, 20.0,0.5)
+pcb-module trs-speaker :
+  inst usb : usb-connector
+  inst filter : power-filter
+  ; net VBUS (usb.power.vdd)
+  ; net GND (usb.power.gnd)
+  ; net (usb.power power-filter.in)
+  ; symbol(VBUS) = ocdb/symbols/supply-sym ; Kills the schematic
+  ; symbol(GND) = ocdb/symbols/ground-sym
+  ; inst r : chip-resistor(1.0e3)
+
+
+
+defn run-design () :
+; Export CAD with default options
+  set-design("hardware/trs-speaker")
+  ; Configure design to have a default 4-layer stackup and design rules.
+  set-main-module(trs-speaker)
+  set-board(default-board(2, speaker-shape))
+  set-rules(ocdb/rules/jlcpcb-rules)
+  run-checks("checks.txt")
+  view-schematic()
+; view-board()
+run-design()
+; export-cad()
+
+; Show the Schematic and PCB for the design

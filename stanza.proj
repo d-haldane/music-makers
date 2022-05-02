@@ -1,1 +1,10 @@
 include "open-components-database/stanza.proj"
+
+package sunlord/ASWPA8050S4R7MT defined-in "components/ASWPA8050S4R7MT.stanza"
+package texas-instruments/TPA2012D2RTJR defined-in "components/TPA2012D2RTJR.stanza"
+package nichion/PCG1A331MCL1GS defined-in "components/PCG1A331MCL1GS.stanza"
+package murata/BLM18KG121TN1D defined-in "components/BLM18KG121TN1D.stanza"
+package dgi/DSIC02LSGET defined-in "components/DSIC02LSGET.stanza"
+package kinghelm/KH-TYPE-C-6P defined-in "components/KH-TYPE-C-6P.stanza"
+package hroparts/PJ-614 defined-in "components/PJ-614.stanza"
+

@@ -1,0 +1,42 @@
+#use-added-syntax(jitx)
+defpackage nichion/PCG1A331MCL1GS :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/defaults
+  import ocdb/symbols
+  import ocdb/box-symbol
+
+pcb-pad rect-smd-pad :
+  type = SMD
+  shape = Rectangle(4.5, 1.650013)
+  layer(SolderMask(Top)) = Rectangle(4.5, 1.650013)
+  layer(Paste(Top)) = Rectangle(4.5, 1.650013)
+
+pcb-landpattern C433208 :
+  pad p[1] : rect-smd-pad at loc(-3.267209, 0.0) on Top
+  pad p[2] : rect-smd-pad at loc(3.267209, 0.0) on Top
+  
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, C, loc(0.0, 6.226238))
+  layer(Finish(Top)) = Text(">VALUE", 1.0, C, loc(0.0, -6.226238))
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.059995, [Arc(-4.524511, -4.150114, 0.0299720000000008, 0.0, 360.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(4.201245, -0.782398), Point(4.201245, -4.226238)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(4.201245, -4.226238), Point(-2.464973, -4.226238)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-2.464973, -4.226238), Point(-4.201245, -2.489967)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-4.201245, -2.489967), Point(-4.201245, -0.782398)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(4.201245, 0.782398), Point(4.201245, 4.226238)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(4.201245, 4.226238), Point(-2.464973, 4.226238)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-2.464973, 4.226238), Point(-4.201245, 2.489967)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-4.201245, 2.489967), Point(-4.201245, 0.782398)])
+
+public pcb-component component :
+  mpn = "PCG1A331MCL1GS"
+  manufacturer = "Nichion"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
+    [p[1] | p[1] | Down | "Unspecified"]
+    [p[2] | p[2] | Up | "Unspecified"]
+  ;220uF, 0.023 ESR electrolytic cap
+  assign-landpattern(C433208)
+  assign-symbol(capacitor-sym(CapacitorPolarized))

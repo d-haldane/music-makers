@@ -1,0 +1,126 @@
+#use-added-syntax(jitx)
+defpackage hroparts/PJ-614 :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/defaults
+  import ocdb/symbols
+  import ocdb/box-symbol
+
+pcb-pad rect-smd-pad-1 :
+  type = SMD
+  shape = Rectangle(1.5, 0.9)
+  layer(Paste(Top)) = Rectangle(1.5, 0.9)
+  layer(SolderMask(Top)) = Rectangle(1.5, 0.9)
+
+pcb-pad rect-smd-pad-2 :
+  type = SMD
+  shape = Rectangle(3.4, 1.6)
+  layer(Paste(Top)) = Rectangle(3.4, 1.6)
+  layer(SolderMask(Top)) = Rectangle(3.4, 1.6)
+
+pcb-landpattern C145801-12 :
+  pad p[1] : rect-smd-pad-1 at loc(6.561976, 3.271908) on Top
+  pad p[2] : rect-smd-pad-1 at loc(6.561976, 1.671958) on Top
+  pad p[3] : rect-smd-pad-1 at loc(6.561976, -1.629032) on Top
+  pad p[4] : rect-smd-pad-1 at loc(6.561976, -3.227965) on Top
+  pad p[5] : rect-smd-pad-1 at loc(6.561976, 0.021971) on Top
+  pad p[6] : rect-smd-pad-2 at loc(-3.937897, 2.771781) on Top
+  pad p[7] : rect-smd-pad-2 at loc(-3.937897, -2.728092) on Top
+  
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, C, loc(0.0, 5.577978))
+  layer(Finish(Top)) = Text(">VALUE", 1.0, C, loc(0.0, -5.577978))
+  layer(Finish(Top)) = Text("REF**", 1.0, C, loc(0.0, -7.577978))
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-6.64605, 3.577978), Point(-5.868987, 3.577978)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.006985, 3.577978), Point(5.580772, 3.577978)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-5.863526, -3.577978), Point(-6.518034, -3.577978)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(6.64605, -0.65875), Point(6.64605, -0.948311)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(6.64605, -2.309754), Point(6.64605, -2.545974)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(6.64605, 0.990729), Point(6.64605, 0.702692)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(6.64605, 2.590932), Point(6.64605, 2.353188)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(5.581534, -3.577978), Point(-2.012522, -3.577978)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.059995, [Arc(7.31204, 3.958979, 0.0299970000000007, 0.0, 360.0)])
+  
+  model3d = Model3D("C145801.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, 0.0))
+
+public pcb-symbol PJ-614 :
+  pin p[1] at Point(0.0, -3.0) with :
+    direction = Right
+    length = 2.0
+    number-size = 0.6
+    name-size = 0.6
+  pin p[2] at Point(0.0, -6.0) with :
+    direction = Right
+    length = 2.0
+    number-size = 0.6
+    name-size = 0.6
+  pin p[3] at Point(0.0, -4.0) with :
+    direction = Right
+    length = 2.0
+    number-size = 0.6
+    name-size = 0.6
+  pin p[4] at Point(0.0, -7.0) with :
+    direction = Right
+    length = 2.0
+    number-size = 0.6
+    name-size = 0.6
+  pin p[5] at Point(0.0, -5.0) with :
+    direction = Right
+    length = 2.0
+    number-size = 0.6
+    name-size = 0.6
+  pin p[6] at Point(0.0, -2.0) with :
+    direction = Right
+    length = 2.0
+    number-size = 0.6
+    name-size = 0.6
+  pin p[7] at Point(0.0, -8.0) with :
+    direction = Right
+    length = 2.0
+    number-size = 0.6
+    name-size = 0.6
+  
+  layer("foreground") = Text(">REF", 1.27, C, loc(0.0, 1.27))
+  layer("foreground") = Text(">VALUE", 1.27, C, loc(0.0, -2.54))
+  layer("foreground") = Rectangle(0.6, 2.7, loc(-3.0, -5.65))
+  layer("none") = Line(0.0, [Point(0.0, -3.0), Point(-3.0, -3.0), Point(-3.0, -4.3)])
+  layer("none") = Line(0.0, [    
+    Point(0.0, -7.0), 
+    Point(-2.2, -7.0), 
+    Point(-2.4, -6.7), 
+    Point(-2.6, -7.0)])
+  layer("none") = Line(0.0, [    
+    Point(0.0, -6.0), 
+    Point(-1.2, -6.0), 
+    Point(-1.4, -5.6), 
+    Point(-1.6, -6.0)])
+  layer("none") = Line(0.0, [    
+    Point(0.0, -5.0), 
+    Point(-1.2, -5.0), 
+    Point(-1.4, -5.4), 
+    Point(-1.6, -5.0)])
+  layer("none") = Line(0.0, [    
+    Point(0.0, -4.0), 
+    Point(-1.7, -4.0), 
+    Point(-1.9, -4.3), 
+    Point(-2.1, -4.0)])
+
+public pcb-component component :
+  mpn = "PJ-614"
+  manufacturer = "Hroparts"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
+    [p[1] | p[1] | Right | "Unspecified"]
+    [p[2] | p[2] | Right | "Unspecified"]
+    [p[3] | p[3] | Right | "Unspecified"]
+    [p[4] | p[4] | Right | "Unspecified"]
+    [p[5] | p[5] | Right | "Unspecified"]
+    [p[6] | p[6] | Right | "Unspecified"]
+    [p[7] | p[7] | Right | "Unspecified"]
+    
+  assign-landpattern(C145801-12)
+  assign-symbol(PJ-614)

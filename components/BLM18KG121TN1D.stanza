@@ -1,0 +1,51 @@
+#use-added-syntax(jitx)
+defpackage murata/BLM18KG121TN1D :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/defaults
+  import ocdb/symbols
+  import ocdb/box-symbol
+
+pcb-pad rect-smd-pad :
+  type = SMD
+  shape = Rectangle(0.8, 0.864008)
+  layer(Paste(Top)) = Rectangle(0.8, 0.864008)
+  layer(SolderMask(Top)) = Rectangle(0.8, 0.864008)
+
+public pcb-landpattern C85831-13 :
+  pad p[1] : rect-smd-pad at loc(-0.693167, -0.009246, 180.0) on Top
+  pad p[2] : rect-smd-pad at loc(0.706629, -0.009246, 180.0) on Top
+  
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, C, loc(0.0, 2.660605))
+  layer(Finish(Top)) = Text(">VALUE", 1.0, C, loc(0.0, -2.660605))
+  layer(Finish(Top)) = Text("REF**", 1.0, C, loc(0.0, -4.660605))
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(1.265075, 0.660605), Point(1.417374, 0.508179)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.151994, [Point(-1.264948, 0.660605), Point(-0.502946, 0.660605)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-1.264948, -0.660605), Point(-1.417374, -0.508255)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(1.417374, 0.508179), Point(1.417374, -0.508255)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.151994, [Point(1.265075, 0.660605), Point(0.503073, 0.660605)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.151994, [Point(-1.264948, -0.660605), Point(-0.502946, -0.660605)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.151994, [Point(1.265075, -0.660605), Point(0.503073, -0.660605)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-1.417374, 0.508179), Point(-1.264948, 0.660605)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-1.417374, -0.508255), Point(-1.417374, 0.508179)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(1.417374, -0.508255), Point(1.265075, -0.660605)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.059995, [Arc(-0.793269, -0.409246, 0.0299970000000001, 0.0, 360.0)])
+  
+  model3d = Model3D("C85831.wrl",
+    Vec3D(0.0, 0.0, 0.0),
+    Vec3D(1.0, 1.0, 1.0),
+    Vec3D(0.0, 0.0, -180.0))
+  
+
+public pcb-component component :
+  mpn = "BLM18KG121TN1D"
+  manufacturer = "Murata Electronics"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
+    [p[1] | p[1] | Left | "Unspecified"]
+    [p[2] | p[2] | Right | "Unspecified"]
+    
+  assign-landpattern(C85831-13)
+  assign-symbol(inductor-sym(InductorFerriteCore))

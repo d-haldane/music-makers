@@ -1,0 +1,101 @@
+#use-added-syntax(jitx)
+defpackage texas-instruments/TPA2012D2RTJR :
+  import core
+  import collections
+  import jitx
+  import jitx/commands
+  import ocdb/defaults
+  import ocdb/symbols
+  import ocdb/box-symbol
+
+pcb-pad rect-smd-pad-1 :
+  type = SMD
+  shape = Rectangle(0.664999, 0.28001)
+  layer(SolderMask(Top)) = Rectangle(0.664999, 0.28001)
+  layer(Paste(Top)) = Rectangle(0.664999, 0.28001)
+
+pcb-pad rect-smd-pad-2 :
+  type = SMD
+  shape = Rectangle(0.28001, 0.664999)
+  layer(SolderMask(Top)) = Rectangle(0.28001, 0.664999)
+  layer(Paste(Top)) = Rectangle(0.28001, 0.664999)
+
+pcb-pad rect-smd-pad-3 :
+  type = SMD
+  shape = Rectangle(0.279909, 0.664999)
+  layer(SolderMask(Top)) = Rectangle(0.279909, 0.664999)
+  layer(Paste(Top)) = Rectangle(0.279909, 0.664999)
+
+pcb-pad rect-smd-pad-4 :
+  type = SMD
+  shape = Rectangle(2.7, 2.7)
+  layer(SolderMask(Top)) = Rectangle(2.7, 2.7)
+  layer(Paste(Top)) = Rectangle(2.7, 2.7)
+
+public pcb-landpattern C7717-9 :
+  pad p[1] : rect-smd-pad-1 at loc(-1.907544, 1.0) on Top
+  pad p[2] : rect-smd-pad-1 at loc(-1.907544, 0.499873) on Top
+  pad p[3] : rect-smd-pad-1 at loc(-1.907544, 0.0) on Top
+  pad p[4] : rect-smd-pad-1 at loc(-1.907544, -0.500127) on Top
+  pad p[5] : rect-smd-pad-1 at loc(-1.907544, -1.0) on Top
+  pad p[6] : rect-smd-pad-2 at loc(-1.0, -1.907544) on Top
+  pad p[7] : rect-smd-pad-2 at loc(-0.499873, -1.907544) on Top
+  pad p[8] : rect-smd-pad-2 at loc(0.0, -1.907544) on Top
+  pad p[9] : rect-smd-pad-2 at loc(0.500127, -1.907544) on Top
+  pad p[10] : rect-smd-pad-2 at loc(1.0, -1.907544) on Top
+  pad p[11] : rect-smd-pad-1 at loc(1.907544, -1.0) on Top
+  pad p[12] : rect-smd-pad-1 at loc(1.907544, -0.500127) on Top
+  pad p[13] : rect-smd-pad-1 at loc(1.907544, 0.0) on Top
+  pad p[14] : rect-smd-pad-1 at loc(1.907544, 0.499873) on Top
+  pad p[15] : rect-smd-pad-1 at loc(1.907544, 1.0) on Top
+  pad p[16] : rect-smd-pad-3 at loc(1.0, 1.907544) on Top
+  pad p[17] : rect-smd-pad-3 at loc(0.500127, 1.907544) on Top
+  pad p[18] : rect-smd-pad-3 at loc(0.0, 1.907544) on Top
+  pad p[19] : rect-smd-pad-3 at loc(-0.499873, 1.907544) on Top
+  pad p[20] : rect-smd-pad-3 at loc(-1.0, 1.907544) on Top
+  pad p[21] : rect-smd-pad-4 at loc(0.0, 0.0) on Top
+  
+  layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, C, loc(0.0, 4.0762))
+  layer(Finish(Top)) = Text(">VALUE", 1.0, C, loc(0.0, -4.0762))
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.059995, [Arc(-2.0, 2.0, 0.0299720000000001, 0.0, 360.0)])
+  layer(Finish(Top)) = Polyline(0.3, [Arc(-2.299975, 1.0, 0.150115, 0.0, 360.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.150013, [Arc(-2.413005, 1.905004, 0.0749300000000002, 0.0, 360.0)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(1.330505, 2.0762), Point(2.0762, 2.0762)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(2.0762, 2.0762), Point(2.0762, 1.330505)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(1.330505, -2.0762), Point(2.0762, -2.0762)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(2.0762, -2.0762), Point(2.0762, -1.330505)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-1.330505, 2.0762), Point(-2.0762, 2.0762)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-2.0762, 2.0762), Point(-2.0762, 1.330505)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-1.330505, -2.0762), Point(-2.0762, -2.0762)])
+  layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-2.0762, -2.0762), Point(-2.0762, -1.330505)])
+  layer(Finish(Top)) = Text("REF**", 1.0, C, loc(0.0, -6.0762))
+
+public pcb-component component :
+  mpn = "TPA2012D2RTJR"
+  manufacturer = "Texas Instruments"
+  pin-properties :
+    [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
+    [G1 | p[1] | Left | "Unspecified"]
+    [NC[1] | p[10] | Right | "Unspecified"]
+    [OUTR- | p[11] | Right | "Output"]
+    [PGND[1] | p[12] | Right | "PowerIn"]
+    [PVDD[1] | p[13] | Left | "PowerIn"]
+    [OUTR+ | p[14] | Right | "Output"]
+    [G0 | p[15] | Left | "Unspecified"]
+    [INR+ | p[16] | Left | "Unspecified"]
+    [INR- | p[17] | Left | "Unspecified"]
+    [AGND | p[18] | Right | "PowerIn"]
+    [INL- | p[19] | Left | "Unspecified"]
+    [OUTL+ | p[2] | Right | "Output"]
+    [INL+ | p[20] | Left | "Unspecified"]
+    [EP | p[21] | Right | "PowerIn"]
+    [PVDD[0] | p[3] | Left | "PowerIn"]
+    [PGND[0] | p[4] | Right | "PowerIn"]
+    [OUTL- | p[5] | Right | "Output"]
+    [NC[0] | p[6] | Right | "Unspecified"]
+    [SDL | p[7] | Left | "Unspecified"]
+    [SDR | p[8] | Left | "Unspecified"]
+    [AVDD | p[9] | Left | "PowerIn"]
+    
+  assign-landpattern(C7717-9)
+  make-box-symbol()

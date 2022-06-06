@@ -1,0 +1,54 @@
+(module C709355_13 (layer F.Cu)  
+  (pad A12 smd rect
+    (at 2.749962 -3.080061 0.0)
+    (size 0.9 1.2)
+    (layers F.Cu F.Mask F.Paste))
+  (pad A5 smd rect
+    (at -0.499975 -3.080061 0.0)
+    (size 0.7 1.2)
+    (layers F.Cu F.Mask F.Paste))
+  (pad A9 smd rect
+    (at 1.520091 -3.080061 0.0)
+    (size 0.8 1.2)
+    (layers F.Cu F.Mask F.Paste))
+  (pad B12 smd rect
+    (at -2.749911 -3.080061 0.0)
+    (size 0.9 1.2)
+    (layers F.Cu F.Mask F.Paste))
+  (pad B5 smd rect
+    (at 0.500025 -3.080061 0.0)
+    (size 0.7 1.2)
+    (layers F.Cu F.Mask F.Paste))
+  (pad B9 smd rect
+    (at -1.520041 -3.080061 0.0)
+    (size 0.8 1.2)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 1 thru_hole oval
+    (at -4.319888 -2.68001 0.0)
+    (size 1.0 2.1)
+    (drill oval 0.599949 1.700025)
+    (layers *.Cu B.Mask F.Mask))
+  (pad 2 thru_hole oval
+    (at 4.319939 -2.68001 0.0)
+    (size 1.0 2.1)
+    (drill oval 0.599949 1.700025)
+    (layers *.Cu B.Mask F.Mask))
+  (pad 3 thru_hole oval
+    (at -4.319888 1.020015 0.0)
+    (size 1.0 1.8)
+    (drill oval 0.599949 1.400051)
+    (layers *.Cu B.Mask F.Mask))
+  (pad 4 thru_hole oval
+    (at 4.319939 1.020015 0.0)
+    (size 1.0 1.8)
+    (drill oval 0.599949 1.400051)
+    (layers *.Cu B.Mask F.Mask))  
+  (fp_text reference ">REF" (at 0.0 -5.520015 0.0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_text value ">VALUE" (at 0.0 5.520015 0.0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_line (start -4.499975 3.520015) (end 4.5 3.520015) (layer F.SilkS) (width 0.25))  
+  (model "../3d-models/C709355.wrl"
+    (offset (xyz 0.0 0.0 0.0))
+    (scale (xyz 1.0 1.0 1.0))
+    (rotate (xyz 0.0 0.0 -180.0))))

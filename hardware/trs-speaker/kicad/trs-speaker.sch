@@ -1,0 +1,1086 @@
+EESchema Schematic File Version 4
+EELAYER 25 0
+EELAYER END
+$Descr E 44016.0 34016.0
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L project_symbols:my_resistor_2 R6
+U 1 1 00000000
+P 1800 32000
+F 0 "R6" H 1900 32050 28 0 L CNN
+F 1 "10.0mΩ ± 1.00%" H 1900 31950 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_1" H 1800 32000 60 1 C CNN
+F 3 "" H 1800 32000 60 1 C CNN
+F 4 "10.0mΩ ± 1.00%" H 1800 32000 60 1 C CNN "Resistance"
+F 5 "1.0%" H 1800 32000 60 1 C CNN "Tolerance"
+F 6 "0.2W" H 1800 32000 60 1 C CNN "Maximum Power"
+F 7 "ERJ-2LWFR010X" H 1800 32000 60 1 C CNN "MPN"
+F 8 "Panasonic Electronic Components" H 1800 32000 60 1 C CNN "Manufacturer"
+  1 1800 32000
+  0 -1 -1 0
+$EndComp
+$Comp
+L project_symbols:component_5 J2
+U 1 1 00000000
+P 5300 32200
+F 0 "J2" H 5100 32754 30 0 L BNN
+F 1 "PJ-614" H 5100 32712 30 0 L BNN
+F 2 "trs-speaker:C145801_12" H 5300 32200 60 1 C CNN
+F 3 "" H 5300 32200 60 1 C CNN
+F 4 "PJ-614" H 5300 32200 60 1 C CNN "MPN"
+F 5 "Hroparts" H 5300 32200 60 1 C CNN "Manufacturer"
+  1 5300 32200
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_1 C13
+U 1 1 00000000
+P 3850 28600
+F 0 "C13" H 3950 28650 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 3950 28550 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 3850 28600 60 1 C CNN
+F 3 "" H 3850 28600 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 3850 28600 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 3850 28600 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 3850 28600 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 3850 28600 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 3850 28600 60 1 C CNN "Manufacturer"
+  1 3850 28600
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_8 C11
+U 1 1 00000000
+P 1650 26950
+F 0 "C11" H 1750 27000 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 1750 26900 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 1650 26950 60 1 C CNN
+F 3 "" H 1650 26950 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 1650 26950 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 1650 26950 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 1650 26950 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 1650 26950 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 1650 26950 60 1 C CNN "Manufacturer"
+  1 1650 26950
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_capacitor C10
+U 1 1 00000000
+P 2200 28600
+F 0 "C10" H 2300 28650 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 2300 28550 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 2200 28600 60 1 C CNN
+F 3 "" H 2200 28600 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 2200 28600 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 2200 28600 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 2200 28600 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 2200 28600 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 2200 28600 60 1 C CNN "Manufacturer"
+  1 2200 28600
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_10 C9
+U 1 1 00000000
+P 1200 28600
+F 0 "C9" H 1300 28650 28 0 L CNN
+F 1 "47.0nF ± 5.00%" H 1300 28550 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern" H 1200 28600 60 1 C CNN
+F 3 "" H 1200 28600 60 1 C CNN
+F 4 "47.0nF ± 5.00%" H 1200 28600 60 1 C CNN "Capacitance"
+F 5 "5.0%" H 1200 28600 60 1 C CNN "Tolerance"
+F 6 "25.0V" H 1200 28600 60 1 C CNN "Maximum Voltage"
+F 7 "C0805C473J3GACAUTO" H 1200 28600 60 1 C CNN "MPN"
+F 8 "KEMET" H 1200 28600 60 1 C CNN "Manufacturer"
+  1 1200 28600
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_3 C8
+U 1 1 00000000
+P 1200 27850
+F 0 "C8" H 1300 27900 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 1300 27800 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 1200 27850 60 1 C CNN
+F 3 "" H 1200 27850 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 1200 27850 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 1200 27850 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 1200 27850 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 1200 27850 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 1200 27850 60 1 C CNN "Manufacturer"
+  1 1200 27850
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:my_resistor_4 R4
+U 1 1 00000000
+P 1400 28350
+F 0 "R4" H 1500 28400 28 0 L CNN
+F 1 "100.0Ω ± 0.10%" H 1500 28300 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_4" H 1400 28350 60 1 C CNN
+F 3 "" H 1400 28350 60 1 C CNN
+F 4 "100.0Ω ± 0.10%" H 1400 28350 60 1 C CNN "Resistance"
+F 5 "0.1%" H 1400 28350 60 1 C CNN "Tolerance"
+F 6 "0.063W" H 1400 28350 60 1 C CNN "Maximum Power"
+F 7 "RT0402BRD07100RL" H 1400 28350 60 1 C CNN "MPN"
+F 8 "YAGEO" H 1400 28350 60 1 C CNN "Manufacturer"
+  1 1400 28350
+  0 -1 -1 0
+$EndComp
+$Comp
+L project_symbols:my_resistor_4 R3
+U 1 1 00000000
+P 2700 27700
+F 0 "R3" H 2800 27750 28 0 L CNN
+F 1 "100.0Ω ± 0.10%" H 2800 27650 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_4" H 2700 27700 60 1 C CNN
+F 3 "" H 2700 27700 60 1 C CNN
+F 4 "100.0Ω ± 0.10%" H 2700 27700 60 1 C CNN "Resistance"
+F 5 "0.1%" H 2700 27700 60 1 C CNN "Tolerance"
+F 6 "0.063W" H 2700 27700 60 1 C CNN "Maximum Power"
+F 7 "RT0402BRD07100RL" H 2700 27700 60 1 C CNN "MPN"
+F 8 "YAGEO" H 2700 27700 60 1 C CNN "Manufacturer"
+  1 2700 27700
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:component_4 U3
+U 1 1 00000000
+P 4050 32000
+F 0 "U3" H 3350 32754 30 0 L BNN
+F 1 "TPA2012D2RTJR" H 3350 32712 30 0 L BNN
+F 2 "trs-speaker:tpa2012" H 4050 32000 60 1 C CNN
+F 3 "" H 4050 32000 60 1 C CNN
+F 4 "TPA2012D2RTJR" H 4050 32000 60 1 C CNN "MPN"
+F 5 "Texas Instruments" H 4050 32000 60 1 C CNN "Manufacturer"
+  1 4050 32000
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component C2
+U 1 1 00000000
+P 8200 31050
+F 0 "C2" H 8300 31100 28 0 L CNN
+F 1 "PCG1A331MCL1GS" H 8300 31000 28 0 L CNN
+F 2 "trs-speaker:C433208" H 8200 31050 60 1 C CNN
+F 3 "" H 8200 31050 60 1 C CNN
+F 4 "PCG1A331MCL1GS" H 8200 31050 60 1 C CNN "MPN"
+F 5 "Nichion" H 8200 31050 60 1 C CNN "Manufacturer"
+  1 8200 31050
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component C1
+U 1 1 00000000
+P 7850 31400
+F 0 "C1" H 7950 31450 28 0 L CNN
+F 1 "PCG1A331MCL1GS" H 7950 31350 28 0 L CNN
+F 2 "trs-speaker:C433208" H 7850 31400 60 1 C CNN
+F 3 "" H 7850 31400 60 1 C CNN
+F 4 "PCG1A331MCL1GS" H 7850 31400 60 1 C CNN "MPN"
+F 5 "Nichion" H 7850 31400 60 1 C CNN "Manufacturer"
+  1 7850 31400
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component_5 J4
+U 1 1 00000000
+P 5100 28500
+F 0 "J4" H 4900 29054 30 0 L BNN
+F 1 "PJ-614" H 4900 29012 30 0 L BNN
+F 2 "trs-speaker:C145801_12" H 5100 28500 60 1 C CNN
+F 3 "" H 5100 28500 60 1 C CNN
+F 4 "PJ-614" H 5100 28500 60 1 C CNN "MPN"
+F 5 "Hroparts" H 5100 28500 60 1 C CNN "Manufacturer"
+  1 5100 28500
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component_5 J3
+U 1 1 00000000
+P 6100 28500
+F 0 "J3" H 5900 29054 30 0 L BNN
+F 1 "PJ-614" H 5900 29012 30 0 L BNN
+F 2 "trs-speaker:C145801_12" H 6100 28500 60 1 C CNN
+F 3 "" H 6100 28500 60 1 C CNN
+F 4 "PJ-614" H 6100 28500 60 1 C CNN "MPN"
+F 5 "Hroparts" H 6100 28500 60 1 C CNN "Manufacturer"
+  1 6100 28500
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component_3 U9
+U 1 1 00000000
+P 1300 30950
+F 0 "U9" H 1100 31154 30 0 L BNN
+F 1 "DSIC02LSGET" H 1100 31112 30 0 L BNN
+F 2 "trs-speaker:C54949_17" H 1300 30950 60 1 C CNN
+F 3 "" H 1300 30950 60 1 C CNN
+F 4 "DSIC02LSGET" H 1300 30950 60 1 C CNN "MPN"
+F 5 "Dongguan Guangzhu Industrial" H 1300 30950 60 1 C CNN "Manufacturer"
+  1 1300 30950
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_resistor_1 R5
+U 1 1 00000000
+P 2000 30950
+F 0 "R5" H 2100 31000 28 0 L CNN
+F 1 "10.0mΩ ± 1.00%" H 2100 30900 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_1" H 2000 30950 60 1 C CNN
+F 3 "" H 2000 30950 60 1 C CNN
+F 4 "10.0mΩ ± 1.00%" H 2000 30950 60 1 C CNN "Resistance"
+F 5 "1.0%" H 2000 30950 60 1 C CNN "Tolerance"
+F 6 "0.2W" H 2000 30950 60 1 C CNN "Maximum Power"
+F 7 "ERJ-2LWFR010X" H 2000 30950 60 1 C CNN "MPN"
+F 8 "Panasonic Electronic Components" H 2000 30950 60 1 C CNN "Manufacturer"
+  1 2000 30950
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component_3 U8
+U 1 1 00000000
+P 2600 31950
+F 0 "U8" H 2400 32154 30 0 L BNN
+F 1 "DSIC02LSGET" H 2400 32112 30 0 L BNN
+F 2 "trs-speaker:C54949_17" H 2600 31950 60 1 C CNN
+F 3 "" H 2600 31950 60 1 C CNN
+F 4 "DSIC02LSGET" H 2600 31950 60 1 C CNN "MPN"
+F 5 "Dongguan Guangzhu Industrial" H 2600 31950 60 1 C CNN "Manufacturer"
+  1 2600 31950
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_11 C14
+U 1 1 00000000
+P 4300 28600
+F 0 "C14" H 4400 28650 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 4400 28550 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 4300 28600 60 1 C CNN
+F 3 "" H 4300 28600 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 4300 28600 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 4300 28600 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 4300 28600 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 4300 28600 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 4300 28600 60 1 C CNN "Manufacturer"
+  1 4300 28600
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_6 C12
+U 1 1 00000000
+P 1200 26950
+F 0 "C12" H 1300 27000 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 1300 26900 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 1200 26950 60 1 C CNN
+F 3 "" H 1200 26950 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 1200 26950 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 1200 26950 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 1200 26950 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 1200 26950 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 1200 26950 60 1 C CNN "Manufacturer"
+  1 1200 26950
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component_6 U7
+U 1 1 00000000
+P 4300 27900
+F 0 "U7" H 4400 27950 28 0 L CNN
+F 1 "BLM18KG121TN1D" H 4400 27850 28 0 L CNN
+F 2 "trs-speaker:C85831_13" H 4300 27900 60 1 C CNN
+F 3 "" H 4300 27900 60 1 C CNN
+F 4 "BLM18KG121TN1D" H 4300 27900 60 1 C CNN "MPN"
+F 5 "Murata Electronics" H 4300 27900 60 1 C CNN "Manufacturer"
+  1 4300 27900
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:component_6 U6
+U 1 1 00000000
+P 3850 27900
+F 0 "U6" H 3950 27950 28 0 L CNN
+F 1 "BLM18KG121TN1D" H 3950 27850 28 0 L CNN
+F 2 "trs-speaker:C85831_13" H 3850 27900 60 1 C CNN
+F 3 "" H 3850 27900 60 1 C CNN
+F 4 "BLM18KG121TN1D" H 3850 27900 60 1 C CNN "MPN"
+F 5 "Murata Electronics" H 3850 27900 60 1 C CNN "Manufacturer"
+  1 3850 27900
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:component_6 U5
+U 1 1 00000000
+P 1200 26250
+F 0 "U5" H 1300 26300 28 0 L CNN
+F 1 "BLM18KG121TN1D" H 1300 26200 28 0 L CNN
+F 2 "trs-speaker:C85831_13" H 1200 26250 60 1 C CNN
+F 3 "" H 1200 26250 60 1 C CNN
+F 4 "BLM18KG121TN1D" H 1200 26250 60 1 C CNN "MPN"
+F 5 "Murata Electronics" H 1200 26250 60 1 C CNN "Manufacturer"
+  1 1200 26250
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:component_6 U4
+U 1 1 00000000
+P 1650 26250
+F 0 "U4" H 1750 26300 28 0 L CNN
+F 1 "BLM18KG121TN1D" H 1750 26200 28 0 L CNN
+F 2 "trs-speaker:C85831_13" H 1650 26250 60 1 C CNN
+F 3 "" H 1650 26250 60 1 C CNN
+F 4 "BLM18KG121TN1D" H 1650 26250 60 1 C CNN "MPN"
+F 5 "Murata Electronics" H 1650 26250 60 1 C CNN "Manufacturer"
+  1 1650 26250
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_5 C7
+U 1 1 00000000
+P 3350 28600
+F 0 "C7" H 3450 28650 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 3450 28550 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 3350 28600 60 1 C CNN
+F 3 "" H 3350 28600 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 3350 28600 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 3350 28600 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 3350 28600 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 3350 28600 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 3350 28600 60 1 C CNN "Manufacturer"
+  1 3350 28600
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_7 C6
+U 1 1 00000000
+P 2700 28600
+F 0 "C6" H 2800 28650 28 0 L CNN
+F 1 "47.0nF ± 5.00%" H 2800 28550 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern" H 2700 28600 60 1 C CNN
+F 3 "" H 2700 28600 60 1 C CNN
+F 4 "47.0nF ± 5.00%" H 2700 28600 60 1 C CNN "Capacitance"
+F 5 "5.0%" H 2700 28600 60 1 C CNN "Tolerance"
+F 6 "25.0V" H 2700 28600 60 1 C CNN "Maximum Voltage"
+F 7 "C0805C473J3GACAUTO" H 2700 28600 60 1 C CNN "MPN"
+F 8 "KEMET" H 2700 28600 60 1 C CNN "Manufacturer"
+  1 2700 28600
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_4 C5
+U 1 1 00000000
+P 2900 28200
+F 0 "C5" H 3000 28250 28 0 L CNN
+F 1 "1.0μF ± 10.00%" H 3000 28150 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_5" H 2900 28200 60 1 C CNN
+F 3 "" H 2900 28200 60 1 C CNN
+F 4 "1.0μF ± 10.00%" H 2900 28200 60 1 C CNN "Capacitance"
+F 5 "10.0%" H 2900 28200 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 2900 28200 60 1 C CNN "Maximum Voltage"
+F 7 "0603BB105K160YT" H 2900 28200 60 1 C CNN "MPN"
+F 8 "Knowles Novacap" H 2900 28200 60 1 C CNN "Manufacturer"
+  1 2900 28200
+  0 -1 -1 0
+$EndComp
+$Comp
+L project_symbols:my_capacitor_9 C4
+U 1 1 00000000
+P 1650 29900
+F 0 "C4" H 1750 29950 28 0 L CNN
+F 1 "22.0μF ± 20.00%" H 1750 29850 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_2" H 1650 29900 60 1 C CNN
+F 3 "" H 1650 29900 60 1 C CNN
+F 4 "22.0μF ± 20.00%" H 1650 29900 60 1 C CNN "Capacitance"
+F 5 "20.0%" H 1650 29900 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 1650 29900 60 1 C CNN "Maximum Voltage"
+F 7 "CL10A226MO7JZNC" H 1650 29900 60 1 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics" H 1650 29900 60 1 C CNN "Manufacturer"
+  1 1650 29900
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:my_capacitor_2 C3
+U 1 1 00000000
+P 1200 29900
+F 0 "C3" H 1300 29950 28 0 L CNN
+F 1 "22.0μF ± 20.00%" H 1300 29850 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_2" H 1200 29900 60 1 C CNN
+F 3 "" H 1200 29900 60 1 C CNN
+F 4 "22.0μF ± 20.00%" H 1200 29900 60 1 C CNN "Capacitance"
+F 5 "20.0%" H 1200 29900 60 1 C CNN "Tolerance"
+F 6 "16.0V" H 1200 29900 60 1 C CNN "Maximum Voltage"
+F 7 "CL10A226MO7JZNC" H 1200 29900 60 1 C CNN "MPN"
+F 8 "Samsung Electro-Mechanics" H 1200 29900 60 1 C CNN "Manufacturer"
+  1 1200 29900
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:component_1 U2
+U 1 1 00000000
+P 7850 30350
+F 0 "U2" H 7950 30400 28 0 L CNN
+F 1 "ASWPA8050S4R7MT" H 7950 30300 28 0 L CNN
+F 2 "trs-speaker:C340238_13" H 7850 30350 60 1 C CNN
+F 3 "" H 7850 30350 60 1 C CNN
+F 4 "ASWPA8050S4R7MT" H 7850 30350 60 1 C CNN "MPN"
+F 5 "Sunlord" H 7850 30350 60 1 C CNN "Manufacturer"
+  1 7850 30350
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:component_1 U1
+U 1 1 00000000
+P 7250 31050
+F 0 "U1" H 7350 31100 28 0 L CNN
+F 1 "ASWPA8050S4R7MT" H 7350 31000 28 0 L CNN
+F 2 "trs-speaker:C340238_13" H 7250 31050 60 1 C CNN
+F 3 "" H 7250 31050 60 1 C CNN
+F 4 "ASWPA8050S4R7MT" H 7250 31050 60 1 C CNN "MPN"
+F 5 "Sunlord" H 7250 31050 60 1 C CNN "Manufacturer"
+  1 7250 31050
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:my_resistor_3 R2
+U 1 1 00000000
+P 7350 32650
+F 0 "R2" H 7450 32700 28 0 L CNN
+F 1 "5.1kΩ ± 1.00%" H 7450 32600 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_3" H 7350 32650 60 1 C CNN
+F 3 "" H 7350 32650 60 1 C CNN
+F 4 "5.1kΩ ± 1.00%" H 7350 32650 60 1 C CNN "Resistance"
+F 5 "1.0%" H 7350 32650 60 1 C CNN "Tolerance"
+F 6 "0.063W" H 7350 32650 60 1 C CNN "Maximum Power"
+F 7 "RC0402FR-075K1L" H 7350 32650 60 1 C CNN "MPN"
+F 8 "YAGEO" H 7350 32650 60 1 C CNN "Manufacturer"
+  1 7350 32650
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:my_resistor R1
+U 1 1 00000000
+P 7750 32350
+F 0 "R1" H 7850 32400 28 0 L CNN
+F 1 "5.1kΩ ± 1.00%" H 7850 32300 28 0 L CNN
+F 2 "trs-speaker:ipc_two_pin_landpattern_3" H 7750 32350 60 1 C CNN
+F 3 "" H 7750 32350 60 1 C CNN
+F 4 "5.1kΩ ± 1.00%" H 7750 32350 60 1 C CNN "Resistance"
+F 5 "1.0%" H 7750 32350 60 1 C CNN "Tolerance"
+F 6 "0.063W" H 7750 32350 60 1 C CNN "Maximum Power"
+F 7 "RC0402FR-075K1L" H 7750 32350 60 1 C CNN "MPN"
+F 8 "YAGEO" H 7750 32350 60 1 C CNN "Manufacturer"
+  1 7750 32350
+  -1 0 0 1
+$EndComp
+$Comp
+L project_symbols:component_2 J1
+U 1 1 00000000
+P 6750 31850
+F 0 "J1" H 6400 32404 30 0 L BNN
+F 1 "KH-TYPE-C-6P" H 6400 32362 30 0 L BNN
+F 2 "trs-speaker:C709355_13" H 6750 31850 60 1 C CNN
+F 3 "" H 6750 31850 60 1 C CNN
+F 4 "KH-TYPE-C-6P" H 6750 31850 60 1 C CNN "MPN"
+F 5 "Shenzhen Kinghelm Elec" H 6750 31850 60 1 C CNN "Manufacturer"
+  1 6750 31850
+  1 0 0 -1
+$EndComp
+Wire Wire Line
+  7750 32250 7750 32200
+Wire Wire Line
+  7750 32450 7750 32500
+Wire Wire Line
+  7350 32550 7350 32500
+Wire Wire Line
+  7350 32750 7350 32800
+Wire Wire Line
+  7250 31150 7250 31200
+Wire Wire Line
+  7250 30950 7250 30900
+Wire Wire Line
+  7850 30450 7850 30500
+Wire Wire Line
+  7850 30250 7850 30200
+Wire Wire Line
+  1200 30000 1200 30050
+Wire Wire Line
+  1200 29800 1200 29750
+Wire Wire Line
+  1650 30000 1650 30050
+Wire Wire Line
+  1650 29800 1650 29750
+Wire Wire Line
+  2800 28200 2750 28200
+Wire Wire Line
+  3000 28200 3050 28200
+Wire Wire Line
+  2700 28500 2700 28450
+Wire Wire Line
+  2700 28700 2700 28750
+Wire Wire Line
+  3350 28700 3350 28750
+Wire Wire Line
+  3350 28500 3350 28450
+Wire Wire Line
+  1650 26150 1650 26100
+Wire Wire Line
+  1650 26350 1650 26400
+Wire Wire Line
+  1200 26150 1200 26100
+Wire Wire Line
+  1200 26350 1200 26400
+Wire Wire Line
+  3850 27800 3850 27750
+Wire Wire Line
+  3850 28000 3850 28050
+Wire Wire Line
+  4300 27800 4300 27750
+Wire Wire Line
+  4300 28000 4300 28050
+Wire Wire Line
+  1200 26850 1200 26800
+Wire Wire Line
+  1200 27050 1200 27100
+Wire Wire Line
+  4300 28500 4300 28450
+Wire Wire Line
+  4300 28700 4300 28750
+Wire Wire Line
+  2000 31050 2000 31100
+Wire Wire Line
+  2000 30850 2000 30800
+Wire Wire Line
+  7850 31300 7850 31250
+Wire Wire Line
+  7850 31500 7850 31550
+Wire Wire Line
+  8200 30950 8200 30900
+Wire Wire Line
+  8200 31150 8200 31200
+Wire Wire Line
+  2700 27600 2700 27550
+Wire Wire Line
+  2700 27800 2700 27850
+Wire Wire Line
+  1500 28350 1550 28350
+Wire Wire Line
+  1300 28350 1250 28350
+Wire Wire Line
+  1200 27950 1200 28000
+Wire Wire Line
+  1200 27750 1200 27700
+Wire Wire Line
+  1200 28500 1200 28450
+Wire Wire Line
+  1200 28700 1200 28750
+Wire Wire Line
+  2200 28700 2200 28750
+Wire Wire Line
+  2200 28500 2200 28450
+Wire Wire Line
+  1650 26850 1650 26800
+Wire Wire Line
+  1650 27050 1650 27100
+Wire Wire Line
+  3850 28500 3850 28450
+Wire Wire Line
+  3850 28700 3850 28750
+Wire Wire Line
+  1900 32000 1950 32000
+Wire Wire Line
+  1700 32000 1650 32000
+Wire Wire Line
+  4150 31050 4150 31100
+Wire Wire Line
+  1750 30800 1750 30850
+Wire Wire Line
+  2000 30700 2000 30750
+Wire Wire Line
+  6000 32950 6000 32900
+Wire Wire Line
+  2950 32900 2950 32850
+Wire Wire Line
+  1650 29600 1650 29650
+Wire Wire Line
+  1650 30200 1650 30150
+Wire Wire Line
+  1200 28900 1200 28850
+Wire Wire Line
+  2700 28900 2700 28850
+Wire Wire Line
+  1200 27250 1200 27200
+Wire Wire Line
+  3850 28900 3850 28850
+Wire Wire Line
+  7850 30050 7850 30100
+Wire Wire Line
+  8200 32950 8200 32900
+Wire Wire Line
+  7600 30800 7600 30850
+Wire Wire Line
+  1950 32000 2300 32000
+Wire Wire Line
+  2000 32150 3250 32150
+Wire Wire Line
+  2000 32150 2000 32000
+Wire Wire Line
+  900 31000 1000 31000
+Wire Wire Line
+  900 32250 3250 32250
+Wire Wire Line
+  900 32250 900 31000
+Wire Wire Line
+  2000 31900 2300 31900
+Wire Wire Line
+  2000 31900 2000 31100
+Wire Wire Line
+  5600 32100 5950 32100
+Wire Wire Line
+  5600 32400 5950 32400
+Wire Wire Line
+  5950 32400 5950 32100
+Wire Wire Line
+  950 32350 3250 32350
+Wire Wire Line
+  950 30900 1000 30900
+Wire Wire Line
+  950 32350 950 30900
+Wire Wire Line
+  1600 32000 1650 32000
+Wire Wire Line
+  1600 31150 4150 31150
+Wire Wire Line
+  1600 32000 1600 31150
+Wire Wire Line
+  4150 31200 4150 31100
+Wire Wire Line
+  4050 31200 4050 31150
+Wire Wire Line
+  3950 31200 3950 31150
+Wire Wire Line
+  1600 30900 1750 30900
+Wire Wire Line
+  1600 31000 1750 31000
+Wire Wire Line
+  1750 31000 1750 30850
+Wire Wire Line
+  2000 30800 2000 30750
+Wire Wire Line
+  5600 32000 6000 32000
+Wire Wire Line
+  3900 32850 6000 32850
+Wire Wire Line
+  4200 32850 4200 32800
+Wire Wire Line
+  4100 32850 4100 32800
+Wire Wire Line
+  4000 32850 4000 32800
+Wire Wire Line
+  3900 32850 3900 32800
+Wire Wire Line
+  6000 32900 6000 32000
+Wire Wire Line
+  2900 32000 2950 32000
+Wire Wire Line
+  2900 31900 2950 31900
+Wire Wire Line
+  2950 32850 2950 31900
+Wire Wire Line
+  1200 29700 1650 29700
+Wire Wire Line
+  1650 29750 1650 29650
+Wire Wire Line
+  1200 29750 1200 29700
+Wire Wire Line
+  1200 30100 1650 30100
+Wire Wire Line
+  1650 30150 1650 30050
+Wire Wire Line
+  1200 30100 1200 30050
+Wire Wire Line
+  1200 28350 1250 28350
+Wire Wire Line
+  1200 28450 1200 28000
+Wire Wire Line
+  1200 28800 2200 28800
+Wire Wire Line
+  1200 28850 1200 28750
+Wire Wire Line
+  2200 28800 2200 28750
+Wire Wire Line
+  2700 28200 2750 28200
+Wire Wire Line
+  2700 28450 2700 27850
+Wire Wire Line
+  2700 28800 3350 28800
+Wire Wire Line
+  2700 28850 2700 28750
+Wire Wire Line
+  3350 28800 3350 28750
+Wire Wire Line
+  1200 26800 1200 26400
+Wire Wire Line
+  1650 26800 1650 26400
+Wire Wire Line
+  1200 27150 1650 27150
+Wire Wire Line
+  1200 27200 1200 27100
+Wire Wire Line
+  1650 27150 1650 27100
+Wire Wire Line
+  4300 28450 4300 28050
+Wire Wire Line
+  3850 28450 3850 28050
+Wire Wire Line
+  3850 28800 4300 28800
+Wire Wire Line
+  3850 28850 3850 28750
+Wire Wire Line
+  4300 28800 4300 28750
+Wire Wire Line
+  7200 31900 7750 31900
+Wire Wire Line
+  7750 32200 7750 31900
+Wire Wire Line
+  7250 30550 7850 30550
+Wire Wire Line
+  7850 31250 7850 30500
+Wire Wire Line
+  7250 30900 7250 30550
+Wire Wire Line
+  7200 32000 7350 32000
+Wire Wire Line
+  7350 32500 7350 32000
+Wire Wire Line
+  7850 30150 8200 30150
+Wire Wire Line
+  7850 30200 7850 30100
+Wire Wire Line
+  8200 30900 8200 30150
+Wire Wire Line
+  6900 32850 8200 32850
+Wire Wire Line
+  7350 32850 7350 32800
+Wire Wire Line
+  7750 32850 7750 32500
+Wire Wire Line
+  8200 32900 8200 31200
+Wire Wire Line
+  7850 32850 7850 31550
+Wire Wire Line
+  7000 32850 7000 32450
+Wire Wire Line
+  6900 32850 6900 32450
+Wire Wire Line
+  7200 31700 7250 31700
+Wire Wire Line
+  7200 31800 7250 31800
+Wire Wire Line
+  7250 31800 7250 31200
+Wire Wire Line
+  7600 31650 7600 30850
+Wire Wire Line
+  7250 31650 7600 31650
+Wire Wire Line
+  5400 28400 5800 28400
+Wire Wire Line
+  5400 28700 5800 28700
+Wire Wire Line
+  5800 28700 5800 28400
+Wire Wire Line
+  6400 28400 6800 28400
+Wire Wire Line
+  6400 28700 6800 28700
+Wire Wire Line
+  6800 28700 6800 28400
+Wire Notes Line
+  800 29300 6200 29300
+Wire Notes Line
+  800 33250 6200 33250
+Wire Notes Line
+  800 33250 800 29300
+Wire Notes Line
+  6200 33250 6200 29300
+Wire Notes Line
+  800 25750 4700 25750
+Wire Notes Line
+  800 29200 4700 29200
+Wire Notes Line
+  800 29200 800 25750
+Wire Notes Line
+  4700 29200 4700 25750
+Wire Notes Line
+  6300 29750 8600 29750
+Wire Notes Line
+  6300 33250 8600 33250
+Wire Notes Line
+  6300 33250 6300 29750
+Wire Notes Line
+  8600 33250 8600 29750
+Wire Notes Line
+  4800 27800 6900 27800
+Wire Notes Line
+  4800 29200 6900 29200
+Wire Notes Line
+  4800 29200 4800 27800
+Wire Notes Line
+  6900 29200 6900 27800
+Text Label 3250 31750 2 40 ~
+INR-
+Text Label 5600 32400 0 40 ~
+amp_r1_p1
+Text Label 4850 31850 0 40 ~
+OUTR-
+Text Label 2300 31900 2 40 ~
+G0
+Text Label 5600 32200 0 40 ~
+amp_r0_p1
+Text Label 3250 32050 2 40 ~
+G0
+Text Label 3250 31950 2 40 ~
+INL+
+Text Label 4850 32050 0 40 ~
+OUTL+
+Text Label 3250 31850 2 40 ~
+INL-
+Text Label 3250 31650 2 40 ~
+INR+
+Text Label 4850 32150 0 40 ~
+OUTL-
+Text Label 4850 31950 0 40 ~
+OUTR+
+Text Label 1550 28350 0 40 ~
+amp_r1_p1
+Text Label 2200 28450 1 40 ~
+INL+
+Text Label 1200 27700 1 40 ~
+INL-
+Text Label 3050 28200 0 40 ~
+INR-
+Text Label 2700 27550 1 40 ~
+amp_r0_p1
+Text Label 3350 28450 1 40 ~
+INR+
+Text Label 1200 26100 1 40 ~
+OUTR-
+Text Label 1650 26800 1 40 ~
+amp_fb0_p2
+Text Label 1650 26100 1 40 ~
+OUTR+
+Text Label 1200 26800 1 40 ~
+amp_fb1_p2
+Text Label 4300 28450 1 40 ~
+amp_fb3_p2
+Text Label 3850 28450 1 40 ~
+amp_fb2_p2
+Text Label 3850 27750 1 40 ~
+OUTL+
+Text Label 4300 27750 1 40 ~
+OUTL-
+Text Label 5400 28300 0 40 ~
+amp_fb3_p2
+Text Label 5400 28700 0 40 ~
+amp_fb2_p2
+Text Label 6400 28300 0 40 ~
+amp_fb1_p2
+Text Label 6400 28700 0 40 ~
+amp_fb0_p2
+Text Label 800 25750 0 40 ~
+amp
+Text Label 6300 29750 0 40 ~
+power
+Text Label 4800 27800 0 40 ~
+out
+Connection ~ 2000 32000
+Connection ~ 4150 31150
+Connection ~ 4050 31150
+Connection ~ 3950 31150
+Connection ~ 1750 30900
+Connection ~ 4200 32850
+Connection ~ 4100 32850
+Connection ~ 4000 32850
+Connection ~ 6000 32850
+Connection ~ 2950 32000
+Connection ~ 1650 29700
+Connection ~ 1650 30100
+Connection ~ 1200 28350
+Connection ~ 1200 28800
+Connection ~ 2700 28200
+Connection ~ 2700 28800
+Connection ~ 1200 27150
+Connection ~ 3850 28800
+Connection ~ 7850 30550
+Connection ~ 7850 30150
+Connection ~ 7350 32850
+Connection ~ 7750 32850
+Connection ~ 8200 32850
+Connection ~ 7850 32850
+Connection ~ 7000 32850
+Connection ~ 7250 31700
+Connection ~ 7250 31650
+$Comp
+L project_symbols:VIN #PWR?
+U 1 1 00000000
+P 4150 31050
+F 0 "" H 4150 31050 60 1 C CNN
+F 1 "VIN" H 4050 31200 28 0 L CNN
+F 2 "" H 4150 31050 60 1 C CNN
+F 3 "" H 4150 31050 60 1 C CNN
+  1 4150 31050
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:VIN #PWR?
+U 1 1 00000000
+P 1750 30800
+F 0 "" H 1750 30800 60 1 C CNN
+F 1 "VIN" H 1650 30950 28 0 L CNN
+F 2 "" H 1750 30800 60 1 C CNN
+F 3 "" H 1750 30800 60 1 C CNN
+  1 1750 30800
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:VIN #PWR?
+U 1 1 00000000
+P 2000 30700
+F 0 "" H 2000 30700 60 1 C CNN
+F 1 "VIN" H 1900 30850 28 0 L CNN
+F 2 "" H 2000 30700 60 1 C CNN
+F 3 "" H 2000 30700 60 1 C CNN
+  1 2000 30700
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 6000 32950
+F 0 "" H 6000 32950 60 1 C CNN
+F 1 "GND" H 5900 32800 28 0 L CNN
+F 2 "" H 6000 32950 60 1 C CNN
+F 3 "" H 6000 32950 60 1 C CNN
+  1 6000 32950
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 2950 32900
+F 0 "" H 2950 32900 60 1 C CNN
+F 1 "GND" H 2850 32750 28 0 L CNN
+F 2 "" H 2950 32900 60 1 C CNN
+F 3 "" H 2950 32900 60 1 C CNN
+  1 2950 32900
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:VIN #PWR?
+U 1 1 00000000
+P 1650 29600
+F 0 "" H 1650 29600 60 1 C CNN
+F 1 "VIN" H 1550 29750 28 0 L CNN
+F 2 "" H 1650 29600 60 1 C CNN
+F 3 "" H 1650 29600 60 1 C CNN
+  1 1650 29600
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 1650 30200
+F 0 "" H 1650 30200 60 1 C CNN
+F 1 "GND" H 1550 30050 28 0 L CNN
+F 2 "" H 1650 30200 60 1 C CNN
+F 3 "" H 1650 30200 60 1 C CNN
+  1 1650 30200
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 1200 28900
+F 0 "" H 1200 28900 60 1 C CNN
+F 1 "GND" H 1100 28750 28 0 L CNN
+F 2 "" H 1200 28900 60 1 C CNN
+F 3 "" H 1200 28900 60 1 C CNN
+  1 1200 28900
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 2700 28900
+F 0 "" H 2700 28900 60 1 C CNN
+F 1 "GND" H 2600 28750 28 0 L CNN
+F 2 "" H 2700 28900 60 1 C CNN
+F 3 "" H 2700 28900 60 1 C CNN
+  1 2700 28900
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 1200 27250
+F 0 "" H 1200 27250 60 1 C CNN
+F 1 "GND" H 1100 27100 28 0 L CNN
+F 2 "" H 1200 27250 60 1 C CNN
+F 3 "" H 1200 27250 60 1 C CNN
+  1 1200 27250
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 3850 28900
+F 0 "" H 3850 28900 60 1 C CNN
+F 1 "GND" H 3750 28750 28 0 L CNN
+F 2 "" H 3850 28900 60 1 C CNN
+F 3 "" H 3850 28900 60 1 C CNN
+  1 3850 28900
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:VIN #PWR?
+U 1 1 00000000
+P 7850 30050
+F 0 "" H 7850 30050 60 1 C CNN
+F 1 "VIN" H 7750 30200 28 0 L CNN
+F 2 "" H 7850 30050 60 1 C CNN
+F 3 "" H 7850 30050 60 1 C CNN
+  1 7850 30050
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:GND #PWR?
+U 1 1 00000000
+P 8200 32950
+F 0 "" H 8200 32950 60 1 C CNN
+F 1 "GND" H 8100 32800 28 0 L CNN
+F 2 "" H 8200 32950 60 1 C CNN
+F 3 "" H 8200 32950 60 1 C CNN
+  1 8200 32950
+  1 0 0 -1
+$EndComp
+$Comp
+L project_symbols:VBUS #PWR?
+U 1 1 00000000
+P 7600 30800
+F 0 "" H 7600 30800 60 1 C CNN
+F 1 "VBUS" H 7500 30950 28 0 L CNN
+F 2 "" H 7600 30800 60 1 C CNN
+F 3 "" H 7600 30800 60 1 C CNN
+  1 7600 30800
+  1 0 0 -1
+$EndComp
+$EndSCHEMATC

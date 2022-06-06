@@ -1,0 +1,22 @@
+(module C340238_13 (layer F.Cu)  
+  (pad 1 smd rect
+    (at 3.327915 0.0 0.0)
+    (size 3.024003 8.120015)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 2 smd rect
+    (at -3.327915 0.0 0.0)
+    (size 3.024003 8.120015)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_text reference ">REF" (at 0.0 -6.318009 0.0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_text value ">VALUE" (at 0.0 6.318009 0.0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_text user "REF**" (at 0.0 8.318009 0.0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_line (start -4.0762 -4.318009) (end 4.0762 -4.318009) (layer F.SilkS) (width 0.254001))
+  (fp_line (start -4.0762 4.318009) (end 4.0762 4.318009) (layer F.SilkS) (width 0.254001))
+  (fp_arc (start 4.0 -4.0) (end 4.029972 -4.0) (angle -360.0) (layer F.SilkS) (width 0.059995))  
+  (model "../3d-models/C340238.wrl"
+    (offset (xyz 0.0 0.0 0.0))
+    (scale (xyz 1.0 1.0 1.0))
+    (rotate (xyz 0.0 0.0 -90.0))))

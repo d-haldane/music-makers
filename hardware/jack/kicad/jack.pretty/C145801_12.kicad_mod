@@ -1,0 +1,48 @@
+(module C145801_12 (layer F.Cu)  
+  (pad 1 smd rect
+    (at 6.561976 -3.271908 0.0)
+    (size 1.5 0.9)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 2 smd rect
+    (at 6.561976 -1.671958 0.0)
+    (size 1.5 0.9)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 3 smd rect
+    (at 6.561976 1.629032 0.0)
+    (size 1.5 0.9)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 4 smd rect
+    (at 6.561976 3.227965 0.0)
+    (size 1.5 0.9)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd rect
+    (at 6.561976 -0.021971 0.0)
+    (size 1.5 0.9)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 6 smd rect
+    (at -3.937897 -2.771781 0.0)
+    (size 3.4 1.6)
+    (layers F.Cu F.Mask F.Paste))
+  (pad 7 smd rect
+    (at -3.937897 2.728092 0.0)
+    (size 3.4 1.6)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_text reference ">REF" (at 0.0 -5.577978 0.0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_text value ">VALUE" (at 0.0 5.577978 0.0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_text user "REF**" (at 0.0 7.577978 0.0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.10)) (justify )))
+  (fp_line (start -6.64605 -3.577978) (end -5.868987 -3.577978) (layer F.SilkS) (width 0.254001))
+  (fp_line (start -2.006985 -3.577978) (end 5.580772 -3.577978) (layer F.SilkS) (width 0.254001))
+  (fp_line (start -5.863526 3.577978) (end -6.518034 3.577978) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 6.64605 0.65875) (end 6.64605 0.948311) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 6.64605 2.309754) (end 6.64605 2.545974) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 6.64605 -0.990729) (end 6.64605 -0.702692) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 6.64605 -2.590932) (end 6.64605 -2.353188) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 5.581534 3.577978) (end -2.012522 3.577978) (layer F.SilkS) (width 0.254001))
+  (fp_arc (start 7.31204 -3.958979) (end 7.342037 -3.958979) (angle -360.0) (layer F.SilkS) (width 0.059995))  
+  (model "../3d-models/C145801.wrl"
+    (offset (xyz 0.0 0.0 0.0))
+    (scale (xyz 1.0 1.0 1.0))
+    (rotate (xyz 0.0 0.0 0.0))))

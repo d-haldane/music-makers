@@ -20,13 +20,29 @@ pcb-module power-filter :
 pcb-module usb-connector : 
   port power : power
   inst usb : kinghelm/KH-TYPE-C-6P/component
+  place(usb) at loc(0.0, 0.0) on Top
 
   net (power.gnd usb.GND[0] usb.GND[1])
   net (power.vdd usb.VBUS[0] usb.VBUS[1])
   res-strap(usb.CC1, usb.GND[0], 5.1e3)
   res-strap(usb.CC2, usb.GND[0], 5.1e3) 
 
-val speaker-shape = RoundedRectangle(100.0, 100.0,0.5)
+pcb-module stereo-jack :
+  port stereo : stereo
+  inst connector : hroparts/PJ-614/component
+  place(connector) at loc(0.0, 0.0) on Top
+  net (stereo.left connector.tip-a connector.tip-b)
+  net (stereo.right connector.ring-1)
+  net (stereo.return connector.sleeve)
+
+pcb-module btl-jack :
+  port btl : btl
+  public inst connector : hroparts/PJ-614/component
+  place(connector) at loc(0.0, 0.0) on Top
+  net (btl.P connector.tip-a connector.tip-b)
+  net (btl.N connector.sleeve)
+
+val speaker-shape = RoundedRectangle(40.0, 40.0,0.5)
 pcb-module trs-speaker :
   inst usb : usb-connector
   inst filter : power-filter
@@ -40,10 +56,44 @@ pcb-module trs-speaker :
 
   inst amp : texas-instruments/TPA2012D2RTJR/module
   net (amp.power filter.out)
+  inst source :stereo-jack
+  net (source.stereo amp.source)
 
-  inst input : hroparts/PJ-614/component
+  inst gain-sw : dgi/DSIC02LSGET/component
+  net (gain-sw.B1 gain-sw.B2 GND)
+  res-strap(gain-sw.A1, VIN, 10.0e-3)
+  res-strap(gain-sw.A2, VIN, 10.0e-3)
+  net (gain-sw.A1 amp.gain[0])
+  net (gain-sw.A2 amp.gain[1])
 
+  inst sd-sw : dgi/DSIC02LSGET/component
+  net (sd-sw.B1 sd-sw.B2 VIN)
+  net (sd-sw.A1 amp.sdr)
+  net (sd-sw.A2 amp.sdl)
 
+  inst out-right : btl-jack
+  inst out-left : btl-jack
+  net (amp.out-right out-right.btl)
+  net (amp.out-left out-left.btl)
+  place(out-right) at loc(13.5, 13.0, 180.0) on Top
+  place(out-left) at loc(-13.5, 13.0, 0.0) on Top
+  place(source) at loc(-13.5, -13.0, 90.0) on Top
+  place(usb) at loc(13.5, -16.5) on Top
+
+  property(out-left.connector.DNP) = true
+
+  schematic-group([out-right out-left]) = out
+  schematic-group([filter usb]) = power
+  layout-group([filter usb]) = power
+
+val speaker-adapter-shape = RoundedRectangle(20.0, 15.0, 2.0)
+pcb-module speaker-adapter :
+  inst jack : btl-jack
+  inst wires : pin-header(2)
+  net NEG (jack.btl.N wires.p[1])
+  net POS (jack.btl.P wires.p[2])
+  place(jack) at loc(-3.5, 0.0) on Top
+  place(wires) at loc(7.0, 0.0) on Top
 
 defn run-design () :
 ; Export CAD with default options
@@ -52,9 +102,18 @@ defn run-design () :
   set-board(default-board(2, speaker-shape))
   set-rules(ocdb/rules/jlcpcb-rules)
   run-checks("checks.txt")
+  set-config-sets([`groups])
   view-schematic()
+  export-cad()
+
+  ; set-design("hardware/jack")
+  ; set-main-module(speaker-adapter)
+  ; set-board(default-board(2, speaker-adapter-shape))
+  ; set-rules(ocdb/rules/jlcpcb-rules)
+  ; run-checks("checks.txt")
+  ; set-config-sets([`groups])
+  ; export-cad()
   view-board()
-; export-cad()
 
 run-design()
 

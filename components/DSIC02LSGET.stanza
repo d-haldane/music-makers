@@ -8,48 +8,6 @@ defpackage dgi/DSIC02LSGET :
   import ocdb/symbols
   import ocdb/box-symbol
 
-pcb-symbol DSIC02LSGET :
-  pin A1 at Point(-40.0, 24.0) with :
-    direction = Left
-    length = 1.0
-    number-size = 0.6
-    name-size = 0.6
-  pin A2 at Point(-40.0, 23.0) with :
-    direction = Left
-    length = 1.0
-    number-size = 0.6
-    name-size = 0.6
-  pin B2 at Point(-36.0, 23.0) with :
-    direction = Right
-    length = 1.0
-    number-size = 0.6
-    name-size = 0.6
-  pin B1 at Point(-36.0, 24.0) with :
-    direction = Right
-    length = 1.0
-    number-size = 0.6
-    name-size = 0.6
-  
-  layer("foreground") = Text(">REF", 1.27, C, loc(0.0, 1.27))
-  layer("foreground") = Text(">VALUE", 1.27, C, loc(0.0, -2.54))
-  layer("none") = Line(0.0, [Point(-40.0, 22.0), Point(-40.0, 25.0)])
-  layer("none") = Line(0.0, [Point(-40.0, 25.0), Point(-36.0, 25.0)])
-  layer("none") = Line(0.0, [Point(-39.3, 22.8), Point(-39.3, 23.2)])
-  layer("none") = Line(0.0, [Point(-39.3, 23.2), Point(-36.7, 23.2)])
-  layer("none") = Line(0.0, [Point(-39.3, 23.8), Point(-39.3, 24.2)])
-  layer("none") = Line(0.0, [Point(-39.3, 24.2), Point(-36.7, 24.2)])
-  layer("none") = Line(0.0, [Point(-38.0, 23.2), Point(-38.0, 22.8)])
-  layer("none") = Line(0.0, [Point(-38.0, 24.2), Point(-38.0, 23.8)])
-  layer("none") = Line(0.0, [Point(-37.7, 24.6), Point(-36.5, 24.6)])
-  layer("none") = Line(0.0, [Point(-37.6, 24.5), Point(-37.7, 24.6)])
-  layer("none") = Line(0.0, [Point(-36.7, 22.8), Point(-39.3, 22.8)])
-  layer("none") = Line(0.0, [Point(-36.7, 23.2), Point(-36.7, 22.8)])
-  layer("none") = Line(0.0, [Point(-36.7, 23.8), Point(-39.3, 23.8)])
-  layer("none") = Line(0.0, [Point(-36.7, 24.2), Point(-36.7, 23.8)])
-  layer("none") = Line(0.0, [Point(-36.5, 24.8), Point(-36.5, 24.4)])
-  layer("none") = Line(0.0, [Point(-36.0, 22.0), Point(-40.0, 22.0)])
-  layer("none") = Line(0.0, [Point(-36.0, 25.0), Point(-36.0, 22.0)])
-
 pcb-pad rect-smd-pad :
   type = SMD
   shape = Rectangle(1.1, 1.5)
@@ -63,43 +21,11 @@ pcb-landpattern C54949-17 :
   pad p[4] : rect-smd-pad at loc(4.5, 1.269901, 270.0) on Top
   
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, C, loc(0.0, 5.009982))
-  layer(Finish(Top)) = Text(">VALUE", 1.0, C, loc(0.0, -5.009982))
-  layer(Finish(Top)) = Text("REF**", 1.0, C, loc(0.0, -7.009982))
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(1.287884, 1.905004), Point(1.287884, 0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(3.100051, 3.009982), Point(3.100051, -3.009982)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.569622, -0.635001), Point(-1.569622, -1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.014122, 0.635001), Point(-2.014122, 1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(3.100051, -3.009982), Point(-3.099898, -3.009982)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(1.668885, 1.905004), Point(1.668885, 0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.014122, -0.635001), Point(2.049886, -0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-3.099898, 3.009982), Point(3.100051, 3.009982)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.049886, -0.635001), Point(2.049886, -1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(1.287884, -0.635001), Point(1.287884, -1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.014122, -1.905004), Point(-2.014122, -0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.569622, 1.905004), Point(-1.569622, 0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.049886, 0.635001), Point(-2.014122, 0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(1.668885, -0.635001), Point(1.668885, -1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.014122, 1.905004), Point(2.049886, 1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.188621, -0.635001), Point(-1.188621, -1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.049886, 1.905004), Point(2.049886, 0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.188621, 1.905004), Point(-1.188621, 0.635001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.049886, -1.905004), Point(-2.014122, -1.905004)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-3.099898, -3.009982), Point(-3.099898, 3.009982)])
-  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.059995, [Arc(-4.900051, 3.000254, 0.029998, 0.0, 360.0)])
-  layer(Silkscreen("F-SilkS", Top)) = Polygon([    
-    Point(-0.490094, 1.650902), 
-    Point(0.779909, 1.650902), 
-    Point(0.779909, 0.8889), 
-    Point(-0.490094, 0.8889)])
-  layer(Silkscreen("F-SilkS", Top)) = Polygon([    
-    Point(-0.490094, -0.889103), 
-    Point(0.779909, -0.889103), 
-    Point(0.779909, -1.651105), 
-    Point(-0.490094, -1.651105)])
+  layer(Courtyard(Top)) = Rectangle(10.1 6.2)
 
 public pcb-component component :
   mpn = "DSIC02LSGET"
-  manfacturer = "Dongguan Guangzhu Industrial"
+  manufacturer = "Dongguan Guangzhu Industrial"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
     [A1 | p[1] | Left | "Input"]
@@ -108,4 +34,4 @@ public pcb-component component :
     [B1 | p[4] | Right | "Input"]
     
   assign-landpattern(C54949-17)
-  assign-symbol(DSIC02LSGET)
+  make-box-symbol()

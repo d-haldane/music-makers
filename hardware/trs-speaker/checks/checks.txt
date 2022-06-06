@@ -1,0 +1,359 @@
+open-components-database\utils\db-parts.stanza:195.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object usb.rid.p[1] is connected")
+    (locators = L24617/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:196.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object usb.rid.p[2] is connected")
+    (locators = L24618/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:195.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object usb.rid.p[1] is connected")
+    (locators = L24625/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:196.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object usb.rid.p[2] is connected")
+    (locators = L24626/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24714/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24715/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24722/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24723/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:195.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.r[0].p[1] is connected")
+    (locators = L24735/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:196.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.r[0].p[2] is connected")
+    (locators = L24736/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:195.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.r[1].p[1] is connected")
+    (locators = L24741/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:196.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.r[1].p[2] is connected")
+    (locators = L24742/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24748/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24749/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24756/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24757/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24764/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24765/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24773/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24774/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24781/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24782/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24789/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24790/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24815/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24816/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24824/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24825/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24835/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24836/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:413.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[1] is connected")
+    (locators = L24844/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:414.6: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object amp.cap.p[2] is connected")
+    (locators = L24845/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:195.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object rid.p[1] is connected")
+    (locators = L24882/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:196.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object rid.p[2] is connected")
+    (locators = L24883/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:195.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object rid.p[1] is connected")
+    (locators = L24890/D24594(relative))
+
+open-components-database\utils\db-parts.stanza:196.4: Check 'connected' passed.  
+  Defined at open-components-database\utils\checks.stanza:644.7.
+  open-components-database\utils\checks.stanza:672.2: Assertion passed:    
+    (name = "connected net checks")
+    (description = "Check that the object(s) are connected")
+    (category = "Net-level Checks")
+    (subcheck-description = "Verify object is connected")
+    (message = "Object rid.p[2] is connected")
+    (locators = L24891/D24594(relative))

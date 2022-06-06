@@ -72,36 +72,47 @@ public pcb-landpattern C7717-9 :
   layer(Silkscreen("F-SilkS", Top)) = Line(0.1524, [Point(-2.0762, -2.0762), Point(-2.0762, -1.330505)])
   layer(Finish(Top)) = Text("REF**", 1.0, C, loc(0.0, -6.0762))
 
+pcb-landpattern tpa2012 : 
+ ocdb/land-patterns/make-qfn-landpattern(num-pins, pitch, package-size, terminal-length, 
+  terminal-width, exposed-metal-heat-feature?) where:
+  val num-pins = 20
+  val pitch = 0.5
+  val package-size = ocdb/tolerance/min-max(3.9, 4.1)
+  val terminal-length = ocdb/tolerance/min-max(0.3, 0.5)
+  val terminal-width = ocdb/tolerance/min-max(0.19, 0.29)
+  val exposed-metal-heat-feature? = Rectangle(2.7 2.7)
+
 public pcb-component component :
   mpn = "TPA2012D2RTJR"
   manufacturer = "Texas Instruments"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
-    [G1 | p[1] | Left | "Unspecified"]
-    [NC[1] | p[10] | Right | "Unspecified"]
+    [NC[1] | p[10] | Down | "Unspecified"]
     [OUTR- | p[11] | Right | "Output"]
-    [PGND[1] | p[12] | Right | "PowerIn"]
-    [PVDD[1] | p[13] | Left | "PowerIn"]
+    [PGND[1] | p[12] | Down | "PowerIn"]
+    [PVDD[1] | p[13] | Up | "PowerIn"]
     [OUTR+ | p[14] | Right | "Output"]
-    [G0 | p[15] | Left | "Unspecified"]
     [INR+ | p[16] | Left | "Unspecified"]
     [INR- | p[17] | Left | "Unspecified"]
-    [AGND | p[18] | Right | "PowerIn"]
+    [AGND | p[18] | Down | "PowerIn"]
     [INL- | p[19] | Left | "Unspecified"]
     [OUTL+ | p[2] | Right | "Output"]
     [INL+ | p[20] | Left | "Unspecified"]
-    [EP | p[21] | Right | "PowerIn"]
-    [PVDD[0] | p[3] | Left | "PowerIn"]
-    [PGND[0] | p[4] | Right | "PowerIn"]
+    [EP | p[21] | Down | "PowerIn"]
+    [PVDD[0] | p[3] | Up | "PowerIn"]
+    [PGND[0] | p[4] | Down | "PowerIn"]
     [OUTL- | p[5] | Right | "Output"]
-    [NC[0] | p[6] | Right | "Unspecified"]
+    [NC[0] | p[6] | Down | "Unspecified"]
+    [G0 | p[15] | Left | "Unspecified"]
+    [G1 | p[1] | Left | "Unspecified"]
     [SDL | p[7] | Left | "Unspecified"]
     [SDR | p[8] | Left | "Unspecified"]
-    [AVDD | p[9] | Left | "PowerIn"]
+    [AVDD | p[9] | Up | "PowerIn"]
     
-  assign-landpattern(C7717-9)
+  assign-landpattern(tpa2012)
   make-box-symbol()
 
+  
 public pcb-module module:
   port power:power
   port source : stereo
@@ -124,27 +135,37 @@ public pcb-module module:
 
   inst r : chip-resistor(100.0)[2]
   net (source.right r[0].p[1])
-  cap-strap(r[0].p[2], amp.INR-, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
-  cap-strap(r[0].p[2], amp.AGND, ["capacitance" => 47.0e-9 "temperature-coefficient.code" => "C0G"])
-  cap-strap(amp.AGND, amp.INR+, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c0 = cap-strap(r[0].p[2], amp.INR-, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c1 = cap-strap(r[0].p[2], amp.AGND, ["capacitance" => 47.0e-9 "temperature-coefficient.code" => "C0G"])
+  val c2 = cap-strap(amp.AGND, amp.INR+, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
 
   net (source.left r[1].p[1])
-  cap-strap(r[1].p[2], amp.INL-, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
-  cap-strap(r[1].p[2], amp.AGND, ["capacitance" => 47.0e-9 "temperature-coefficient.code" => "C0G"])
-  cap-strap(amp.AGND, amp.INL+, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c3 = cap-strap(r[1].p[2], amp.INL-, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c4 = cap-strap(r[1].p[2], amp.AGND, ["capacitance" => 47.0e-9 "temperature-coefficient.code" => "C0G"])
+  val c5 = cap-strap(amp.AGND, amp.INL+, ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+
+  layout-group([c0 c1 c2 r[0]]) = in-right
+  schematic-group([c0 c1 c2 r[0]]) = in-right
+  layout-group([c3 c4 c5 r[1]]) = in-left
+  schematic-group([c3 c4 c5 r[1]]) = in-left
 
   inst fb : murata/BLM18KG121TN1D/component[4]
 
   net (fb[0].p[1] amp.OUTR+)
-  cap-strap(fb[0].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c6 = cap-strap(fb[0].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
   net (fb[1].p[1] amp.OUTR-)
-  cap-strap(fb[1].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c7 = cap-strap(fb[1].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
   net (fb[0].p[2] out-right.P)
   net (fb[1].p[2] out-right.N)
 
   net (fb[2].p[1] amp.OUTL+)
-  cap-strap(fb[2].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c8 = cap-strap(fb[2].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
   net (fb[3].p[1] amp.OUTL-)
-  cap-strap(fb[3].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
+  val c9 = cap-strap(fb[3].p[2] amp.PGND[0], ["capacitance" => 1.0e-6 "temperature-coefficient.code" => "X7R"])
   net (fb[2].p[2] out-left.P)
   net (fb[3].p[2] out-left.N)
+
+  layout-group([c6 c7 fb[0] fb[1]]) = out-right
+  schematic-group([c6 c7 fb[0] fb[1]]) = out-right
+  layout-group([c8 c9 fb[2] fb[3]]) = out-left
+  schematic-group([c8 c9 fb[2] fb[3]]) = out-left

@@ -113,41 +113,10 @@ pcb-landpattern C709355-13 :
   pad p[4] : oval-th-pad-2 at loc(4.319939, -1.020015) on Top
   
   layer(Silkscreen("F-SilkS", Top)) = Text(">REF", 1.0, C, loc(0.0, 5.520015))
-  layer(Finish(Top)) = Text(">VALUE", 1.0, C, loc(0.0, -5.520015))
-  layer(Finish(Top)) = Text("REF**", 1.0, C, loc(0.0, -7.520015))
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(-3.65113, 3.520015), Point(-3.429108, 3.520015)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(-1.0, 2.08001), Point(-0.4, 2.08001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(0.4, 2.08001), Point(0.4, 2.28001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(0.758852, -0.847676), Point(1.157633, -0.847676)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(3.429159, 3.520015), Point(3.651181, 3.520015)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.058217, -0.847371), Point(2.458217, -0.847371)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.817653, -2.153239), Point(-2.319812, 0.348666)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.757836, -2.148158), Point(2.262535, -2.148158)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(1.0, 1.68001), Point(1.0, 2.08001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.019329, 0.348666), Point(-0.518948, -2.153239)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(-4.499975, 3.520015), Point(-4.5, -3.470028)])
+  layer(Silkscreen("F-SilkS", Top)) = Text(">VALUE", 1.0, C, loc(0.0, -5.520015))
+
   layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(-4.499975, -3.520015), Point(4.5, -3.520015)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(-1.0, 1.68001), Point(-1.0, 2.08001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.319812, 0.348666), Point(-1.019329, 0.348666)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.257455, 0.353747), Point(2.757836, -2.148158)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(-0.4, 2.08001), Point(-0.4, 2.28001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(4.5, 3.520015), Point(4.5, -3.470028)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(-1.010008, 1.68001), Point(1.010008, 1.68001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(1.335433, -0.047574), Point(0.934112, -2.148158)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.25, [Point(1.0, 2.08001), Point(0.4, 2.08001)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.342672, -2.153239), Point(-2.817653, -2.153239)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.014249, -2.153239), Point(-1.41303, -0.052654)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(0.956972, 0.353747), Point(2.257455, 0.353747)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-2.517932, -0.852756), Point(-2.119152, -0.852756)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.218567, -0.852451), Point(-0.818567, -0.852451)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(1.863754, -0.047574), Point(1.335433, -0.047574)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(0.934112, -2.148158), Point(0.459131, -2.148158)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(0.459131, -2.148158), Point(0.956972, 0.353747)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.941351, -0.052654), Point(-2.342672, -2.153239)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-0.518948, -2.153239), Point(-1.014249, -2.153239)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(2.262535, -2.148158), Point(1.863754, -0.047574)])
-  layer(Silkscreen("F-SilkS", Top)) = Line(0.254001, [Point(-1.41303, -0.052654), Point(-1.941351, -0.052654)])
-  layer(Silkscreen("F-SilkS", Top)) = Polyline(0.059995, [Arc(-4.479909, 3.339903, 0.029973, 0.0, 360.0)])
+
   
   model3d = Model3D("C709355.wrl",
     Vec3D(0.0, 0.0, 0.0),
@@ -175,3 +144,4 @@ public pcb-component component :
   assign-landpattern(C709355-13)
   ; assign-symbol(KH-TYPE-C-6P)
   make-box-symbol()
+  reference-prefix = "J"

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name trs-speaker)(type KiCad)(uri "$(KIPRJMOD)/trs-speaker.pretty")(options "")(descr ""))
+)

@@ -61,8 +61,29 @@ FATAL ERROR: Expected a sym-lib-table with more symbol libraries.
 ```
 Not sure what to do with that. Docs don't indicate what the problem is or how to change something to resolve the error message. Stuck here. Stopping.
 
+
+# 2022.5.1 New importer
+Using the JLC2Kicad Python - needed some real fixing - I bodged it, and lost MPN/manufacturer data, and courtyard lines. Caused a lot of clean up work.
+
+Importer barfed with 3D models were present to copy. Look like a directory name issue on Windows ":" is an illegal character.
+
+Some schematic-errors on Windows - might be a bad symbol on the headphone jack. Also related to the presence of cache files.
+
+set-config-sets([`groups]) is a pretty bad API. Also doesn't work without export cad.
+
+Want to swap out the QFN with a parametric call - no obvious way to visually diff, 
+
+View-component works!
+
+autocomplete doesn't work fuzzily, if you miss the first few characters. DCI didn't work. had to be dgi/DSI...
+
+
 # Bugs
 
 Blank reference prefix kills importer - F0 ""
 
 Text drawing import error
+
+set-config-sets([`groups]) is a pretty bad API. Also doesn't work without export cad.
+
+Cache files should be in the design directory

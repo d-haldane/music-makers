@@ -114,13 +114,14 @@ public pcb-component component :
   manufacturer = "Hroparts"
   pin-properties :
     [pin:Ref | pads:Ref ... | side:Dir | electrical-type:String]
-    [p[1] | p[1] | Right | "Unspecified"]
-    [p[2] | p[2] | Right | "Unspecified"]
-    [p[3] | p[3] | Right | "Unspecified"]
-    [p[4] | p[4] | Right | "Unspecified"]
-    [p[5] | p[5] | Right | "Unspecified"]
-    [p[6] | p[6] | Right | "Unspecified"]
-    [p[7] | p[7] | Right | "Unspecified"]
+    [sleeve | p[1] | Right | "Unspecified"]
+    [tip-a  | p[2] | Right | "Unspecified"]
+    [ring-1 | p[3] | Right | "Unspecified"]
+    [ring-2 | p[4] | Right | "Unspecified"]
+    [tip-b  | p[5] | Right | "Unspecified"]
+    [case   | p[6] p[7] | Down | "Unspecified"]
     
   assign-landpattern(C145801-12)
-  assign-symbol(PJ-614)
+  ; assign-symbol(PJ-614)
+  make-box-symbol()
+  reference-prefix = "J"
